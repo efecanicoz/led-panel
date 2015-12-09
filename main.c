@@ -31,7 +31,7 @@ int main(void)
 	uint8_t portSample;
 	uint8_t packet[7];
 	
-	/*Set input pullup mode first 8 ports of gpiod*/
+	/*Set input pullup mode first 8 ports of gpioa*/
 	palSetGroupMode(GPIOA, PAL_GROUP_MASK(8), 0, PAL_MODE_INPUT_PULLUP);
 	
 	palSetPadMode(GPIOB, 10, PAL_MODE_ALTERNATE(7)); // used function : USART3_TX
@@ -40,20 +40,13 @@ int main(void)
      * if arg2 is NULL then use default configuration in halconf.h*/
 	sdStart(&SD3, NULL);
 	
-	/*Read first 8 pin of gipod*/
 	while(!0)
 	{
+		/*Read first 8 pin of gipoa*/
 		portSample = palReadGroup(GPIOA, PAL_GROUP_MASK(8), 0);
 		if(portSample != 0xFF)//if it's non zero
 		{
 			prepareForSend(packet, portSample);
-			/*packet[0] = portSample;
-			packet[1] = 0U;
-			packet[2] = 0U;
-			packet[3] = 0U;
-			packet[4] = 0U;//high byte
-			packet[5] = 0U;//low byte
-			packet[6] = 0U;*/
 			sdWrite(&SD3, (uint8_t *)packet, 7);
 		}
 		chThdSleepMilliseconds(5);
