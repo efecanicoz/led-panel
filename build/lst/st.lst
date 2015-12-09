@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccGxlLlT.s 			page 1
+ARM GAS  /tmp/ccqDZySP.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
   55              		.align	2
   56              		.p2align 4,,15
   57              		.thumb
-ARM GAS  /tmp/ccGxlLlT.s 			page 2
+ARM GAS  /tmp/ccqDZySP.s 			page 2
 
 
   58              		.thumb_func
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  111              		.loc 1 189 0
  112              		.cfi_startproc
  113              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /tmp/ccGxlLlT.s 			page 3
+ARM GAS  /tmp/ccqDZySP.s 			page 3
 
 
  114              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  166 0002 83B0     		sub	sp, sp, #12
  167              		.cfi_def_cfa_offset 16
  168 0004 0190     		str	r0, [sp, #4]
-ARM GAS  /tmp/ccGxlLlT.s 			page 4
+ARM GAS  /tmp/ccqDZySP.s 			page 4
 
 
  169              		.loc 2 81 0
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  219 0002 83B0     		sub	sp, sp, #12
  220              		.cfi_def_cfa_offset 16
  221 0004 0190     		str	r0, [sp, #4]
-ARM GAS  /tmp/ccGxlLlT.s 			page 5
+ARM GAS  /tmp/ccqDZySP.s 			page 5
 
 
  222              		.loc 2 109 0
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  273              	.Ldebug_info0:
  274 0000 B5080000 		.4byte	0x8b5
  275 0004 0400     		.2byte	0x4
-ARM GAS  /tmp/ccGxlLlT.s 			page 6
+ARM GAS  /tmp/ccqDZySP.s 			page 6
 
 
  276 0006 00000000 		.4byte	.Ldebug_abbrev0
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  330 0075 07       		.byte	0x7
  331 0076 5F040000 		.4byte	.LASF9
  332 007a 03       		.uleb128 0x3
-ARM GAS  /tmp/ccGxlLlT.s 			page 7
+ARM GAS  /tmp/ccqDZySP.s 			page 7
 
 
  333 007b 08       		.byte	0x8
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  387 00f0 4A       		.byte	0x4a
  388 00f1 93000000 		.4byte	0x93
  389 00f5 04       		.uleb128 0x4
-ARM GAS  /tmp/ccGxlLlT.s 			page 8
+ARM GAS  /tmp/ccqDZySP.s 			page 8
 
 
  390 00f6 79030000 		.4byte	.LASF21
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  444 0168 B1050000 		.4byte	.LASF30
  445 016c 07       		.byte	0x7
  446 016d C8       		.byte	0xc8
-ARM GAS  /tmp/ccGxlLlT.s 			page 9
+ARM GAS  /tmp/ccqDZySP.s 			page 9
 
 
  447 016e 7F040000 		.4byte	0x47f
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  501 01dd 59020000 		.4byte	0x259
  502 01e1 28       		.byte	0x28
  503 01e2 09       		.uleb128 0x9
-ARM GAS  /tmp/ccGxlLlT.s 			page 10
+ARM GAS  /tmp/ccqDZySP.s 			page 10
 
 
  504 01e3 EF040000 		.4byte	.LASF39
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  558 0257 00       		.byte	0
  559 0258 00       		.byte	0
  560 0259 04       		.uleb128 0x4
-ARM GAS  /tmp/ccGxlLlT.s 			page 11
+ARM GAS  /tmp/ccqDZySP.s 			page 11
 
 
  561 025a 16050000 		.4byte	.LASF48
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  615 02cd 07       		.byte	0x7
  616 02ce 9701     		.2byte	0x197
  617 02d0 2F020000 		.4byte	0x22f
-ARM GAS  /tmp/ccGxlLlT.s 			page 12
+ARM GAS  /tmp/ccqDZySP.s 			page 12
 
 
  618 02d4 10       		.byte	0x10
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  672 0345 07       		.byte	0x7
  673 0346 6E01     		.2byte	0x16e
  674 0348 21010000 		.4byte	0x121
-ARM GAS  /tmp/ccGxlLlT.s 			page 13
+ARM GAS  /tmp/ccqDZySP.s 			page 13
 
 
  675 034c 08       		.byte	0x8
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  729 03bc C0030000 		.4byte	0x3c0
  730 03c0 0B       		.uleb128 0xb
  731 03c1 81030000 		.4byte	.LASF70
-ARM GAS  /tmp/ccGxlLlT.s 			page 14
+ARM GAS  /tmp/ccqDZySP.s 			page 14
 
 
  732 03c5 04       		.byte	0x4
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  786 0439 07       		.byte	0x7
  787 043a E301     		.2byte	0x1e3
  788 043c 3D070000 		.4byte	0x73d
-ARM GAS  /tmp/ccGxlLlT.s 			page 15
+ARM GAS  /tmp/ccqDZySP.s 			page 15
 
 
  789 0440 78       		.byte	0x78
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  843 04af 00       		.byte	0
  844 04b0 08       		.uleb128 0x8
  845 04b1 723500   		.ascii	"r5\000"
-ARM GAS  /tmp/ccGxlLlT.s 			page 16
+ARM GAS  /tmp/ccqDZySP.s 			page 16
 
 
  846 04b4 09       		.byte	0x9
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  900 051e 25060000 		.4byte	0x625
  901 0522 08       		.uleb128 0x8
  902 0523 43523100 		.ascii	"CR1\000"
-ARM GAS  /tmp/ccGxlLlT.s 			page 17
+ARM GAS  /tmp/ccqDZySP.s 			page 17
 
 
  903 0527 0A       		.byte	0xa
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  957 059b 0A       		.byte	0xa
  958 059c AB01     		.2byte	0x1ab
  959 059e C4000000 		.4byte	0xc4
-ARM GAS  /tmp/ccGxlLlT.s 			page 18
+ARM GAS  /tmp/ccqDZySP.s 			page 18
 
 
  960 05a2 24       		.byte	0x24
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  1014 0616 54       		.byte	0x54
  1015 0617 09       		.uleb128 0x9
  1016 0618 1E040000 		.4byte	.LASF91
-ARM GAS  /tmp/ccGxlLlT.s 			page 19
+ARM GAS  /tmp/ccqDZySP.s 			page 19
 
 
  1017 061c 0A       		.byte	0xa
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  1071 068d 1601     		.2byte	0x116
  1072 068f B8060000 		.4byte	0x6b8
  1073 0693 17       		.uleb128 0x17
-ARM GAS  /tmp/ccGxlLlT.s 			page 20
+ARM GAS  /tmp/ccqDZySP.s 			page 20
 
 
  1074 0694 42020000 		.4byte	.LASF99
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  1128 0706 0D       		.byte	0xd
  1129 0707 3C       		.byte	0x3c
  1130 0708 2F020000 		.4byte	0x22f
-ARM GAS  /tmp/ccGxlLlT.s 			page 21
+ARM GAS  /tmp/ccqDZySP.s 			page 21
 
 
  1131 070c 08       		.byte	0x8
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  1185 077b 38030000 		.4byte	.LASF114
  1186 077f 01       		.byte	0x1
  1187 0780 99       		.byte	0x99
-ARM GAS  /tmp/ccGxlLlT.s 			page 22
+ARM GAS  /tmp/ccqDZySP.s 			page 22
 
 
  1188 0781 21010000 		.4byte	0x121
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  1242 07f3 01       		.uleb128 0x1
  1243 07f4 9C       		.byte	0x9c
  1244 07f5 11080000 		.4byte	0x811
-ARM GAS  /tmp/ccGxlLlT.s 			page 23
+ARM GAS  /tmp/ccqDZySP.s 			page 23
 
 
  1245 07f9 1A       		.uleb128 0x1a
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  1299 086e 42040000 		.4byte	0x442
  1300 0872 0A       		.byte	0xa
  1301 0873 00       		.byte	0
-ARM GAS  /tmp/ccGxlLlT.s 			page 24
+ARM GAS  /tmp/ccqDZySP.s 			page 24
 
 
  1302 0874 18       		.uleb128 0x18
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  1356 0017 0B       		.uleb128 0xb
  1357 0018 03       		.uleb128 0x3
  1358 0019 08       		.uleb128 0x8
-ARM GAS  /tmp/ccGxlLlT.s 			page 25
+ARM GAS  /tmp/ccqDZySP.s 			page 25
 
 
  1359 001a 00       		.byte	0
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  1413 0050 0B       		.uleb128 0xb
  1414 0051 3B       		.uleb128 0x3b
  1415 0052 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccGxlLlT.s 			page 26
+ARM GAS  /tmp/ccqDZySP.s 			page 26
 
 
  1416 0053 49       		.uleb128 0x49
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  1470 0089 3B       		.uleb128 0x3b
  1471 008a 05       		.uleb128 0x5
  1472 008b 01       		.uleb128 0x1
-ARM GAS  /tmp/ccGxlLlT.s 			page 27
+ARM GAS  /tmp/ccqDZySP.s 			page 27
 
 
  1473 008c 13       		.uleb128 0x13
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  1527 00c2 13       		.uleb128 0x13
  1528 00c3 2F       		.uleb128 0x2f
  1529 00c4 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccGxlLlT.s 			page 28
+ARM GAS  /tmp/ccqDZySP.s 			page 28
 
 
  1530 00c5 00       		.byte	0
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  1584 00fb 00       		.byte	0
  1585 00fc 00       		.byte	0
  1586 00fd 16       		.uleb128 0x16
-ARM GAS  /tmp/ccGxlLlT.s 			page 29
+ARM GAS  /tmp/ccqDZySP.s 			page 29
 
 
  1587 00fe 17       		.uleb128 0x17
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  1641 0135 00       		.byte	0
  1642 0136 1A       		.uleb128 0x1a
  1643 0137 05       		.uleb128 0x5
-ARM GAS  /tmp/ccGxlLlT.s 			page 30
+ARM GAS  /tmp/ccqDZySP.s 			page 30
 
 
  1644 0138 00       		.byte	0
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  1698 0170 19       		.uleb128 0x19
  1699 0171 00       		.byte	0
  1700 0172 00       		.byte	0
-ARM GAS  /tmp/ccGxlLlT.s 			page 31
+ARM GAS  /tmp/ccqDZySP.s 			page 31
 
 
  1701 0173 1D       		.uleb128 0x1d
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  1755 01ab 13       		.uleb128 0x13
  1756 01ac 34       		.uleb128 0x34
  1757 01ad 19       		.uleb128 0x19
-ARM GAS  /tmp/ccGxlLlT.s 			page 32
+ARM GAS  /tmp/ccqDZySP.s 			page 32
 
 
  1758 01ae 00       		.byte	0
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  1812 01e5 05       		.uleb128 0x5
  1813 01e6 49       		.uleb128 0x49
  1814 01e7 13       		.uleb128 0x13
-ARM GAS  /tmp/ccGxlLlT.s 			page 33
+ARM GAS  /tmp/ccqDZySP.s 			page 33
 
 
  1815 01e8 3F       		.uleb128 0x3f
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  1869 0044 0C000000 		.4byte	.LFE275
  1870 0048 00000000 		.4byte	0
  1871 004c 00000000 		.4byte	0
-ARM GAS  /tmp/ccGxlLlT.s 			page 34
+ARM GAS  /tmp/ccqDZySP.s 			page 34
 
 
  1872              		.section	.debug_line,"",%progbits
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  1898      75616C5F 
  1898      74696D65 
  1898      72735F6C 
-ARM GAS  /tmp/ccGxlLlT.s 			page 35
+ARM GAS  /tmp/ccqDZySP.s 			page 35
 
 
  1898      6973745F 
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  1928      00
  1929              	.LASF10:
  1930 010e 6C6F6E67 		.ascii	"long long int\000"
-ARM GAS  /tmp/ccGxlLlT.s 			page 36
+ARM GAS  /tmp/ccqDZySP.s 			page 36
 
 
  1930      206C6F6E 
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  1953      5F746872 
  1953      6561645F 
  1953      776100
-ARM GAS  /tmp/ccGxlLlT.s 			page 37
+ARM GAS  /tmp/ccqDZySP.s 			page 37
 
 
  1954              	.LASF24:
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  1983      6C645F73 
  1983      74617274 
  1983      5F616C61 
-ARM GAS  /tmp/ccGxlLlT.s 			page 38
+ARM GAS  /tmp/ccqDZySP.s 			page 38
 
 
  1983      726D00
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  2010              	.LASF11:
  2011 034f 5F5F7569 		.ascii	"__uint64_t\000"
  2011      6E743634 
-ARM GAS  /tmp/ccGxlLlT.s 			page 39
+ARM GAS  /tmp/ccqDZySP.s 			page 39
 
 
  2011      5F7400
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  2042              	.LASF120:
  2043 03e6 5F5F6675 		.ascii	"__func__\000"
  2043      6E635F5F 
-ARM GAS  /tmp/ccGxlLlT.s 			page 40
+ARM GAS  /tmp/ccqDZySP.s 			page 40
 
 
  2043      00
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  2068              	.LASF109:
  2069 047d 63686172 		.ascii	"char\000"
  2069      00
-ARM GAS  /tmp/ccGxlLlT.s 			page 41
+ARM GAS  /tmp/ccqDZySP.s 			page 41
 
 
  2070              	.LASF105:
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  2099      746F705F 
  2099      616C6172 
  2099      6D00
-ARM GAS  /tmp/ccGxlLlT.s 			page 42
+ARM GAS  /tmp/ccqDZySP.s 			page 42
 
 
  2100              	.LASF65:
@@ -2518,36 +2518,36 @@ ARM GAS  /tmp/ccGxlLlT.s 			page 1
  2128              	.LASF30:
  2129 05b1 705F6374 		.ascii	"p_ctx\000"
  2129      7800
-ARM GAS  /tmp/ccGxlLlT.s 			page 43
+ARM GAS  /tmp/ccqDZySP.s 			page 43
 
 
  2130              	.LASF64:
  2131 05b7 76745F66 		.ascii	"vt_func\000"
  2131      756E6300 
  2132              		.ident	"GCC: (4.8.4-1+11-1) 4.8.4 20141219 (release)"
-ARM GAS  /tmp/ccGxlLlT.s 			page 44
+ARM GAS  /tmp/ccqDZySP.s 			page 44
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 st.c
-     /tmp/ccGxlLlT.s:19     .text.st_lld_start_alarm:0000000000000000 $t
-     /tmp/ccGxlLlT.s:24     .text.st_lld_start_alarm:0000000000000000 st_lld_start_alarm
-     /tmp/ccGxlLlT.s:55     .text.st_lld_stop_alarm:0000000000000000 $t
-     /tmp/ccGxlLlT.s:60     .text.st_lld_stop_alarm:0000000000000000 st_lld_stop_alarm
-     /tmp/ccGxlLlT.s:77     .text.st_lld_set_alarm:0000000000000000 $t
-     /tmp/ccGxlLlT.s:82     .text.st_lld_set_alarm:0000000000000000 st_lld_set_alarm
-     /tmp/ccGxlLlT.s:104    .text.st_lld_get_alarm:0000000000000000 $t
-     /tmp/ccGxlLlT.s:109    .text.st_lld_get_alarm:0000000000000000 st_lld_get_alarm
-     /tmp/ccGxlLlT.s:126    .text.stInit:0000000000000000 $t
-     /tmp/ccGxlLlT.s:132    .text.stInit:0000000000000000 stInit
-     /tmp/ccGxlLlT.s:151    .text.stStartAlarm:0000000000000000 $t
-     /tmp/ccGxlLlT.s:157    .text.stStartAlarm:0000000000000000 stStartAlarm
-     /tmp/ccGxlLlT.s:180    .text.stStopAlarm:0000000000000000 $t
-     /tmp/ccGxlLlT.s:186    .text.stStopAlarm:0000000000000000 stStopAlarm
-     /tmp/ccGxlLlT.s:204    .text.stSetAlarm:0000000000000000 $t
-     /tmp/ccGxlLlT.s:210    .text.stSetAlarm:0000000000000000 stSetAlarm
-     /tmp/ccGxlLlT.s:233    .text.stGetAlarm:0000000000000000 $t
-     /tmp/ccGxlLlT.s:239    .text.stGetAlarm:0000000000000000 stGetAlarm
+     /tmp/ccqDZySP.s:19     .text.st_lld_start_alarm:0000000000000000 $t
+     /tmp/ccqDZySP.s:24     .text.st_lld_start_alarm:0000000000000000 st_lld_start_alarm
+     /tmp/ccqDZySP.s:55     .text.st_lld_stop_alarm:0000000000000000 $t
+     /tmp/ccqDZySP.s:60     .text.st_lld_stop_alarm:0000000000000000 st_lld_stop_alarm
+     /tmp/ccqDZySP.s:77     .text.st_lld_set_alarm:0000000000000000 $t
+     /tmp/ccqDZySP.s:82     .text.st_lld_set_alarm:0000000000000000 st_lld_set_alarm
+     /tmp/ccqDZySP.s:104    .text.st_lld_get_alarm:0000000000000000 $t
+     /tmp/ccqDZySP.s:109    .text.st_lld_get_alarm:0000000000000000 st_lld_get_alarm
+     /tmp/ccqDZySP.s:126    .text.stInit:0000000000000000 $t
+     /tmp/ccqDZySP.s:132    .text.stInit:0000000000000000 stInit
+     /tmp/ccqDZySP.s:151    .text.stStartAlarm:0000000000000000 $t
+     /tmp/ccqDZySP.s:157    .text.stStartAlarm:0000000000000000 stStartAlarm
+     /tmp/ccqDZySP.s:180    .text.stStopAlarm:0000000000000000 $t
+     /tmp/ccqDZySP.s:186    .text.stStopAlarm:0000000000000000 stStopAlarm
+     /tmp/ccqDZySP.s:204    .text.stSetAlarm:0000000000000000 $t
+     /tmp/ccqDZySP.s:210    .text.stSetAlarm:0000000000000000 stSetAlarm
+     /tmp/ccqDZySP.s:233    .text.stGetAlarm:0000000000000000 $t
+     /tmp/ccqDZySP.s:239    .text.stGetAlarm:0000000000000000 stGetAlarm
                      .debug_frame:0000000000000010 $d
 
 UNDEFINED SYMBOLS

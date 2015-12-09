@@ -698,14 +698,10 @@ Discarded input sections
  .text          0x0000000000000000        0x0 build/obj/main.o
  .data          0x0000000000000000        0x0 build/obj/main.o
  .bss           0x0000000000000000        0x0 build/obj/main.o
- .text.prepareForSend
-                0x0000000000000000       0x70 build/obj/main.o
  .text          0x0000000000000000        0x0 build/obj/crc.o
  .data          0x0000000000000000        0x0 build/obj/crc.o
  .bss           0x0000000000000000        0x0 build/obj/crc.o
- .text.reflect  0x0000000000000000       0x60 build/obj/crc.o
  .text.crcSlow  0x0000000000000000       0xb0 build/obj/crc.o
- .text.crcFast  0x0000000000000000       0x80 build/obj/crc.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/4.8/../../../arm-none-eabi/lib/armv7e-m/libg.a(lib_a-memcpy.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/4.8/../../../arm-none-eabi/lib/armv7e-m/libg.a(lib_a-memcpy.o)
  .text          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/4.8/../../../arm-none-eabi/lib/armv7e-m/libg.a(lib_a-memset.o)
@@ -828,7 +824,7 @@ destructors     0x00000000000001c0        0x0 load address 0x00000000080001c0
  *(SORT(.fini_array.*))
                 0x00000000000001c0                PROVIDE (__fini_array_end, .)
 
-.text           0x00000000000001c0     0x3f2c load address 0x00000000080001c0
+.text           0x00000000000001c0     0x405c load address 0x00000000080001c0
  *(.text)
  .text          0x00000000000001c0       0xc0 build/obj/crt0_v7m.o
                 0x00000000000001c0                Reset_Handler
@@ -1515,65 +1511,71 @@ destructors     0x00000000000001c0        0x0 load address 0x00000000080001c0
  .text.boardInit
                 0x0000000000003de0       0x10 build/obj/board.o
                 0x0000000000003de0                boardInit
- .text.main     0x0000000000003df0       0xb0 build/obj/main.o
-                0x0000000000003df0                main
- .text.crcInit  0x0000000000003ea0       0x80 build/obj/crc.o
-                0x0000000000003ea0                crcInit
+ .text.prepareForSend
+                0x0000000000003df0       0x70 build/obj/main.o
+                0x0000000000003df0                prepareForSend
+ .text.main     0x0000000000003e60       0x90 build/obj/main.o
+                0x0000000000003e60                main
+ .text.reflect  0x0000000000003ef0       0x60 build/obj/crc.o
+ .text.crcInit  0x0000000000003f50       0x80 build/obj/crc.o
+                0x0000000000003f50                crcInit
+ .text.crcFast  0x0000000000003fd0       0x80 build/obj/crc.o
+                0x0000000000003fd0                crcFast
  *(.rodata)
- .rodata        0x0000000000003f20        0x8 build/obj/chsys.o
+ .rodata        0x0000000000004050        0x8 build/obj/chsys.o
  *(.rodata.*)
- *fill*         0x0000000000003f28        0x8 
+ *fill*         0x0000000000004058        0x8 
  .rodata.ch_debug
-                0x0000000000003f30       0x18 build/obj/chregistry.o
-                0x0000000000003f30                ch_debug
- *fill*         0x0000000000003f48        0x8 
- .rodata.vmt    0x0000000000003f50       0x20 build/obj/serial.o
+                0x0000000000004060       0x18 build/obj/chregistry.o
+                0x0000000000004060                ch_debug
+ *fill*         0x0000000000004078        0x8 
+ .rodata.vmt    0x0000000000004080       0x20 build/obj/serial.o
  .rodata.zero_status
-                0x0000000000003f70        0x4 build/obj/usb.o
- *fill*         0x0000000000003f74        0xc 
+                0x00000000000040a0        0x4 build/obj/usb.o
+ *fill*         0x00000000000040a4        0xc 
  .rodata.active_status
-                0x0000000000003f80        0x4 build/obj/usb.o
- *fill*         0x0000000000003f84        0xc 
+                0x00000000000040b0        0x4 build/obj/usb.o
+ *fill*         0x00000000000040b4        0xc 
  .rodata.halted_status
-                0x0000000000003f90        0x4 build/obj/usb.o
- *fill*         0x0000000000003f94        0xc 
+                0x00000000000040c0        0x4 build/obj/usb.o
+ *fill*         0x00000000000040c4        0xc 
  .rodata.ep0config
-                0x0000000000003fa0       0x24 build/obj/usb_lld.o
- *fill*         0x0000000000003fc4        0xc 
+                0x00000000000040d0       0x24 build/obj/usb_lld.o
+ *fill*         0x00000000000040f4        0xc 
  .rodata.fsparams
-                0x0000000000003fd0        0xc build/obj/usb_lld.o
- *fill*         0x0000000000003fdc        0x4 
+                0x0000000000004100        0xc build/obj/usb_lld.o
+ *fill*         0x000000000000410c        0x4 
  .rodata.default_config
-                0x0000000000003fe0        0xc build/obj/serial_lld.o
- *fill*         0x0000000000003fec        0x4 
+                0x0000000000004110        0xc build/obj/serial_lld.o
+ *fill*         0x000000000000411c        0x4 
  .rodata.pal_default_config
-                0x0000000000003ff0       0xfc build/obj/board.o
-                0x0000000000003ff0                pal_default_config
+                0x0000000000004120       0xfc build/obj/board.o
+                0x0000000000004120                pal_default_config
  *(.glue_7t)
- .glue_7t       0x00000000000040ec        0x0 linker stubs
+ .glue_7t       0x000000000000421c        0x0 linker stubs
  *(.glue_7)
- .glue_7        0x00000000000040ec        0x0 linker stubs
+ .glue_7        0x000000000000421c        0x0 linker stubs
  *(.gcc*)
 
-.vfp11_veneer   0x00000000000040ec        0x0 load address 0x00000000080040ec
- .vfp11_veneer  0x00000000000040ec        0x0 linker stubs
+.vfp11_veneer   0x000000000000421c        0x0 load address 0x000000000800421c
+ .vfp11_veneer  0x000000000000421c        0x0 linker stubs
 
-.v4_bx          0x00000000000040ec        0x0 load address 0x00000000080040ec
- .v4_bx         0x00000000000040ec        0x0 linker stubs
+.v4_bx          0x000000000000421c        0x0 load address 0x000000000800421c
+ .v4_bx         0x000000000000421c        0x0 linker stubs
 
-.iplt           0x00000000000040ec        0x0 load address 0x00000000080040ec
- .iplt          0x00000000000040ec        0x0 build/obj/crt0_v7m.o
+.iplt           0x000000000000421c        0x0 load address 0x000000000800421c
+ .iplt          0x000000000000421c        0x0 build/obj/crt0_v7m.o
 
-.rel.dyn        0x00000000000040ec        0x0 load address 0x00000000080040ec
- .rel.iplt      0x00000000000040ec        0x0 build/obj/crt0_v7m.o
+.rel.dyn        0x000000000000421c        0x0 load address 0x000000000800421c
+ .rel.iplt      0x000000000000421c        0x0 build/obj/crt0_v7m.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM.exidx      0x00000000000040ec        0x0 load address 0x00000000080040ec
-                0x00000000000040ec                PROVIDE (__exidx_start, .)
+.ARM.exidx      0x000000000000421c        0x0 load address 0x000000000800421c
+                0x000000000000421c                PROVIDE (__exidx_start, .)
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x00000000000040ec                PROVIDE (__exidx_end, .)
+                0x000000000000421c                PROVIDE (__exidx_end, .)
 
 .eh_frame_hdr
  *(.eh_frame_hdr)
@@ -1581,12 +1583,12 @@ destructors     0x00000000000001c0        0x0 load address 0x00000000080001c0
 .eh_frame
  *(.eh_frame)
 
-.textalign      0x00000000000040ec        0x4 load address 0x00000000080040ec
-                0x00000000000040f0                . = ALIGN (0x8)
- *fill*         0x00000000000040ec        0x4 
-                0x00000000000040f0                . = ALIGN (0x4)
-                0x00000000000040f0                _etext = .
-                0x00000000000040f0                _textdata = _etext
+.textalign      0x000000000000421c        0x4 load address 0x000000000800421c
+                0x0000000000004220                . = ALIGN (0x8)
+ *fill*         0x000000000000421c        0x4 
+                0x0000000000004220                . = ALIGN (0x4)
+                0x0000000000004220                _etext = .
+                0x0000000000004220                _textdata = _etext
 
 .mstack         0x0000000020000000      0x400
                 0x0000000020000000                . = ALIGN (0x8)
@@ -1605,7 +1607,7 @@ destructors     0x00000000000001c0        0x0 load address 0x00000000080001c0
                 0x0000000020000800                __process_stack_end__ = .
                 0x0000000020000800                __main_thread_stack_end__ = .
 
-.data           0x0000000020000800        0x0 load address 0x00000000080040ec
+.data           0x0000000020000800        0x0 load address 0x000000000800421c
                 0x0000000020000800                . = ALIGN (0x4)
                 0x0000000020000800                PROVIDE (_data, .)
  *(.data)
@@ -1614,10 +1616,10 @@ destructors     0x00000000000001c0        0x0 load address 0x00000000080001c0
                 0x0000000020000800                . = ALIGN (0x4)
                 0x0000000020000800                PROVIDE (_edata, .)
 
-.igot.plt       0x0000000020000800        0x0 load address 0x00000000080040ec
+.igot.plt       0x0000000020000800        0x0 load address 0x000000000800421c
  .igot.plt      0x0000000020000800        0x0 build/obj/crt0_v7m.o
 
-.bss            0x0000000020000800      0x61c load address 0x00000000080040ec
+.bss            0x0000000020000800      0x61c load address 0x000000000800421c
                 0x0000000020000800                . = ALIGN (0x4)
                 0x0000000020000800                PROVIDE (_bss_start, .)
  *(.bss)
@@ -1643,7 +1645,7 @@ destructors     0x00000000000001c0        0x0 load address 0x00000000080001c0
                 0x0000000020000e1c                PROVIDE (_bss_end, .)
                 0x0000000020000e1c                PROVIDE (end, .)
 
-.ram0           0x0000000020000e1c        0x0 load address 0x00000000080040ec
+.ram0           0x0000000020000e1c        0x0 load address 0x000000000800421c
                 0x0000000020000e1c                . = ALIGN (0x4)
  *(.ram0)
  *(.ram0.*)
@@ -1955,7 +1957,7 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_ranges  0x0000000000000c78       0x18 build/obj/main.o
  .debug_ranges  0x0000000000000c90       0x28 build/obj/crc.o
 
-.debug_line     0x0000000000000000     0x5eff
+.debug_line     0x0000000000000000     0x5ef9
  .debug_line    0x0000000000000000      0x129 build/obj/crt1.o
  .debug_line    0x0000000000000129       0xfb build/obj/vectors.o
  .debug_line    0x0000000000000224      0x627 build/obj/chsys.o
@@ -1981,9 +1983,9 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .debug_line    0x000000000000499c      0x9bb build/obj/usb_lld.o
  .debug_line    0x0000000000005357      0x4cd build/obj/serial_lld.o
  .debug_line    0x0000000000005824      0x252 build/obj/board.o
- .debug_line    0x0000000000005a76      0x2f1 build/obj/main.o
- .debug_line    0x0000000000005d67       0xe0 build/obj/crc.o
- .debug_line    0x0000000000005e47       0xb8 /usr/lib/gcc/arm-none-eabi/4.8/../../../arm-none-eabi/lib/armv7e-m/libg.a(lib_a-memcpy.o)
+ .debug_line    0x0000000000005a76      0x2eb build/obj/main.o
+ .debug_line    0x0000000000005d61       0xe0 build/obj/crc.o
+ .debug_line    0x0000000000005e41       0xb8 /usr/lib/gcc/arm-none-eabi/4.8/../../../arm-none-eabi/lib/armv7e-m/libg.a(lib_a-memcpy.o)
 
 .debug_str      0x0000000000000000     0x2fbb
  .debug_str     0x0000000000000000      0x192 build/obj/crt1.o

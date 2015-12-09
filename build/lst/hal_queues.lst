@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccjnnMvY.s 			page 1
+ARM GAS  /tmp/ccD74sbU.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccjnnMvY.s 			page 1
   55 0033 01       		.byte	0x1
   56 0034 1D       		.byte	0x1d
   57 0035 39000000 		.4byte	0x39
-ARM GAS  /tmp/ccjnnMvY.s 			page 2
+ARM GAS  /tmp/ccD74sbU.s 			page 2
 
 
   58 0039 03       		.uleb128 0x3
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccjnnMvY.s 			page 1
  112 00a2 05010000 		.4byte	.LASF15
  113 00a6 02       		.byte	0x2
  114 00a7 42       		.byte	0x42
-ARM GAS  /tmp/ccjnnMvY.s 			page 3
+ARM GAS  /tmp/ccD74sbU.s 			page 3
 
 
  115 00a8 60000000 		.4byte	0x60
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccjnnMvY.s 			page 1
  169 0120 00000000 		.4byte	.LASF26
  170 0124 04       		.byte	0x4
  171 0125 3F       		.byte	0x3f
-ARM GAS  /tmp/ccjnnMvY.s 			page 4
+ARM GAS  /tmp/ccD74sbU.s 			page 4
 
 
  172 0126 2A010000 		.4byte	0x12a
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccjnnMvY.s 			page 1
  226 0195 1C       		.byte	0x1c
  227 0196 07       		.uleb128 0x7
  228 0197 31030000 		.4byte	.LASF35
-ARM GAS  /tmp/ccjnnMvY.s 			page 5
+ARM GAS  /tmp/ccD74sbU.s 			page 5
 
 
  229 019b 05       		.byte	0x5
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccjnnMvY.s 			page 1
  283 020e 05       		.byte	0x5
  284 020f 5801     		.2byte	0x158
  285 0211 FF020000 		.4byte	0x2ff
-ARM GAS  /tmp/ccjnnMvY.s 			page 6
+ARM GAS  /tmp/ccD74sbU.s 			page 6
 
 
  286 0215 40       		.byte	0x40
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccjnnMvY.s 			page 1
  340 0281 04       		.byte	0x4
  341 0282 57       		.byte	0x57
  342 0283 87020000 		.4byte	0x287
-ARM GAS  /tmp/ccjnnMvY.s 			page 7
+ARM GAS  /tmp/ccD74sbU.s 			page 7
 
 
  343 0287 0B       		.uleb128 0xb
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccjnnMvY.s 			page 1
  397 02fa FF020000 		.4byte	0x2ff
  398 02fe 00       		.byte	0
  399 02ff 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccjnnMvY.s 			page 8
+ARM GAS  /tmp/ccD74sbU.s 			page 8
 
 
  400 0300 04       		.byte	0x4
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccjnnMvY.s 			page 1
  454 0373 09       		.uleb128 0x9
  455 0374 FB020000 		.4byte	.LASF61
  456 0378 05       		.byte	0x5
-ARM GAS  /tmp/ccjnnMvY.s 			page 9
+ARM GAS  /tmp/ccD74sbU.s 			page 9
 
 
  457 0379 7C01     		.2byte	0x17c
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccjnnMvY.s 			page 1
  511 03ed C601     		.2byte	0x1c6
  512 03ef 7C020000 		.4byte	0x27c
  513 03f3 00       		.byte	0
-ARM GAS  /tmp/ccjnnMvY.s 			page 10
+ARM GAS  /tmp/ccD74sbU.s 			page 10
 
 
  514 03f4 09       		.uleb128 0x9
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccjnnMvY.s 			page 1
  568 0464 8A       		.byte	0x8a
  569 0465 E6040000 		.4byte	0x4e6
  570 0469 00       		.byte	0
-ARM GAS  /tmp/ccjnnMvY.s 			page 11
+ARM GAS  /tmp/ccD74sbU.s 			page 11
 
 
  571 046a 00       		.byte	0
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccjnnMvY.s 			page 1
  625 04d8 1C       		.byte	0x1c
  626 04d9 08       		.uleb128 0x8
  627 04da 6C7200   		.ascii	"lr\000"
-ARM GAS  /tmp/ccjnnMvY.s 			page 12
+ARM GAS  /tmp/ccD74sbU.s 			page 12
 
 
  628 04dd 07       		.byte	0x7
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccjnnMvY.s 			page 1
  682 054c 94050000 		.4byte	0x594
  683 0550 13       		.uleb128 0x13
  684 0551 79020000 		.4byte	.LASF90
-ARM GAS  /tmp/ccjnnMvY.s 			page 13
+ARM GAS  /tmp/ccD74sbU.s 			page 13
 
 
  685 0555 05       		.byte	0x5
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccjnnMvY.s 			page 1
  739 05c3 0A       		.byte	0xa
  740 05c4 3E       		.byte	0x3e
  741 05c5 09060000 		.4byte	0x609
-ARM GAS  /tmp/ccjnnMvY.s 			page 14
+ARM GAS  /tmp/ccD74sbU.s 			page 14
 
 
  742 05c9 0C       		.byte	0xc
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccjnnMvY.s 			page 1
  796 0003 25       		.uleb128 0x25
  797 0004 0E       		.uleb128 0xe
  798 0005 13       		.uleb128 0x13
-ARM GAS  /tmp/ccjnnMvY.s 			page 15
+ARM GAS  /tmp/ccD74sbU.s 			page 15
 
 
  799 0006 0B       		.uleb128 0xb
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccjnnMvY.s 			page 1
  853 003c 0B       		.uleb128 0xb
  854 003d 0B       		.uleb128 0xb
  855 003e 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccjnnMvY.s 			page 16
+ARM GAS  /tmp/ccD74sbU.s 			page 16
 
 
  856 003f 0B       		.uleb128 0xb
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccjnnMvY.s 			page 1
  910 0075 00       		.byte	0
  911 0076 0B       		.uleb128 0xb
  912 0077 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccjnnMvY.s 			page 17
+ARM GAS  /tmp/ccD74sbU.s 			page 17
 
 
  913 0078 49       		.uleb128 0x49
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccjnnMvY.s 			page 1
  967 00ae 13       		.uleb128 0x13
  968 00af 00       		.byte	0
  969 00b0 00       		.byte	0
-ARM GAS  /tmp/ccjnnMvY.s 			page 18
+ARM GAS  /tmp/ccD74sbU.s 			page 18
 
 
  970 00b1 10       		.uleb128 0x10
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccjnnMvY.s 			page 1
  1024 00e7 14       		.uleb128 0x14
  1025 00e8 26       		.uleb128 0x26
  1026 00e9 00       		.byte	0
-ARM GAS  /tmp/ccjnnMvY.s 			page 19
+ARM GAS  /tmp/ccD74sbU.s 			page 19
 
 
  1027 00ea 49       		.uleb128 0x49
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccjnnMvY.s 			page 1
  1081 0120 00       		.byte	0
  1082 0121 00       		.byte	0
  1083 0122 00       		.byte	0
-ARM GAS  /tmp/ccjnnMvY.s 			page 20
+ARM GAS  /tmp/ccD74sbU.s 			page 20
 
 
  1084              		.section	.debug_aranges,"",%progbits
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccjnnMvY.s 			page 1
  1116 0079 6D5F6E65 		.ascii	"m_next\000"
  1116      787400
  1117              	.LASF78:
-ARM GAS  /tmp/ccjnnMvY.s 			page 21
+ARM GAS  /tmp/ccD74sbU.s 			page 21
 
 
  1118 0080 73697A65 		.ascii	"sizetype\000"
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccjnnMvY.s 			page 1
  1146      00
  1147              	.LASF46:
  1148 010e 63685F74 		.ascii	"ch_thread\000"
-ARM GAS  /tmp/ccjnnMvY.s 			page 22
+ARM GAS  /tmp/ccD74sbU.s 			page 22
 
 
  1148      68726561 
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccjnnMvY.s 			page 1
  1176      4320342E 
  1176      382E3420 
  1176      32303134 
-ARM GAS  /tmp/ccjnnMvY.s 			page 23
+ARM GAS  /tmp/ccD74sbU.s 			page 23
 
 
  1176      31323139 
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccjnnMvY.s 			page 1
  1201      206C6F6E 
  1201      6720756E 
  1201      7369676E 
-ARM GAS  /tmp/ccjnnMvY.s 			page 24
+ARM GAS  /tmp/ccD74sbU.s 			page 24
 
 
  1201      65642069 
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccjnnMvY.s 			page 1
  1228              	.LASF99:
  1229 035d 63686172 		.ascii	"char\000"
  1229      00
-ARM GAS  /tmp/ccjnnMvY.s 			page 25
+ARM GAS  /tmp/ccD74sbU.s 			page 25
 
 
  1230              	.LASF93:
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccjnnMvY.s 			page 1
  1258              	.LASF4:
  1259 03ef 73686F72 		.ascii	"short unsigned int\000"
  1259      7420756E 
-ARM GAS  /tmp/ccjnnMvY.s 			page 26
+ARM GAS  /tmp/ccD74sbU.s 			page 26
 
 
  1259      7369676E 
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccjnnMvY.s 			page 1
  1286              	.LASF50:
  1287 0486 72656164 		.ascii	"ready_list_t\000"
  1287      795F6C69 
-ARM GAS  /tmp/ccjnnMvY.s 			page 27
+ARM GAS  /tmp/ccD74sbU.s 			page 27
 
 
  1287      73745F74 
@@ -1604,7 +1604,7 @@ ARM GAS  /tmp/ccjnnMvY.s 			page 1
  1309      6C697374 
  1309      5F7400
  1310              		.ident	"GCC: (4.8.4-1+11-1) 4.8.4 20141219 (release)"
-ARM GAS  /tmp/ccjnnMvY.s 			page 28
+ARM GAS  /tmp/ccD74sbU.s 			page 28
 
 
 DEFINED SYMBOLS

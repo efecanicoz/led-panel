@@ -46,14 +46,14 @@ int main(void)
 		portSample = palReadGroup(GPIOA, PAL_GROUP_MASK(8), 0);
 		if(portSample != 0xFF)//if it's non zero
 		{
-			//prepareForSend(packet, portSample);
-			packet[0] = portSample;
+			prepareForSend(packet, portSample);
+			/*packet[0] = portSample;
 			packet[1] = 0U;
 			packet[2] = 0U;
 			packet[3] = 0U;
 			packet[4] = 0U;//high byte
 			packet[5] = 0U;//low byte
-			packet[6] = 0U;
+			packet[6] = 0U;*/
 			sdWrite(&SD3, (uint8_t *)packet, 7);
 		}
 		chThdSleepMilliseconds(5);
