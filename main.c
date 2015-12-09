@@ -32,7 +32,7 @@ int main(void)
 	uint8_t packet[7];
 	
 	/*Set input pullup mode first 8 ports of gpiod*/
-	palSetGroupMode(GPIOD, PAL_GROUP_MASK(8), 0, PAL_MODE_INPUT_PULLUP);
+	palSetGroupMode(GPIOA, PAL_GROUP_MASK(8), 0, PAL_MODE_INPUT_PULLUP);
 	
 	palSetPadMode(GPIOB, 10, PAL_MODE_ALTERNATE(7)); // used function : USART3_TX
 	palSetPadMode(GPIOB, 11, PAL_MODE_ALTERNATE(7)); // used function : USART3_RX
@@ -43,11 +43,18 @@ int main(void)
 	/*Read first 8 pin of gipod*/
 	while(!0)
 	{
-		portSample = palReadGroup(GPIOD, PAL_GROUP_MASK(8), 0);
-		if(portSample)//if it's non zero
+		portSample = palReadGroup(GPIOA, PAL_GROUP_MASK(8), 0);
+		if(portSample != 0xFF)//if it's non zero
 		{
-			prepareForSend(packet, portSample);
-			sdWrite(&SD3, packet, 7);
+			//prepareForSend(packet, portSample);
+			packet[0] = portSample;
+			packet[1] = 0U;
+			packet[2] = 0U;
+			packet[3] = 0U;
+			packet[4] = 0U;//high byte
+			packet[5] = 0U;//low byte
+			packet[6] = 0U;
+			sdWrite(&SD3, (uint8_t *)packet, 7);
 		}
 		chThdSleepMilliseconds(5);
 	}
