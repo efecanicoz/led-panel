@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccFIz22l.s 			page 1
+ARM GAS  /tmp/ccATBBUZ.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -16,7 +16,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
   13              		.file	"crc.c"
   14              		.text
   15              	.Ltext0:
-  16              		.section	.gnu.lto_.inline.d9aaaf0b220c68a2,"",%progbits
+  16              		.section	.gnu.lto_.inline.5aa4117299bfe1f6,"",%progbits
   17 0000 789C6362 		.ascii	"x\234cb`b\300\006\222\2404\013\003\003\037/\003\003"
   17      6062C006 
   17      92A0340B 
@@ -37,7 +37,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
   20      670000B6 
   20      4807C8
   21              		.text
-  22              		.section	.gnu.lto_reflect.d9aaaf0b220c68a2,"",%progbits
+  22              		.section	.gnu.lto_reflect.5aa4117299bfe1f6,"",%progbits
   23 0000 789CB554 		.ascii	"x\234\265T\317kSA\020\236\331}?\2224i\222\246\240\202"
   23      CF6B5341 
   23      109ED97D 
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
   26      07A9DEEC 
   26      417CCE
   27 0050 EC7BFB1A 		.ascii	"\354{\373\032=\305\203\013\231\315\316|\3377\263\263"
-ARM GAS  /tmp/ccFIz22l.s 			page 2
+ARM GAS  /tmp/ccATBBUZ.s 			page 2
 
 
   27      3DC5830B 
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
   38      1F356AEF 
   38      90B0E738 
   38      D3
-ARM GAS  /tmp/ccFIz22l.s 			page 3
+ARM GAS  /tmp/ccATBBUZ.s 			page 3
 
 
   39 0122 243EC051 		.ascii	"$>\300Q\220\341l\320\374\220f3\\[\341\332F\002\307\310"
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
   50 01ec B86D8910 		.ascii	"\270m\211\020\224\356\336\253\036\326\301!*L\265.\330"
   50      94EEDEAB 
   50      1ED6C121 
-ARM GAS  /tmp/ccFIz22l.s 			page 4
+ARM GAS  /tmp/ccATBBUZ.s 			page 4
 
 
   50      2A4CB52E 
@@ -214,7 +214,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
   56      4F17677F 
   57 0270 242F19B6 		.ascii	"$/\031\266"
   58              		.text
-  59              		.section	.gnu.lto_crcSlow.d9aaaf0b220c68a2,"",%progbits
+  59              		.section	.gnu.lto_crcSlow.5aa4117299bfe1f6,"",%progbits
   60 0000 789CB555 		.ascii	"x\234\265UMh\\U\024>\347\276\377y\223f\332\264i\246"
   60      4D685C55 
   60      143EE7BE 
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
   64 004e 0941056D 		.ascii	"\011A\005m\254\305\3479\367\276\373&\011\205>+}0\347"
   64      ACC5E739 
   64      F7BEFB26 
-ARM GAS  /tmp/ccFIz22l.s 			page 5
+ARM GAS  /tmp/ccATBBUZ.s 			page 5
 
 
   64      09853E2B 
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
   75      AEF1
   76 012b E9D149F9 		.ascii	"\351\321I\371\017m\221\212\326\235.Z\363\217\213\263"
   76      0F6D918A 
-ARM GAS  /tmp/ccFIz22l.s 			page 6
+ARM GAS  /tmp/ccATBBUZ.s 			page 6
 
 
   76      D69D2E5A 
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
   88 01f7 9823714A 		.ascii	"\230#qJ\005\216x\224I\021\324bP\3625\352lA\233k#\015"
   88      058E7894 
   88      4911D462 
-ARM GAS  /tmp/ccFIz22l.s 			page 7
+ARM GAS  /tmp/ccATBBUZ.s 			page 7
 
 
   88      50F235EA 
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
   99      B7F7
  100 02cc 475F4F64 		.ascii	"G_Od\214s\267/t?OCc\327'\006\214]\227\302\356(0ORU "
  100      8C73B72F 
-ARM GAS  /tmp/ccFIz22l.s 			page 8
+ARM GAS  /tmp/ccATBBUZ.s 			page 8
 
 
  100      743F4F43 
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  111      2B972CF5 
  111      66B5D3D8 
  111      17096252 
-ARM GAS  /tmp/ccFIz22l.s 			page 9
+ARM GAS  /tmp/ccATBBUZ.s 			page 9
 
 
  111      A4EB
@@ -500,7 +500,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  115      FF2F7C48 
  115      2C70
  116              		.text
- 117              		.section	.gnu.lto_crcInit.d9aaaf0b220c68a2,"",%progbits
+ 117              		.section	.gnu.lto_crcInit.5aa4117299bfe1f6,"",%progbits
  118 0000 789C8D54 		.ascii	"x\234\215TML\023Q\020\236yo\177\273\005\212\211\002"
  118      4D4C1351 
  118      109E796F 
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  125 007b 394D4793 		.ascii	"9MG\2232\206\357M\277j1MVmY\265}V\214q\231qd\306A\244"
  125      3286EF4D 
  125      BF6A314D 
-ARM GAS  /tmp/ccFIz22l.s 			page 10
+ARM GAS  /tmp/ccATBBUZ.s 			page 10
 
 
  125      566D59B5 
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  137 015f 18A3A2E6 		.ascii	"\030\243\242\346H\027'\307\233\244k\016\260-AL\004\234"
  137      481727C7 
  137      9BA46B0E 
-ARM GAS  /tmp/ccFIz22l.s 			page 11
+ARM GAS  /tmp/ccATBBUZ.s 			page 11
 
 
  137      B02D414C 
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  148      F125C86F 
  148      BF5B
  149 0247 5D8E8744 		.ascii	"]\216\207D\305\252KR\005F\362\3637\353e\"\322\337V\025"
-ARM GAS  /tmp/ccFIz22l.s 			page 12
+ARM GAS  /tmp/ccATBBUZ.s 			page 12
 
 
  149      C5AA4B52 
@@ -704,7 +704,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  157      CFDEF807 
  157      F39740E4 
  158              		.text
- 159              		.section	.gnu.lto_crcFast.d9aaaf0b220c68a2,"",%progbits
+ 159              		.section	.gnu.lto_crcFast.5aa4117299bfe1f6,"",%progbits
  160 0000 789CB554 		.ascii	"x\234\265T\315KTQ\024?\347\335\367\346\303\361c\374"
  160      CD4B5451 
  160      143FE7DD 
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  162      946116B6 
  162      1021FA20 
  162      EF381388 
-ARM GAS  /tmp/ccFIz22l.s 			page 13
+ARM GAS  /tmp/ccATBBUZ.s 			page 13
 
 
  162      41484990 
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  174      452DF93D 
  174      62663FB6 
  174      CE6B8CB7 
-ARM GAS  /tmp/ccFIz22l.s 			page 14
+ARM GAS  /tmp/ccATBBUZ.s 			page 14
 
 
  175 0113 DA86B648 		.ascii	"\332\206\266H\344\025\263\233\332\212\317\300\033f$"
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  186      D03FFD66 
  186      ED8311C3 
  186      19BA55
-ARM GAS  /tmp/ccFIz22l.s 			page 15
+ARM GAS  /tmp/ccATBBUZ.s 			page 15
 
 
  187 01e4 0914DC3F 		.ascii	"\011\024\334?\263\200Z\371\274\211z\305\354p.\253\363"
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  198      A48ED693 
  198      7E8A19
  199 02b6 5D99E92A 		.ascii	"]\231\351*\210yx\3611\025\322IF\202\277\277\316\263"
-ARM GAS  /tmp/ccFIz22l.s 			page 16
+ARM GAS  /tmp/ccATBBUZ.s 			page 16
 
 
  199      887978F1 
@@ -936,7 +936,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  206 0330 98C9D13F 		.ascii	"\230\311\321?;\207\314\206"
  206      3B87CC86 
  207              		.text
- 208              		.section	.gnu.lto_.symbol_nodes.d9aaaf0b220c68a2,"",%progbits
+ 208              		.section	.gnu.lto_.symbol_nodes.5aa4117299bfe1f6,"",%progbits
  209 0000 789C6362 		.ascii	"x\234cb`bH`\200\002&\206z\006\206\011\347\030\030\352"
  209      60624860 
  209      80022686 
@@ -958,10 +958,10 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  212      91670000 
  212      47E11C1C 
  213              		.text
-ARM GAS  /tmp/ccFIz22l.s 			page 17
+ARM GAS  /tmp/ccATBBUZ.s 			page 17
 
 
- 214              		.section	.gnu.lto_.refs.d9aaaf0b220c68a2,"",%progbits
+ 214              		.section	.gnu.lto_.refs.5aa4117299bfe1f6,"",%progbits
  215 0000 789C6362 		.ascii	"x\234cb`b\340d\200\000F&FfF\026\006f\006\000\001K\000"
  215      6062E064 
  215      80004626 
@@ -969,7 +969,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  215      06660600 
  216 0017 1D       		.ascii	"\035"
  217              		.text
- 218              		.section	.gnu.lto_.decls.d9aaaf0b220c68a2,"",%progbits
+ 218              		.section	.gnu.lto_.decls.5aa4117299bfe1f6,"",%progbits
  219 0000 789C9555 		.ascii	"x\234\225U1L\024A\024\3753\273\334\261p\236PHh\014\033"
  219      314C1441 
  219      14FD33BB 
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  228      7841D8A8 
  228      E216DA0D 
  228      15
-ARM GAS  /tmp/ccFIz22l.s 			page 18
+ARM GAS  /tmp/ccATBBUZ.s 			page 18
 
 
  229 00b7 E3EB2B29 		.ascii	"\343\353+)\336EUg\225\260\031\322\273\022\263W\341\301"
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  240      A5FC
  241 018b 4E21FF31 		.ascii	"N!\3771\353\014\312jF\270\252\374\355\007\0102\371Z"
  241      EB0CCA6A 
-ARM GAS  /tmp/ccFIz22l.s 			page 19
+ARM GAS  /tmp/ccATBBUZ.s 			page 19
 
 
  241      46B8AAFC 
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  252      181CE4
  253 0266 54FC41FE 		.ascii	"T\374A\376\340\335}\377q\260p\375?\022\016}\276\243"
  253      E0DD7DFF 
-ARM GAS  /tmp/ccFIz22l.s 			page 20
+ARM GAS  /tmp/ccATBBUZ.s 			page 20
 
 
  253      71B070FD 
@@ -1185,7 +1185,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  262      0BA0ED6D 
  262      E6
  263              		.text
- 264              		.section	.gnu.lto_.symtab.d9aaaf0b220c68a2,"",%progbits
+ 264              		.section	.gnu.lto_.symtab.5aa4117299bfe1f6,"",%progbits
  265 0000 63726353 		.ascii	"crcSlow\000\000\000\000\000\000\000\000\000\000\000"
  265      6C6F7700 
  265      00000000 
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  266      0000
  267 0024 00000000 		.ascii	"\000\000\000\000\000\000\272\000\000\000crcTable\000"
  267      0000BA00 
-ARM GAS  /tmp/ccFIz22l.s 			page 21
+ARM GAS  /tmp/ccATBBUZ.s 			page 21
 
 
  267      00006372 
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  295 0008 0333     		add	r3, r3, #3
  296 000a 1A70     		strb	r2, [r3]
  297              		.loc 1 59 0
-ARM GAS  /tmp/ccFIz22l.s 			page 22
+ARM GAS  /tmp/ccATBBUZ.s 			page 22
 
 
  298 000c 0023     		mov	r3, #0
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  352 0064 039B     		ldr	r3, [sp, #12]
  353              		.loc 1 80 0
  354 0066 181C     		mov	r0, r3
-ARM GAS  /tmp/ccFIz22l.s 			page 23
+ARM GAS  /tmp/ccATBBUZ.s 			page 23
 
 
  355 0068 04B0     		add	sp, sp, #16
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  409              		.loc 1 115 0
  410 003e 6B46     		mov	r3, sp
  411 0040 0F33     		add	r3, r3, #15
-ARM GAS  /tmp/ccFIz22l.s 			page 24
+ARM GAS  /tmp/ccATBBUZ.s 			page 24
 
 
  412 0042 0822     		mov	r2, #8
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  466              		.loc 1 105 0 is_stmt 0 discriminator 1
  467 0098 049A     		ldr	r2, [sp, #16]
  468 009a 009B     		ldr	r3, [sp]
-ARM GAS  /tmp/ccFIz22l.s 			page 25
+ARM GAS  /tmp/ccATBBUZ.s 			page 25
 
 
  469 009c 9A42     		cmp	r2, r3
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  519 000a 9AB2     		uxth	r2, r3
  520 000c 6B46     		mov	r3, sp
  521 000e 0E33     		add	r3, r3, #14
-ARM GAS  /tmp/ccFIz22l.s 			page 26
+ARM GAS  /tmp/ccATBBUZ.s 			page 26
 
 
  522 0010 1202     		lsl	r2, r2, #8
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  576              		.loc 1 194 0 is_stmt 1
  577 0068 084B     		ldr	r3, .L23+4
  578 006a 029A     		ldr	r2, [sp, #8]
-ARM GAS  /tmp/ccFIz22l.s 			page 27
+ARM GAS  /tmp/ccATBBUZ.s 			page 27
 
 
  579 006c 5200     		lsl	r2, r2, #1
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  633              		.loc 1 224 0 discriminator 2
  634 0016 049B     		ldr	r3, [sp, #16]
  635 0018 019A     		ldr	r2, [sp, #4]
-ARM GAS  /tmp/ccFIz22l.s 			page 28
+ARM GAS  /tmp/ccATBBUZ.s 			page 28
 
 
  636 001a D318     		add	r3, r2, r3
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  690              		.loc 1 233 0
  691 0080 181C     		mov	r0, r3
  692 0082 07B0     		add	sp, sp, #28
-ARM GAS  /tmp/ccFIz22l.s 			page 29
+ARM GAS  /tmp/ccATBBUZ.s 			page 29
 
 
  693              		@ sp needed
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  747 005f FC000000 		.4byte	.LASF1
  748 0063 01       		.byte	0x1
  749 0064 39       		.byte	0x39
-ARM GAS  /tmp/ccFIz22l.s 			page 30
+ARM GAS  /tmp/ccATBBUZ.s 			page 30
 
 
  750 0065 90000000 		.4byte	0x90
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  804 00cb 60       		.sleb128 -32
  805 00cc 06       		.uleb128 0x6
  806 00cd 2B010000 		.4byte	.LASF8
-ARM GAS  /tmp/ccFIz22l.s 			page 31
+ARM GAS  /tmp/ccATBBUZ.s 			page 31
 
 
  807 00d1 01       		.byte	0x1
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  861 0134 78       		.sleb128 -8
  862 0135 07       		.uleb128 0x7
  863 0136 62697400 		.ascii	"bit\000"
-ARM GAS  /tmp/ccFIz22l.s 			page 32
+ARM GAS  /tmp/ccATBBUZ.s 			page 32
 
 
  864 013a 01       		.byte	0x1
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  918 01a0 02       		.uleb128 0x2
  919 01a1 91       		.byte	0x91
  920 01a2 70       		.sleb128 -16
-ARM GAS  /tmp/ccFIz22l.s 			page 33
+ARM GAS  /tmp/ccATBBUZ.s 			page 33
 
 
  921 01a3 00       		.byte	0
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  975 001f 00       		.byte	0
  976 0020 03       		.uleb128 0x3
  977 0021 24       		.uleb128 0x24
-ARM GAS  /tmp/ccFIz22l.s 			page 34
+ARM GAS  /tmp/ccATBBUZ.s 			page 34
 
 
  978 0022 00       		.byte	0
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  1032 0059 3A       		.uleb128 0x3a
  1033 005a 0B       		.uleb128 0xb
  1034 005b 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccFIz22l.s 			page 35
+ARM GAS  /tmp/ccATBBUZ.s 			page 35
 
 
  1035 005c 0B       		.uleb128 0xb
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  1089 0093 49       		.uleb128 0x49
  1090 0094 13       		.uleb128 0x13
  1091 0095 00       		.byte	0
-ARM GAS  /tmp/ccFIz22l.s 			page 36
+ARM GAS  /tmp/ccATBBUZ.s 			page 36
 
 
  1092 0096 00       		.byte	0
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  1146 00cd 00       		.byte	0
  1147 00ce 0E       		.uleb128 0xe
  1148 00cf 34       		.uleb128 0x34
-ARM GAS  /tmp/ccFIz22l.s 			page 37
+ARM GAS  /tmp/ccATBBUZ.s 			page 37
 
 
  1149 00d0 00       		.byte	0
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  1199 0000 63726346 		.ascii	"crcFast\000"
  1199      61737400 
  1200              	.LASF11:
-ARM GAS  /tmp/ccFIz22l.s 			page 38
+ARM GAS  /tmp/ccATBBUZ.s 			page 38
 
 
  1201 0008 63726353 		.ascii	"crcSlow\000"
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  1222 0123 7265666C 		.ascii	"reflect\000"
  1222      65637400 
  1223              	.LASF8:
-ARM GAS  /tmp/ccFIz22l.s 			page 39
+ARM GAS  /tmp/ccATBBUZ.s 			page 39
 
 
  1224 012b 72656D61 		.ascii	"remainder\000"
@@ -2316,27 +2316,27 @@ ARM GAS  /tmp/ccFIz22l.s 			page 1
  1240      61676500 
  1241              		.comm	__gnu_lto_v1,1,1
  1242              		.ident	"GCC: (4.8.4-1+11-1) 4.8.4 20141219 (release)"
-ARM GAS  /tmp/ccFIz22l.s 			page 40
+ARM GAS  /tmp/ccATBBUZ.s 			page 40
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 crc.c
-     /tmp/ccFIz22l.s:280    .text.reflect:0000000000000000 $t
-     /tmp/ccFIz22l.s:285    .text.reflect:0000000000000000 reflect
-     /tmp/ccFIz22l.s:362    .text.crcSlow:0000000000000000 $t
-     /tmp/ccFIz22l.s:368    .text.crcSlow:0000000000000000 crcSlow
-     /tmp/ccFIz22l.s:488    .text.crcSlow:00000000000000b8 $d
-     /tmp/ccFIz22l.s:497    .bss.crcTable:0000000000000000 crcTable
-     /tmp/ccFIz22l.s:494    .bss.crcTable:0000000000000000 $d
-     /tmp/ccFIz22l.s:500    .text.crcInit:0000000000000000 $t
-     /tmp/ccFIz22l.s:506    .text.crcInit:0000000000000000 crcInit
-     /tmp/ccFIz22l.s:600    .text.crcInit:0000000000000088 $d
-     /tmp/ccFIz22l.s:606    .text.crcFast:0000000000000000 $t
-     /tmp/ccFIz22l.s:612    .text.crcFast:0000000000000000 crcFast
-     /tmp/ccFIz22l.s:698    .text.crcFast:0000000000000088 $d
+     /tmp/ccATBBUZ.s:280    .text.reflect:0000000000000000 $t
+     /tmp/ccATBBUZ.s:285    .text.reflect:0000000000000000 reflect
+     /tmp/ccATBBUZ.s:362    .text.crcSlow:0000000000000000 $t
+     /tmp/ccATBBUZ.s:368    .text.crcSlow:0000000000000000 crcSlow
+     /tmp/ccATBBUZ.s:488    .text.crcSlow:00000000000000b8 $d
+     /tmp/ccATBBUZ.s:497    .bss.crcTable:0000000000000000 crcTable
+     /tmp/ccATBBUZ.s:494    .bss.crcTable:0000000000000000 $d
+     /tmp/ccATBBUZ.s:500    .text.crcInit:0000000000000000 $t
+     /tmp/ccATBBUZ.s:506    .text.crcInit:0000000000000000 crcInit
+     /tmp/ccATBBUZ.s:600    .text.crcInit:0000000000000088 $d
+     /tmp/ccATBBUZ.s:606    .text.crcFast:0000000000000000 $t
+     /tmp/ccATBBUZ.s:612    .text.crcFast:0000000000000000 crcFast
+     /tmp/ccATBBUZ.s:698    .text.crcFast:0000000000000088 $d
                             *COM*:0000000000000001 __gnu_lto_v1
                      .debug_frame:0000000000000010 $d
-     /tmp/ccFIz22l.s:493    .text.crcSlow:00000000000000bc $t
-     /tmp/ccFIz22l.s:702    .text.crcFast:000000000000008c $t
+     /tmp/ccATBBUZ.s:493    .text.crcSlow:00000000000000bc $t
+     /tmp/ccATBBUZ.s:702    .text.crcFast:000000000000008c $t
 
 NO UNDEFINED SYMBOLS

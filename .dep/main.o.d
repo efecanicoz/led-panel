@@ -64,6 +64,8 @@ build/obj/main.o: main.c /home/efe/ChibiOS/os/hal/include/hal.h \
  /home/efe/ChibiOS/os/hal/include/can.h \
  /home/efe/ChibiOS/os/hal/include/dac.h \
  /home/efe/ChibiOS/os/hal/include/ext.h \
+ /home/efe/ChibiOS/os/hal/ports/STM32/LLD/EXTIv1/ext_lld.h \
+ /home/efe/ChibiOS/os/hal/ports/STM32/STM32F0xx/ext_lld_isr.h \
  /home/efe/ChibiOS/os/hal/include/gpt.h \
  /home/efe/ChibiOS/os/hal/include/i2c.h \
  /home/efe/ChibiOS/os/hal/include/i2s.h \
@@ -221,6 +223,10 @@ mcuconf.h:
 /home/efe/ChibiOS/os/hal/include/dac.h:
 
 /home/efe/ChibiOS/os/hal/include/ext.h:
+
+/home/efe/ChibiOS/os/hal/ports/STM32/LLD/EXTIv1/ext_lld.h:
+
+/home/efe/ChibiOS/os/hal/ports/STM32/STM32F0xx/ext_lld_isr.h:
 
 /home/efe/ChibiOS/os/hal/include/gpt.h:
 

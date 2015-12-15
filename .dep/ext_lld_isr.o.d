@@ -1,4 +1,5 @@
-build/obj/st.o: /home/efe/ChibiOS/os/hal/src/st.c \
+build/obj/ext_lld_isr.o: \
+ /home/efe/ChibiOS/os/hal/ports/STM32/STM32F0xx/ext_lld_isr.c \
  /home/efe/ChibiOS/os/hal/include/hal.h \
  /home/efe/ChibiOS/os/hal/osal/rt/osal.h \
  /usr/lib/gcc/arm-none-eabi/4.8/include/stddef.h \
@@ -83,7 +84,8 @@ build/obj/st.o: /home/efe/ChibiOS/os/hal/src/st.c \
  /home/efe/ChibiOS/os/hal/include/usb.h \
  /home/efe/ChibiOS/os/hal/include/st.h \
  /home/efe/ChibiOS/os/hal/include/mmc_spi.h \
- /home/efe/ChibiOS/os/hal/include/serial_usb.h
+ /home/efe/ChibiOS/os/hal/include/serial_usb.h \
+ /home/efe/ChibiOS/os/hal/ports/STM32/STM32F0xx/ext_lld_isr.h
 
 /home/efe/ChibiOS/os/hal/include/hal.h:
 
@@ -262,3 +264,5 @@ mcuconf.h:
 /home/efe/ChibiOS/os/hal/include/mmc_spi.h:
 
 /home/efe/ChibiOS/os/hal/include/serial_usb.h:
+
+/home/efe/ChibiOS/os/hal/ports/STM32/STM32F0xx/ext_lld_isr.h:

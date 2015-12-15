@@ -1,4 +1,5 @@
-build/obj/st.o: /home/efe/ChibiOS/os/hal/src/st.c \
+build/obj/ext_lld.o: \
+ /home/efe/ChibiOS/os/hal/ports/STM32/LLD/EXTIv1/ext_lld.c \
  /home/efe/ChibiOS/os/hal/include/hal.h \
  /home/efe/ChibiOS/os/hal/osal/rt/osal.h \
  /usr/lib/gcc/arm-none-eabi/4.8/include/stddef.h \
