@@ -1,0 +1,304 @@
+ARM GAS  /tmp/ccUKi1y6.s 			page 1
+
+
+   1              	# 1 "/home/efe/ChibiOS/os/common/ports/ARMCMx/compilers/GCC/crt0_v6m.s"
+   1              	/*
+   0              	
+   0              	
+   2              	    ChibiOS - Copyright (C) 2006..2015 Giovanni Di Sirio.
+   3              	
+   4              	    This file is part of ChibiOS.
+   5              	
+   6              	    ChibiOS is free software; you can redistribute it and/or modify
+   7              	    it under the terms of the GNU General Public License as published by
+   8              	    the Free Software Foundation; either version 3 of the License, or
+   9              	    (at your option) any later version.
+  10              	
+  11              	    ChibiOS is distributed in the hope that it will be useful,
+  12              	    but WITHOUT ANY WARRANTY; without even the implied warranty of
+  13              	    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  14              	    GNU General Public License for more details.
+  15              	
+  16              	    You should have received a copy of the GNU General Public License
+  17              	    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+  18              	*/
+  19              	
+  20              	/**
+  21              	 * @file    crt0_v6m.s
+  22              	 * @brief   Generic ARMv6-M (Cortex-M0/M1) startup file for ChibiOS.
+  23              	 *
+  24              	 * @addtogroup ARMCMx_GCC_STARTUP_V6M
+  25              	 * @{
+  26              	 */
+  27              	
+  28              	/*===========================================================================*/
+  29              	/* Module constants.                                                         */
+  30              	/*===========================================================================*/
+  31              	
+  32              	#if !defined(FALSE) || defined(__DOXYGEN__)
+  33              	#define FALSE                               0
+  34              	#endif
+  35              	
+  36              	#if !defined(TRUE) || defined(__DOXYGEN__)
+  37              	#define TRUE                                1
+  38              	#endif
+  39              	
+  40              	#define CONTROL_MODE_PRIVILEGED             0
+  41              	#define CONTROL_MODE_UNPRIVILEGED           1
+  42              	#define CONTROL_USE_MSP                     0
+  43              	#define CONTROL_USE_PSP                     2
+  44              	
+  45              	/*===========================================================================*/
+  46              	/* Module pre-compile time settings.                                         */
+  47              	/*===========================================================================*/
+  48              	
+  49              	/**
+  50              	 * @brief   Control special register initialization value.
+  51              	 * @details The system is setup to run in privileged mode using the PSP
+  52              	 *          stack (dual stack mode).
+  53              	 */
+  54              	#if !defined(CRT0_CONTROL_INIT) || defined(__DOXYGEN__)
+ARM GAS  /tmp/ccUKi1y6.s 			page 2
+
+
+  55              	#define CRT0_CONTROL_INIT                   (CONTROL_USE_PSP |              \
+  56              	                                             CONTROL_MODE_PRIVILEGED)
+  57              	#endif
+  58              	
+  59              	/**
+  60              	 * @brief   Core initialization switch.
+  61              	 */
+  62              	#if !defined(CRT0_INIT_CORE) || defined(__DOXYGEN__)
+  63              	#define CRT0_INIT_CORE                      TRUE
+  64              	#endif
+  65              	
+  66              	/**
+  67              	 * @brief   Stack segments initialization switch.
+  68              	 */
+  69              	#if !defined(CRT0_STACKS_FILL_PATTERN) || defined(__DOXYGEN__)
+  70              	#define CRT0_STACKS_FILL_PATTERN            0x55555555
+  71              	#endif
+  72              	
+  73              	/**
+  74              	 * @brief   Stack segments initialization switch.
+  75              	 */
+  76              	#if !defined(CRT0_INIT_STACKS) || defined(__DOXYGEN__)
+  77              	#define CRT0_INIT_STACKS                    TRUE
+  78              	#endif
+  79              	
+  80              	/**
+  81              	 * @brief   DATA segment initialization switch.
+  82              	 */
+  83              	#if !defined(CRT0_INIT_DATA) || defined(__DOXYGEN__)
+  84              	#define CRT0_INIT_DATA                      TRUE
+  85              	#endif
+  86              	
+  87              	/**
+  88              	 * @brief   BSS segment initialization switch.
+  89              	 */
+  90              	#if !defined(CRT0_INIT_BSS) || defined(__DOXYGEN__)
+  91              	#define CRT0_INIT_BSS                       TRUE
+  92              	#endif
+  93              	
+  94              	/**
+  95              	 * @brief   Constructors invocation switch.
+  96              	 */
+  97              	#if !defined(CRT0_CALL_CONSTRUCTORS) || defined(__DOXYGEN__)
+  98              	#define CRT0_CALL_CONSTRUCTORS              TRUE
+  99              	#endif
+ 100              	
+ 101              	/**
+ 102              	 * @brief   Destructors invocation switch.
+ 103              	 */
+ 104              	#if !defined(CRT0_CALL_DESTRUCTORS) || defined(__DOXYGEN__)
+ 105              	#define CRT0_CALL_DESTRUCTORS               TRUE
+ 106              	#endif
+ 107              	
+ 108              	/*===========================================================================*/
+ 109              	/* Code section.                                                             */
+ 110              	/*===========================================================================*/
+ 111              	
+ARM GAS  /tmp/ccUKi1y6.s 			page 3
+
+
+ 112              	#if !defined(__DOXYGEN__)
+ 113              	
+ 114              	                .cpu    cortex-m0
+ 115              	                .fpu    softvfp
+ 116              	
+ 117              	                .thumb
+ 118              	                .text
+ 119              	
+ 120              	/*
+ 121              	 * Reset handler.
+ 122              	 */
+ 123              	                .align  2
+ 124              	                .thumb_func
+ 125              	                .global Reset_Handler
+ 126              	Reset_Handler:
+ 127              	                /* Interrupts are globally masked initially.*/
+ 128 0000 72B6     	                cpsid   i
+ 129              	
+ 130              	                /* PSP stack pointers initialization.*/
+ 131 0002 2148     	                ldr     r0, =__process_stack_end__
+ 132 0004 80F30988 	                msr     PSP, r0
+ 133              	
+ 134              	                /* CPU mode initialization as configured.*/
+ 135 0008 0220     	                movs    r0, #CRT0_CONTROL_INIT
+ 136 000a 80F31488 	                msr     CONTROL, r0
+ 137 000e BFF36F8F 	                isb
+ 138              	
+ 139              	#if CRT0_INIT_CORE == TRUE
+ 140              	                /* Core initialization.*/
+ 141 0012 FFF7FEFF 	                bl      __core_init
+ 142              	#endif
+ 143              	
+ 144              	                /* Early initialization..*/
+ 145 0016 FFF7FEFF 	                bl      __early_init
+ 146              	
+ 147              	#if CRT0_INIT_STACKS == TRUE
+ 148 001a 1C48     	                ldr     r0, =CRT0_STACKS_FILL_PATTERN
+ 149              	                /* Main Stack initialization. Note, it assumes that the
+ 150              	                   stack size is a multiple of 4 so the linker file must
+ 151              	                   ensure this.*/
+ 152 001c 1C49     	                ldr     r1, =__main_stack_base__
+ 153 001e 1D4A     	                ldr     r2, =__main_stack_end__
+ 154              	msloop:
+ 155 0020 9142     	                cmp     r1, r2
+ 156 0022 02DA     	                bge     endmsloop
+ 157 0024 0860     	                str     r0, [r1]
+ 158 0026 0431     	                add     r1, r1, #4
+ 159 0028 FAE7     	                b       msloop
+ 160              	endmsloop:
+ 161              	                /* Process Stack initialization. Note, it assumes that the
+ 162              	                   stack size is a multiple of 4 so the linker file must
+ 163              	                   ensure this.*/
+ 164 002a 1B49     	                ldr     r1, =__process_stack_base__
+ 165 002c 164A     	                ldr     r2, =__process_stack_end__
+ 166              	psloop:
+ 167 002e 9142     	                cmp     r1, r2
+ 168 0030 02DA     	                bge     endpsloop
+ARM GAS  /tmp/ccUKi1y6.s 			page 4
+
+
+ 169 0032 0860     	                str     r0, [r1]
+ 170 0034 0431     	                add     r1, r1, #4
+ 171 0036 FAE7     	                b       psloop
+ 172              	endpsloop:
+ 173              	#endif
+ 174              	
+ 175              	#if CRT0_INIT_DATA == TRUE
+ 176              	                /* Data initialization. Note, it assumes that the DATA size
+ 177              	                  is a multiple of 4 so the linker file must ensure this.*/
+ 178 0038 1849     	                ldr     r1, =_textdata
+ 179 003a 194A     	                ldr     r2, =_data
+ 180 003c 194B     	                ldr     r3, =_edata
+ 181              	dloop:
+ 182 003e 9A42     	                cmp     r2, r3
+ 183 0040 04DA     	                bge     enddloop
+ 184 0042 0868     	                ldr     r0, [r1]
+ 185 0044 1060     	                str     r0, [r2]
+ 186 0046 0431     	                add     r1, r1, #4
+ 187 0048 0432     	                add     r2, r2, #4
+ 188 004a F8E7     	                b       dloop
+ 189              	enddloop:
+ 190              	#endif
+ 191              	
+ 192              	#if CRT0_INIT_BSS == TRUE
+ 193              	                /* BSS initialization. Note, it assumes that the DATA size
+ 194              	                  is a multiple of 4 so the linker file must ensure this.*/
+ 195 004c 0020     	                movs    r0, #0
+ 196 004e 1649     	                ldr     r1, =_bss_start
+ 197 0050 164A     	                ldr     r2, =_bss_end
+ 198              	bloop:
+ 199 0052 9142     	                cmp     r1, r2
+ 200 0054 02DA     	                bge     endbloop
+ 201 0056 0860     	                str     r0, [r1]
+ 202 0058 0431     	                add     r1, r1, #4
+ 203 005a FAE7     	                b       bloop
+ 204              	endbloop:
+ 205              	#endif
+ 206              	
+ 207              	                /* Late initialization..*/
+ 208 005c FFF7FEFF 	                bl      __late_init
+ 209              	
+ 210              	#if CRT0_CALL_CONSTRUCTORS == TRUE
+ 211              	                /* Constructors invocation.*/
+ 212 0060 134C     	                ldr     r4, =__init_array_start
+ 213 0062 144D     	                ldr     r5, =__init_array_end
+ 214              	initloop:
+ 215 0064 AC42     	                cmp     r4, r5
+ 216 0066 03DA     	                bge     endinitloop
+ 217 0068 2168     	                ldr     r1, [r4]
+ 218 006a 8847     	                blx     r1
+ 219 006c 0434     	                add     r4, r4, #4
+ 220 006e F9E7     	                b       initloop
+ 221              	endinitloop:
+ 222              	#endif
+ 223              	
+ 224              	                /* Main program invocation, r0 contains the returned value.*/
+ 225 0070 FFF7FEFF 	                bl      main
+ARM GAS  /tmp/ccUKi1y6.s 			page 5
+
+
+ 226              	
+ 227              	#if CRT0_CALL_DESTRUCTORS == TRUE
+ 228              	                /* Destructors invocation.*/
+ 229 0074 104C     	                ldr     r4, =__fini_array_start
+ 230 0076 114D     	                ldr     r5, =__fini_array_end
+ 231              	finiloop:
+ 232 0078 AC42     	                cmp     r4, r5
+ 233 007a 03DA     	                bge     endfiniloop
+ 234 007c 2168     	                ldr     r1, [r4]
+ 235 007e 8847     	                blx     r1
+ 236 0080 0434     	                add     r4, r4, #4
+ 237 0082 F9E7     	                b       finiloop
+ 238              	endfiniloop:
+ 239              	#endif
+ 240              	
+ 241              	                /* Branching to the defined exit handler.*/
+ 242 0084 0E49     	                ldr     r1, =__default_exit
+ 243 0086 08470000 	                bx      r1
+ 243      00005555 
+ 243      55550000 
+ 243      00000000 
+ 243      00000000 
+ARM GAS  /tmp/ccUKi1y6.s 			page 6
+
+
+DEFINED SYMBOLS
+/home/efe/ChibiOS/os/common/ports/ARMCMx/compilers/GCC/crt0_v6m.s:123    .text:0000000000000000 $t
+/home/efe/ChibiOS/os/common/ports/ARMCMx/compilers/GCC/crt0_v6m.s:126    .text:0000000000000000 Reset_Handler
+/home/efe/ChibiOS/os/common/ports/ARMCMx/compilers/GCC/crt0_v6m.s:154    .text:0000000000000020 msloop
+/home/efe/ChibiOS/os/common/ports/ARMCMx/compilers/GCC/crt0_v6m.s:160    .text:000000000000002a endmsloop
+/home/efe/ChibiOS/os/common/ports/ARMCMx/compilers/GCC/crt0_v6m.s:166    .text:000000000000002e psloop
+/home/efe/ChibiOS/os/common/ports/ARMCMx/compilers/GCC/crt0_v6m.s:172    .text:0000000000000038 endpsloop
+/home/efe/ChibiOS/os/common/ports/ARMCMx/compilers/GCC/crt0_v6m.s:181    .text:000000000000003e dloop
+/home/efe/ChibiOS/os/common/ports/ARMCMx/compilers/GCC/crt0_v6m.s:189    .text:000000000000004c enddloop
+/home/efe/ChibiOS/os/common/ports/ARMCMx/compilers/GCC/crt0_v6m.s:198    .text:0000000000000052 bloop
+/home/efe/ChibiOS/os/common/ports/ARMCMx/compilers/GCC/crt0_v6m.s:204    .text:000000000000005c endbloop
+/home/efe/ChibiOS/os/common/ports/ARMCMx/compilers/GCC/crt0_v6m.s:214    .text:0000000000000064 initloop
+/home/efe/ChibiOS/os/common/ports/ARMCMx/compilers/GCC/crt0_v6m.s:221    .text:0000000000000070 endinitloop
+/home/efe/ChibiOS/os/common/ports/ARMCMx/compilers/GCC/crt0_v6m.s:231    .text:0000000000000078 finiloop
+/home/efe/ChibiOS/os/common/ports/ARMCMx/compilers/GCC/crt0_v6m.s:238    .text:0000000000000084 endfiniloop
+/home/efe/ChibiOS/os/common/ports/ARMCMx/compilers/GCC/crt0_v6m.s:243    .text:0000000000000088 $d
+
+UNDEFINED SYMBOLS
+__process_stack_end__
+__core_init
+__early_init
+__main_stack_base__
+__main_stack_end__
+__process_stack_base__
+_textdata
+_data
+_edata
+_bss_start
+_bss_end
+__late_init
+__init_array_start
+__init_array_end
+main
+__fini_array_start
+__fini_array_end
+__default_exit
