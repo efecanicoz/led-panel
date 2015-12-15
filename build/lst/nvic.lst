@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccg5cMLk.s 			page 1
+ARM GAS  /tmp/cc6B26j7.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -16,7 +16,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
   13              		.file	"nvic.c"
   14              		.text
   15              	.Ltext0:
-  16              		.section	.gnu.lto_.inline.f43389fea77cc9af,"",%progbits
+  16              		.section	.gnu.lto_.inline.d176b4f2c6d955b,"",%progbits
   17 0000 789C6362 		.ascii	"x\234cb`b\300\006|\2414\013\003\203\244\004\003\003"
   17      6062C006 
   17      7CA1340B 
@@ -37,7 +37,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
   20      003E2207 
   20      47
   21              		.text
-  22              		.section	.gnu.lto_nvicEnableVector.f43389fea77cc9af,"",%progbits
+  22              		.section	.gnu.lto_nvicEnableVector.d176b4f2c6d955b,"",%progbits
   23 0000 789CCD55 		.ascii	"x\234\315UMH\024a\030\376\336\231\331]\327\237]]W\335"
   23      4D481461 
   23      18FEDE99 
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
   26      F01845EB 
   27 0047 C12E45B1 		.ascii	"\301.E\261\024\026a4}\3577;_\263\2322\273\321\317\007"
   27      14166134 
-ARM GAS  /tmp/ccg5cMLk.s 			page 2
+ARM GAS  /tmp/cc6B26j7.s 			page 2
 
 
   27      7DEF373B 
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
   38      F7357DFD 
   38      9F29
   39 011c D1FEBF28 		.ascii	"\321\376\277(\361@J\257\032\306\235\347c\257C\260\013"
-ARM GAS  /tmp/ccg5cMLk.s 			page 3
+ARM GAS  /tmp/cc6B26j7.s 			page 3
 
 
   39      F1404AAF 
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
   50      07FFA0BF 
   50      159897C1 
   50      3CFC9E70 
-ARM GAS  /tmp/ccg5cMLk.s 			page 4
+ARM GAS  /tmp/cc6B26j7.s 			page 4
 
 
   50      95
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
   62 02c9 B398B5BA 		.ascii	"\263\230\265\272\220:F\037T\373\342\261^\265\367l\257"
   62      903A461F 
   62      54FBE2B1 
-ARM GAS  /tmp/ccg5cMLk.s 			page 5
+ARM GAS  /tmp/cc6B26j7.s 			page 5
 
 
   62      5EB5F76C 
@@ -258,7 +258,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
   65      008CED58 
   65      99
   66              		.text
-  67              		.section	.gnu.lto_nvicDisableVector.f43389fea77cc9af,"",%progbits
+  67              		.section	.gnu.lto_nvicDisableVector.d176b4f2c6d955b,"",%progbits
   68 0000 789CB553 		.ascii	"x\234\265SMh\023Q\020\236\331\237\374\266\371)^<Y\352"
   68      4D681351 
   68      109ED99F 
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
   75      1B4D86B2 
   75      0817C8C3 
   75      41F9
-ARM GAS  /tmp/ccg5cMLk.s 			page 6
+ARM GAS  /tmp/cc6B26j7.s 			page 6
 
 
   76 0094 52B4EED3 		.ascii	"R\264\356\323\035\232X\377rfE\3144m\373\244\211j NM"
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
   87      30AEE912 
   87      AB7EB7DE 
   87      7898
-ARM GAS  /tmp/ccg5cMLk.s 			page 7
+ARM GAS  /tmp/cc6B26j7.s 			page 7
 
 
   88 016a 96E7E388 		.ascii	"\226\347\343\210\360Ru?\351\364U\206\037p\216zbmy\341"
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
   99      3E1E350A 
   99      E562CEC8 
   99      5DCE
-ARM GAS  /tmp/ccg5cMLk.s 			page 8
+ARM GAS  /tmp/cc6B26j7.s 			page 8
 
 
  100 0240 19A30573 		.ascii	"\031\243\005s\302<}\316(O\031\205\314\025\343jy\362"
@@ -435,7 +435,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  102      0D1FF903 
  102      7C8C7750 
  103              		.text
- 104              		.section	.gnu.lto_nvicSetSystemHandlerPriority.f43389fea77cc9af,"",%progbits
+ 104              		.section	.gnu.lto_nvicSetSystemHandlerPriority.d176b4f2c6d955b,"",%progbits
  105 0000 789CCD95 		.ascii	"x\234\315\225MhSA\020\307g\337G\276\2324m\323$\212\227"
  105      4D685341 
  105      10C767DF 
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  113 0097 0CCEA1C5 		.ascii	"\014\316\241\305z\344\244h\033\223Xa|n\371\324{^\254"
  113      7AE4A468 
  113      1B935861 
-ARM GAS  /tmp/ccg5cMLk.s 			page 9
+ARM GAS  /tmp/cc6B26j7.s 			page 9
 
 
  113      7C6EF9D4 
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  124      7729C5
  125 0173 189D07F8 		.ascii	"\030\235\007\370g\223\267\243\343\"\230\257\315\021"
  125      6793B7A3 
-ARM GAS  /tmp/ccg5cMLk.s 			page 10
+ARM GAS  /tmp/cc6B26j7.s 			page 10
 
 
  125      E32298AF 
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  136      F6B7
  137 024e A6EB605B 		.ascii	"\246\353`[q\200OPX\372\260\317\332\314\036\375\364G"
  137      71804F50 
-ARM GAS  /tmp/ccg5cMLk.s 			page 11
+ARM GAS  /tmp/cc6B26j7.s 			page 11
 
 
  137      58FAB0CF 
@@ -621,7 +621,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  140      C9
  141 0298 34       		.ascii	"4"
  142              		.text
- 143              		.section	.gnu.lto_nvicClearPending.f43389fea77cc9af,"",%progbits
+ 143              		.section	.gnu.lto_nvicClearPending.d176b4f2c6d955b,"",%progbits
  144 0000 789C9552 		.ascii	"x\234\225R;H\003A\020\235\331\273\313i\243\0106V\212"
  144      3B480341 
  144      109DD9BB 
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  150      8B94618F 
  151 0087 98FEDBDD 		.ascii	"\230\376\333\335\227\211\373\347\231[Q\270\366\274q"
  151      9789FBE7 
-ARM GAS  /tmp/ccg5cMLk.s 			page 12
+ARM GAS  /tmp/cc6B26j7.s 			page 12
 
 
  151      995B51B8 
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  162      E7F1
  163 0165 E5388F24 		.ascii	"\3458\217$\355\230==\307\235\014OFW\370\252\263\266"
  163      ED983D3D 
-ARM GAS  /tmp/ccg5cMLk.s 			page 13
+ARM GAS  /tmp/cc6B26j7.s 			page 13
 
 
  163      C79D0C4F 
@@ -733,7 +733,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  165      83DFB4CB 
  165      A414
  166              		.text
- 167              		.section	.gnu.lto_.symbol_nodes.f43389fea77cc9af,"",%progbits
+ 167              		.section	.gnu.lto_.symbol_nodes.d176b4f2c6d955b,"",%progbits
  168 0000 789C6362 		.ascii	"x\234cb`b\260c\200\002\246\251\214\365\014\014\023\316"
  168      6062B063 
  168      8002A6A9 
@@ -749,13 +749,13 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  170      3200005F 
  170      F21397
  171              		.text
- 172              		.section	.gnu.lto_.refs.f43389fea77cc9af,"",%progbits
+ 172              		.section	.gnu.lto_.refs.d176b4f2c6d955b,"",%progbits
  173 0000 789C6362 		.ascii	"x\234cb`b`d\200\002\000\000F\000\006"
  173      60626064 
  173      80020000 
  173      460006
  174              		.text
- 175              		.section	.gnu.lto_.decls.f43389fea77cc9af,"",%progbits
+ 175              		.section	.gnu.lto_.decls.d176b4f2c6d955b,"",%progbits
  176 0000 789CAD58 		.ascii	"x\234\255Xml\024E\030\236\331\273\266w\245\326B\"\251"
  176      6D6C1445 
  176      189ED9BB 
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  180      D2604B08 
  180      1F179040 
  180      0244825F 
-ARM GAS  /tmp/ccg5cMLk.s 			page 14
+ARM GAS  /tmp/cc6B26j7.s 			page 14
 
 
  180      3150CE
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  192 012c 02627750 		.ascii	"\002bwP\272UJ\254\037\003bVYKP/\245\331\334\245\003"
  192      BA554AAC 
  192      1F036256 
-ARM GAS  /tmp/ccg5cMLk.s 			page 15
+ARM GAS  /tmp/cc6B26j7.s 			page 15
 
 
  192      594B502F 
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  203      68AA
  204 0208 663435DF 		.ascii	"f45\33705\263\244\331\250\0312\2539l\251\346\310\250"
  204      3035B3A4 
-ARM GAS  /tmp/ccg5cMLk.s 			page 16
+ARM GAS  /tmp/cc6B26j7.s 			page 16
 
 
  204      D9A81932 
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  216 02dd C35A29F0 		.ascii	"\303Z)\360\031\326\300\231\251\212,!\370\004p\343\320"
  216      19D6C099 
  216      A98A2C21 
-ARM GAS  /tmp/ccg5cMLk.s 			page 17
+ARM GAS  /tmp/cc6B26j7.s 			page 17
 
 
  216      F80470E3 
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  228 03b0 D7AC279A 		.ascii	"\327\254'\232\021C\"p\303|\240\355\237f\007\332\215"
  228      11432270 
  228      C37CA0ED 
-ARM GAS  /tmp/ccg5cMLk.s 			page 18
+ARM GAS  /tmp/cc6B26j7.s 			page 18
 
 
  228      9F6607DA 
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  239      DB
  240 0481 D3A8874E 		.ascii	"\323\250\207NL\344:\177\337\213w\344\340\025\375~>\257"
  240      4CE43A7F 
-ARM GAS  /tmp/ccg5cMLk.s 			page 19
+ARM GAS  /tmp/cc6B26j7.s 			page 19
 
 
  240      DF8B77E4 
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  251      2F5845B7 
  251      92483496 
  251      10F8708B 
-ARM GAS  /tmp/ccg5cMLk.s 			page 20
+ARM GAS  /tmp/cc6B26j7.s 			page 20
 
 
  251      B091
@@ -1198,10 +1198,10 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  263      FF00991D 
  263      DA22
  264              		.text
-ARM GAS  /tmp/ccg5cMLk.s 			page 21
+ARM GAS  /tmp/cc6B26j7.s 			page 21
 
 
- 265              		.section	.gnu.lto_.symtab.f43389fea77cc9af,"",%progbits
+ 265              		.section	.gnu.lto_.symtab.d176b4f2c6d955b,"",%progbits
  266 0000 6E766963 		.ascii	"nvicEnableVector\000\000\000\000\000\000\000\000\000"
  266      456E6162 
  266      6C655665 
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  279              		.text
  280              		.cfi_sections	.debug_frame
  281              		.section	.text.nvicEnableVector,"ax",%progbits
-ARM GAS  /tmp/ccg5cMLk.s 			page 22
+ARM GAS  /tmp/cc6B26j7.s 			page 22
 
 
  282              		.align	2
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  336 0046 D150     		str	r1, [r2, r3]
  337              		.loc 1 65 0
  338 0048 0D4B     		ldr	r3, .L2
-ARM GAS  /tmp/ccg5cMLk.s 			page 23
+ARM GAS  /tmp/cc6B26j7.s 			page 23
 
 
  339 004a 019A     		ldr	r2, [sp, #4]
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  391 0002 83B0     		sub	sp, sp, #12
  392              		.cfi_def_cfa_offset 24
  393 0004 0190     		str	r0, [sp, #4]
-ARM GAS  /tmp/ccg5cMLk.s 			page 24
+ARM GAS  /tmp/cc6B26j7.s 			page 24
 
 
  394              		.loc 1 76 0
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  446              		.code	16
  447              		.thumb_func
  448              		.type	nvicSetSystemHandlerPriority, %function
-ARM GAS  /tmp/ccg5cMLk.s 			page 25
+ARM GAS  /tmp/cc6B26j7.s 			page 25
 
 
  449              	nvicSetSystemHandlerPriority:
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  503 0054 CB18     		add	r3, r1, r3
  504 0056 5A60     		str	r2, [r3, #4]
  505              		.loc 1 102 0
-ARM GAS  /tmp/ccg5cMLk.s 			page 26
+ARM GAS  /tmp/cc6B26j7.s 			page 26
 
 
  506 0058 03B0     		add	sp, sp, #12
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  559      C046C046 
  560              	.Letext0:
  561              		.file 2 "/usr/include/newlib/machine/_default_types.h"
-ARM GAS  /tmp/ccg5cMLk.s 			page 27
+ARM GAS  /tmp/cc6B26j7.s 			page 27
 
 
  562              		.file 3 "/usr/include/newlib/stdint.h"
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  616 005c 07       		.byte	0x7
  617 005d 25050000 		.4byte	.LASF6
  618 0061 04       		.uleb128 0x4
-ARM GAS  /tmp/ccg5cMLk.s 			page 28
+ARM GAS  /tmp/cc6B26j7.s 			page 28
 
 
  619 0062 7C000000 		.4byte	.LASF7
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  673 00d1 8C000000 		.4byte	0x8c
  674 00d5 04       		.uleb128 0x4
  675 00d6 97030000 		.4byte	.LASF19
-ARM GAS  /tmp/ccg5cMLk.s 			page 29
+ARM GAS  /tmp/cc6B26j7.s 			page 29
 
 
  676 00da 04       		.byte	0x4
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  730 014c C7       		.byte	0xc7
  731 014d EB000000 		.4byte	0xeb
  732 0151 08       		.byte	0x8
-ARM GAS  /tmp/ccg5cMLk.s 			page 30
+ARM GAS  /tmp/cc6B26j7.s 			page 30
 
 
  733 0152 06       		.uleb128 0x6
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  787 01c1 08       		.uleb128 0x8
  788 01c2 C4030000 		.4byte	.LASF37
  789 01c6 06       		.byte	0x6
-ARM GAS  /tmp/ccg5cMLk.s 			page 31
+ARM GAS  /tmp/cc6B26j7.s 			page 31
 
 
  790 01c7 5101     		.2byte	0x151
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  844 0234 04       		.uleb128 0x4
  845 0235 A0040000 		.4byte	.LASF44
  846 0239 05       		.byte	0x5
-ARM GAS  /tmp/ccg5cMLk.s 			page 32
+ARM GAS  /tmp/cc6B26j7.s 			page 32
 
 
  847 023a 57       		.byte	0x57
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  901 02ad B7020000 		.4byte	0x2b7
  902 02b1 0C       		.uleb128 0xc
  903 02b2 B7020000 		.4byte	0x2b7
-ARM GAS  /tmp/ccg5cMLk.s 			page 33
+ARM GAS  /tmp/cc6B26j7.s 			page 33
 
 
  904 02b6 00       		.byte	0
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  958 0325 7B01     		.2byte	0x17b
  959 0327 60030000 		.4byte	0x360
  960 032b 08       		.uleb128 0x8
-ARM GAS  /tmp/ccg5cMLk.s 			page 34
+ARM GAS  /tmp/cc6B26j7.s 			page 34
 
 
  961 032c F1040000 		.4byte	.LASF55
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  1015 03a0 56040000 		.4byte	.LASF68
  1016 03a4 06       		.byte	0x6
  1017 03a5 C601     		.2byte	0x1c6
-ARM GAS  /tmp/ccg5cMLk.s 			page 35
+ARM GAS  /tmp/cc6B26j7.s 			page 35
 
 
  1018 03a7 34020000 		.4byte	0x234
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  1072 041a 8F040000 		.4byte	0x48f
  1073 041e 84       		.byte	0x84
  1074 041f 10       		.uleb128 0x10
-ARM GAS  /tmp/ccg5cMLk.s 			page 36
+ARM GAS  /tmp/cc6B26j7.s 			page 36
 
 
  1075 0420 49050000 		.4byte	.LASF76
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  1129 049d 1E       		.byte	0x1e
  1130 049e 00       		.byte	0
  1131 049f 14       		.uleb128 0x14
-ARM GAS  /tmp/ccg5cMLk.s 			page 37
+ARM GAS  /tmp/cc6B26j7.s 			page 37
 
 
  1132 04a0 73040000 		.4byte	0x473
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  1186 051b 0C       		.byte	0xc
  1187 051c 07       		.uleb128 0x7
  1188 051d 53435200 		.ascii	"SCR\000"
-ARM GAS  /tmp/ccg5cMLk.s 			page 38
+ARM GAS  /tmp/cc6B26j7.s 			page 38
 
 
  1189 0521 07       		.byte	0x7
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  1243 0599 08       		.byte	0x8
  1244 059a 6D       		.byte	0x6d
  1245 059b CA000000 		.4byte	0xca
-ARM GAS  /tmp/ccg5cMLk.s 			page 39
+ARM GAS  /tmp/cc6B26j7.s 			page 39
 
 
  1246 059f 05       		.uleb128 0x5
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  1300 0607 14       		.byte	0x14
  1301 0608 18       		.uleb128 0x18
  1302 0609 723600   		.ascii	"r6\000"
-ARM GAS  /tmp/ccg5cMLk.s 			page 40
+ARM GAS  /tmp/cc6B26j7.s 			page 40
 
 
  1303 060c 09       		.byte	0x9
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  1357 067c E3060000 		.4byte	0x6e3
  1358 0680 00       		.byte	0
  1359 0681 09       		.uleb128 0x9
-ARM GAS  /tmp/ccg5cMLk.s 			page 41
+ARM GAS  /tmp/cc6B26j7.s 			page 41
 
 
  1360 0682 04       		.byte	0x4
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  1414 06eb EF060000 		.4byte	0x6ef
  1415 06ef 17       		.uleb128 0x17
  1416 06f0 F4060000 		.4byte	0x6f4
-ARM GAS  /tmp/ccg5cMLk.s 			page 42
+ARM GAS  /tmp/cc6B26j7.s 			page 42
 
 
  1417 06f4 03       		.uleb128 0x3
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  1471 075e 1B       		.uleb128 0x1b
  1472 075f B9000000 		.4byte	.LASF111
  1473 0763 01       		.byte	0x1
-ARM GAS  /tmp/ccg5cMLk.s 			page 43
+ARM GAS  /tmp/cc6B26j7.s 			page 43
 
 
  1474 0764 4A       		.byte	0x4a
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  1528 07d1 F1010000 		.4byte	.LASF114
  1529 07d5 01       		.byte	0x1
  1530 07d6 6D       		.byte	0x6d
-ARM GAS  /tmp/ccg5cMLk.s 			page 44
+ARM GAS  /tmp/cc6B26j7.s 			page 44
 
 
  1531 07d7 00000000 		.4byte	.LFB152
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  1585 0020 0B       		.uleb128 0xb
  1586 0021 3E       		.uleb128 0x3e
  1587 0022 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccg5cMLk.s 			page 45
+ARM GAS  /tmp/cc6B26j7.s 			page 45
 
 
  1588 0023 03       		.uleb128 0x3
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  1642 0059 3B       		.uleb128 0x3b
  1643 005a 05       		.uleb128 0x5
  1644 005b 49       		.uleb128 0x49
-ARM GAS  /tmp/ccg5cMLk.s 			page 46
+ARM GAS  /tmp/cc6B26j7.s 			page 46
 
 
  1645 005c 13       		.uleb128 0x13
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  1699 0092 05       		.uleb128 0x5
  1700 0093 00       		.byte	0
  1701 0094 49       		.uleb128 0x49
-ARM GAS  /tmp/ccg5cMLk.s 			page 47
+ARM GAS  /tmp/cc6B26j7.s 			page 47
 
 
  1702 0095 13       		.uleb128 0x13
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  1756 00cb 0D       		.uleb128 0xd
  1757 00cc 00       		.byte	0
  1758 00cd 03       		.uleb128 0x3
-ARM GAS  /tmp/ccg5cMLk.s 			page 48
+ARM GAS  /tmp/cc6B26j7.s 			page 48
 
 
  1759 00ce 08       		.uleb128 0x8
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  1813 0104 3A       		.uleb128 0x3a
  1814 0105 0B       		.uleb128 0xb
  1815 0106 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccg5cMLk.s 			page 49
+ARM GAS  /tmp/cc6B26j7.s 			page 49
 
 
  1816 0107 05       		.uleb128 0x5
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  1870 013d 2E       		.uleb128 0x2e
  1871 013e 01       		.byte	0x1
  1872 013f 3F       		.uleb128 0x3f
-ARM GAS  /tmp/ccg5cMLk.s 			page 50
+ARM GAS  /tmp/cc6B26j7.s 			page 50
 
 
  1873 0140 19       		.uleb128 0x19
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  1927 0177 03       		.uleb128 0x3
  1928 0178 0E       		.uleb128 0xe
  1929 0179 49       		.uleb128 0x49
-ARM GAS  /tmp/ccg5cMLk.s 			page 51
+ARM GAS  /tmp/cc6B26j7.s 			page 51
 
 
  1930 017a 13       		.uleb128 0x13
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  1984              	.Ldebug_line0:
  1985 0000 F9010000 		.section	.debug_str,"MS",%progbits,1
  1985      0200A201 
-ARM GAS  /tmp/ccg5cMLk.s 			page 52
+ARM GAS  /tmp/cc6B26j7.s 			page 52
 
 
  1985      00000201 
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  2012              	.LASF95:
  2013 0086 77746F62 		.ascii	"wtobjp\000"
  2013      6A7000
-ARM GAS  /tmp/ccg5cMLk.s 			page 53
+ARM GAS  /tmp/cc6B26j7.s 			page 53
 
 
  2014              	.LASF113:
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  2041 0117 63685F73 		.ascii	"ch_semaphore\000"
  2041      656D6170 
  2041      686F7265 
-ARM GAS  /tmp/ccg5cMLk.s 			page 54
+ARM GAS  /tmp/cc6B26j7.s 			page 54
 
 
  2041      00
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  2068 01d7 5F426F6F 		.ascii	"_Bool\000"
  2068      6C00
  2069              	.LASF102:
-ARM GAS  /tmp/ccg5cMLk.s 			page 55
+ARM GAS  /tmp/cc6B26j7.s 			page 55
 
 
  2070 01dd 63685F6D 		.ascii	"ch_mutex\000"
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  2098 0267 63685F74 		.ascii	"ch_thread\000"
  2098      68726561 
  2098      6400
-ARM GAS  /tmp/ccg5cMLk.s 			page 56
+ARM GAS  /tmp/cc6B26j7.s 			page 56
 
 
  2099              	.LASF63:
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  2122              	.LASF50:
  2123 0380 725F6F6C 		.ascii	"r_older\000"
  2123      64657200 
-ARM GAS  /tmp/ccg5cMLk.s 			page 57
+ARM GAS  /tmp/cc6B26j7.s 			page 57
 
 
  2124              	.LASF78:
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  2151 040f 725F6375 		.ascii	"r_current\000"
  2151      7272656E 
  2151      7400
-ARM GAS  /tmp/ccg5cMLk.s 			page 58
+ARM GAS  /tmp/cc6B26j7.s 			page 58
 
 
  2152              	.LASF103:
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  2181      6420696E 
  2181      7400
  2182              	.LASF44:
-ARM GAS  /tmp/ccg5cMLk.s 			page 59
+ARM GAS  /tmp/cc6B26j7.s 			page 59
 
 
  2183 04a0 72656164 		.ascii	"ready_list_t\000"
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  2210              	.LASF48:
  2211 0538 725F6374 		.ascii	"r_ctx\000"
  2211      7800
-ARM GAS  /tmp/ccg5cMLk.s 			page 60
+ARM GAS  /tmp/cc6B26j7.s 			page 60
 
 
  2212              	.LASF90:
@@ -3570,27 +3570,27 @@ ARM GAS  /tmp/ccg5cMLk.s 			page 1
  2225      646C6572 
  2226              		.comm	__gnu_lto_v1,1,1
  2227              		.ident	"GCC: (4.8.4-1+11-1) 4.8.4 20141219 (release)"
-ARM GAS  /tmp/ccg5cMLk.s 			page 61
+ARM GAS  /tmp/cc6B26j7.s 			page 61
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 nvic.c
-     /tmp/ccg5cMLk.s:282    .text.nvicEnableVector:0000000000000000 $t
-     /tmp/ccg5cMLk.s:288    .text.nvicEnableVector:0000000000000000 nvicEnableVector
-     /tmp/ccg5cMLk.s:371    .text.nvicEnableVector:0000000000000080 $d
-     /tmp/ccg5cMLk.s:376    .text.nvicDisableVector:0000000000000000 $t
-     /tmp/ccg5cMLk.s:382    .text.nvicDisableVector:0000000000000000 nvicDisableVector
-     /tmp/ccg5cMLk.s:438    .text.nvicDisableVector:0000000000000050 $d
-     /tmp/ccg5cMLk.s:443    .text.nvicSetSystemHandlerPriority:0000000000000000 $t
-     /tmp/ccg5cMLk.s:449    .text.nvicSetSystemHandlerPriority:0000000000000000 nvicSetSystemHandlerPriority
-     /tmp/ccg5cMLk.s:512    .text.nvicSetSystemHandlerPriority:000000000000005c $d
-     /tmp/ccg5cMLk.s:517    .text.nvicClearPending:0000000000000000 $t
-     /tmp/ccg5cMLk.s:523    .text.nvicClearPending:0000000000000000 nvicClearPending
-     /tmp/ccg5cMLk.s:555    .text.nvicClearPending:0000000000000024 $d
+     /tmp/cc6B26j7.s:282    .text.nvicEnableVector:0000000000000000 $t
+     /tmp/cc6B26j7.s:288    .text.nvicEnableVector:0000000000000000 nvicEnableVector
+     /tmp/cc6B26j7.s:371    .text.nvicEnableVector:0000000000000080 $d
+     /tmp/cc6B26j7.s:376    .text.nvicDisableVector:0000000000000000 $t
+     /tmp/cc6B26j7.s:382    .text.nvicDisableVector:0000000000000000 nvicDisableVector
+     /tmp/cc6B26j7.s:438    .text.nvicDisableVector:0000000000000050 $d
+     /tmp/cc6B26j7.s:443    .text.nvicSetSystemHandlerPriority:0000000000000000 $t
+     /tmp/cc6B26j7.s:449    .text.nvicSetSystemHandlerPriority:0000000000000000 nvicSetSystemHandlerPriority
+     /tmp/cc6B26j7.s:512    .text.nvicSetSystemHandlerPriority:000000000000005c $d
+     /tmp/cc6B26j7.s:517    .text.nvicClearPending:0000000000000000 $t
+     /tmp/cc6B26j7.s:523    .text.nvicClearPending:0000000000000000 nvicClearPending
+     /tmp/cc6B26j7.s:555    .text.nvicClearPending:0000000000000024 $d
                             *COM*:0000000000000001 __gnu_lto_v1
                      .debug_frame:0000000000000010 $d
-     /tmp/ccg5cMLk.s:375    .text.nvicEnableVector:0000000000000084 $t
-     /tmp/ccg5cMLk.s:442    .text.nvicDisableVector:0000000000000054 $t
-     /tmp/ccg5cMLk.s:559    .text.nvicClearPending:0000000000000028 $t
+     /tmp/cc6B26j7.s:375    .text.nvicEnableVector:0000000000000084 $t
+     /tmp/cc6B26j7.s:442    .text.nvicDisableVector:0000000000000054 $t
+     /tmp/cc6B26j7.s:559    .text.nvicClearPending:0000000000000028 $t
 
 NO UNDEFINED SYMBOLS

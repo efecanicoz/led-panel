@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccxPVVR0.s 			page 1
+ARM GAS  /tmp/ccM4pwwM.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -16,7 +16,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
   13              		.file	"st.c"
   14              		.text
   15              	.Ltext0:
-  16              		.section	.gnu.lto_.inline.a95f4231573c9126,"",%progbits
+  16              		.section	.gnu.lto_.inline.b7e33e2b66cd1952,"",%progbits
   17 0000 789C6362 		.ascii	"x\234cb`b\300\006\366BiN\006\0066V\006\006&\216\011"
   17      6062C006 
   17      F642694E 
@@ -40,7 +40,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
   21      6106006D 
   21      4E09FB
   22              		.text
-  23              		.section	.gnu.lto_st_lld_start_alarm.a95f4231573c9126,"",%progbits
+  23              		.section	.gnu.lto_st_lld_start_alarm.b7e33e2b66cd1952,"",%progbits
   24 0000 789C6362 		.ascii	"x\234cb`b@\007\"@\\\016\024\266\002q\230\031\030\201"
   24      60624007 
   24      22405C0E 
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
   26      FF8C
   27 003c 8C9920C9 		.ascii	"\214\231 \311dF\206\010 \213Q\001L1\261\240\232\017"
   27      64468608 
-ARM GAS  /tmp/ccxPVVR0.s 			page 2
+ARM GAS  /tmp/ccM4pwwM.s 			page 2
 
 
   27      208B5101 
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
   38      0B0B9A
   39 0113 130EED80 		.ascii	"\023\016\355\200\331\206\260\202\005n\005\013\262\025"
   39      D986B082 
-ARM GAS  /tmp/ccxPVVR0.s 			page 3
+ARM GAS  /tmp/ccM4pwwM.s 			page 3
 
 
   39      056E050B 
@@ -150,7 +150,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
   45 017e 60000093 		.ascii	"`\000\000\223t\240o"
   45      74A06F
   46              		.text
-  47              		.section	.gnu.lto_st_lld_stop_alarm.a95f4231573c9126,"",%progbits
+  47              		.section	.gnu.lto_st_lld_stop_alarm.b7e33e2b66cd1952,"",%progbits
   48 0000 789C6362 		.ascii	"x\234cb`b@\007\"@\374\034\210\255@\034f\006F\240\012"
   48      60624007 
   48      2240FC1C 
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
   53 005a A3101323 		.ascii	"\243\020\023#\003X\013\003+CKC\303\004\005\260f \010"
   53      03580B03 
   53      2B434B43 
-ARM GAS  /tmp/ccxPVVR0.s 			page 4
+ARM GAS  /tmp/ccM4pwwM.s 			page 4
 
 
   53      C30405B0 
@@ -222,7 +222,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
   62 00f9 0C0032B4 		.ascii	"\014\0002\264I\253"
   62      49AB
   63              		.text
-  64              		.section	.gnu.lto_st_lld_set_alarm.a95f4231573c9126,"",%progbits
+  64              		.section	.gnu.lto_st_lld_set_alarm.b7e33e2b66cd1952,"",%progbits
   65 0000 789C6362 		.ascii	"x\234cb`b@\007\"@\354\317\310\300`\005\342030\002U0"
   65      60624007 
   65      2240ECCF 
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
   67      9371E694 
   67      032D0B
   68 0038 1AFEFCFF 		.ascii	"\032\376\374\377\317\310\230\011\222Lfd\210\000\262"
-ARM GAS  /tmp/ccxPVVR0.s 			page 5
+ARM GAS  /tmp/ccM4pwwM.s 			page 5
 
 
   68      CFC89809 
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
   79      47BF20BF 
   80 0119 D848DFC7 		.ascii	"\330H\337\307\307E?\304\323\267\314P\277\270$>''E/\203"
   80      C7453FC4 
-ARM GAS  /tmp/ccxPVVR0.s 			page 6
+ARM GAS  /tmp/ccM4pwwM.s 			page 6
 
 
   80      D3B7CC50 
@@ -307,7 +307,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
   81 012e 0100B48E 		.ascii	"\001\000\264\216_v"
   81      5F76
   82              		.text
-  83              		.section	.gnu.lto_st_lld_get_alarm.a95f4231573c9126,"",%progbits
+  83              		.section	.gnu.lto_st_lld_get_alarm.b7e33e2b66cd1952,"",%progbits
   84 0000 789C6362 		.ascii	"x\234cb`b@\007\322@<\211\221\201\301\012\304aa`\004"
   84      60624007 
   84      D2403C89 
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
   93      E6868E86 
   93      06901D67 
   94 00bd 0EDDB920 		.ascii	"\016\335\271 \014\223c\322eX\323\320\002\224g\325fX"
-ARM GAS  /tmp/ccxPVVR0.s 			page 7
+ARM GAS  /tmp/ccM4pwwM.s 			page 7
 
 
   94      0C9363D2 
@@ -401,7 +401,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  102 014a 00776168 		.ascii	"\000wahm"
  102      6D
  103              		.text
- 104              		.section	.gnu.lto_stInit.a95f4231573c9126,"",%progbits
+ 104              		.section	.gnu.lto_stInit.b7e33e2b66cd1952,"",%progbits
  105 0000 789C6362 		.ascii	"x\234cb`b@\007\"@\\\014\304* \0163\003#P\005#\023##"
  105      60624007 
  105      22405C0C 
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  108 0037 30418181 		.ascii	"0A\201\201!\031,\037\002&CA\272\231\31734?\370g\223"
  108      21192C1F 
  108      02264341 
-ARM GAS  /tmp/ccxPVVR0.s 			page 8
+ARM GAS  /tmp/ccM4pwwM.s 			page 8
 
 
  108      BA99CF33 
@@ -444,7 +444,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  112      4B660000 
  113 0096 295B2654 		.ascii	")[&T"
  114              		.text
- 115              		.section	.gnu.lto_stStartAlarm.a95f4231573c9126,"",%progbits
+ 115              		.section	.gnu.lto_stStartAlarm.b7e33e2b66cd1952,"",%progbits
  116 0000 789C6362 		.ascii	"x\234cb`b@\007\322@|\000\210U@\034\026\006F\240\012"
  116      60624007 
  116      D2407C00 
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  122      A1207730 
  122      9F67
  123 0080 6879B072 		.ascii	"hy\260r1w\"\343\"FV\240T5\303\257\206\216\006\201LF"
-ARM GAS  /tmp/ccxPVVR0.s 			page 9
+ARM GAS  /tmp/ccM4pwwM.s 			page 9
 
 
  123      317722E3 
@@ -503,7 +503,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  127      00933836 
  127      F2
  128              		.text
- 129              		.section	.gnu.lto_stStopAlarm.a95f4231573c9126,"",%progbits
+ 129              		.section	.gnu.lto_stStopAlarm.b7e33e2b66cd1952,"",%progbits
  130 0000 789C6362 		.ascii	"x\234cb`b@\007\"@\\\006\304* \0163\003#P\005#\023##"
  130      60624007 
  130      22405C06 
@@ -538,14 +538,14 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  136      3F352D55 
  136      DF392333 
  136      29D33F58 
-ARM GAS  /tmp/ccxPVVR0.s 			page 10
+ARM GAS  /tmp/ccM4pwwM.s 			page 10
 
 
  137 0095 442F9901 		.ascii	"D/\231\001\000\240\260&\344"
  137      00A0B026 
  137      E4
  138              		.text
- 139              		.section	.gnu.lto_stSetAlarm.a95f4231573c9126,"",%progbits
+ 139              		.section	.gnu.lto_stSetAlarm.b7e33e2b66cd1952,"",%progbits
  140 0000 789C6362 		.ascii	"x\234cb`b@\007\322@\374\005\210U@\034\026\006F\240\012"
  140      60624007 
  140      D240FC05 
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  150      D48042
  151 00c1 4A493F23 		.ascii	"JI?#?7U?5-U\3379#3)\323?X?\277X?#1G\277\270(Y\277\270"
  151      3F37553F 
-ARM GAS  /tmp/ccxPVVR0.s 			page 11
+ARM GAS  /tmp/ccM4pwwM.s 			page 11
 
 
  151      352D55DF 
@@ -608,7 +608,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  152      0064C342 
  152      FE
  153              		.text
- 154              		.section	.gnu.lto_stGetAlarm.a95f4231573c9126,"",%progbits
+ 154              		.section	.gnu.lto_stGetAlarm.b7e33e2b66cd1952,"",%progbits
  155 0000 789C8D50 		.ascii	"x\234\215P=K\003A\020\235\267{\201\220*V\266rX\273\265"
  155      3D4B0341 
  155      109DB77B 
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  164      E6D1523A 
  164      9F2B
  165 00b9 D69B7BE9 		.ascii	"\326\233{\351\240\373\236\243\337\350\244\230E\003<"
-ARM GAS  /tmp/ccxPVVR0.s 			page 12
+ARM GAS  /tmp/ccM4pwwM.s 			page 12
 
 
  165      A0FB9EA3 
@@ -684,7 +684,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  169      443F78D7 
  169      4EF0
  170              		.text
- 171              		.section	.gnu.lto_.symbol_nodes.a95f4231573c9126,"",%progbits
+ 171              		.section	.gnu.lto_.symbol_nodes.b7e33e2b66cd1952,"",%progbits
  172 0000 789C4DC7 		.ascii	"x\234M\307\271\015\203P\024D\321\231\367Y\253\001\334"
  172      B90D8350 
  172      1444D199 
@@ -715,16 +715,16 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  177      F1032830 
  177      3B5A
  178              		.text
- 179              		.section	.gnu.lto_.refs.a95f4231573c9126,"",%progbits
+ 179              		.section	.gnu.lto_.refs.b7e33e2b66cd1952,"",%progbits
  180 0000 789C6362 		.ascii	"x\234cb`b`d\200\002\000\000F\000\006"
  180      60626064 
-ARM GAS  /tmp/ccxPVVR0.s 			page 13
+ARM GAS  /tmp/ccM4pwwM.s 			page 13
 
 
  180      80020000 
  180      460006
  181              		.text
- 182              		.section	.gnu.lto_.decls.a95f4231573c9126,"",%progbits
+ 182              		.section	.gnu.lto_.decls.b7e33e2b66cd1952,"",%progbits
  183 0000 789CB558 		.ascii	"x\234\265X}l\024E\024\237\331;\332\353\007\245\324h"
  183      7D6C1445 
  183      149FD93B 
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  194 00bc 58FAF743 		.ascii	"X\372\367C\001\223\362\230#`\216s,l\212\357\261\341"
  194      0193F298 
  194      23608E73 
-ARM GAS  /tmp/ccxPVVR0.s 			page 14
+ARM GAS  /tmp/ccM4pwwM.s 			page 14
 
 
  194      2C6C8AEF 
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  205      7814
  206 0194 A3A5E804 		.ascii	"\243\245\350\004\314\331L\310\367O\010$Qf\320\327\367"
  206      CCD94CC8 
-ARM GAS  /tmp/ccxPVVR0.s 			page 15
+ARM GAS  /tmp/ccM4pwwM.s 			page 15
 
 
  206      F74F0824 
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  217      C81C9DAD 
  217      8C7B1DF2 
  217      E1781F
-ARM GAS  /tmp/ccxPVVR0.s 			page 16
+ARM GAS  /tmp/ccM4pwwM.s 			page 16
 
 
  218 0279 CF24DAA1 		.ascii	"\317$\332\241&\017\035\354\3172\266\013\276b\022\032"
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  229      8112F5E0 
  229      643EF16A 
  229      E3C886
-ARM GAS  /tmp/ccxPVVR0.s 			page 17
+ARM GAS  /tmp/ccM4pwwM.s 			page 17
 
 
  230 034c 39BFEE41 		.ascii	"9\277\356A\035\244i\227\3322I\237\376\013\230\275\237"
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  241 0416 802D7166 		.ascii	"\200-qf\326k\006\353\314\030\314\312\354c3\330q7`\017"
  241      D66B06EB 
  241      CC18CCCA 
-ARM GAS  /tmp/ccxPVVR0.s 			page 18
+ARM GAS  /tmp/ccM4pwwM.s 			page 18
 
 
  241      EC6333D8 
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  252      9AE91B4C 
  252      FFC3
  253 04f4 3491A86E 		.ascii	"4\221\250nd\272\211\351=L\357\003\235\276\234\0125\212"
-ARM GAS  /tmp/ccxPVVR0.s 			page 19
+ARM GAS  /tmp/ccM4pwwM.s 			page 19
 
 
  253      64BA89E9 
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  264      EB0BA4
  265 05c4 260689AF 		.ascii	"&\006\211\257\233\354\243_<\346dZ\214d\312u\234\274"
  265      9BECA35F 
-ARM GAS  /tmp/ccxPVVR0.s 			page 20
+ARM GAS  /tmp/ccM4pwwM.s 			page 20
 
 
  265      3CE6645A 
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  276      CEAD4AAE 
  276      A88C
  277 069d 564702E1 		.ascii	"VG\002\341\355\221\035r}L\011\353\263\344\206\303z`"
-ARM GAS  /tmp/ccxPVVR0.s 			page 21
+ARM GAS  /tmp/ccM4pwwM.s 			page 21
 
 
  277      ED911D72 
@@ -1258,14 +1258,14 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  288      B9BAB1EC 
  288      91471F7E 
  288      DC7CF7C8 
-ARM GAS  /tmp/ccxPVVR0.s 			page 22
+ARM GAS  /tmp/ccM4pwwM.s 			page 22
 
 
  289 077e 4AF3DDCA 		.ascii	"J\363\335\312\207\376\005GQ\351\037"
  289      87FE0547 
  289      51E91F
  290              		.text
- 291              		.section	.gnu.lto_.symtab.a95f4231573c9126,"",%progbits
+ 291              		.section	.gnu.lto_.symtab.b7e33e2b66cd1952,"",%progbits
  292 0000 7374496E 		.ascii	"stInit\000\000\000\000\000\000\000\000\000\000\000\000"
  292      69740000 
  292      00000000 
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  304      272D4F30 
  304      2720272D 
  304      666F6D69 
-ARM GAS  /tmp/ccxPVVR0.s 			page 23
+ARM GAS  /tmp/ccM4pwwM.s 			page 23
 
 
  305 0066 696F6E73 		.ascii	"ions=16' '-ffunction-sections' '-fdata-sections' '-"
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  351 0028 C046C046 		.section	.text.st_lld_stop_alarm,"ax",%progbits
  351      C046C046 
  352              		.align	2
-ARM GAS  /tmp/ccxPVVR0.s 			page 24
+ARM GAS  /tmp/ccM4pwwM.s 			page 24
 
 
  353              		.p2align 4,,15
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  407              		.size	st_lld_set_alarm, .-st_lld_set_alarm
  408 001c C046C046 		.section	.text.st_lld_get_alarm,"ax",%progbits
  409              		.align	2
-ARM GAS  /tmp/ccxPVVR0.s 			page 25
+ARM GAS  /tmp/ccM4pwwM.s 			page 25
 
 
  410              		.p2align 4,,15
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  463              		.type	stStartAlarm, %function
  464              	stStartAlarm:
  465              	.LFB150:
-ARM GAS  /tmp/ccxPVVR0.s 			page 26
+ARM GAS  /tmp/ccM4pwwM.s 			page 26
 
 
  466              		.loc 2 77 0
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  519              		.type	stSetAlarm, %function
  520              	stSetAlarm:
  521              	.LFB152:
-ARM GAS  /tmp/ccxPVVR0.s 			page 27
+ARM GAS  /tmp/ccM4pwwM.s 			page 27
 
 
  522              		.loc 2 105 0
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  576              		.file 6 "/home/efe/ChibiOS/os/rt/include/chsystypes.h"
  577              		.file 7 "/home/efe/ChibiOS/os/rt/include/chschd.h"
  578              		.file 8 "/home/efe/ChibiOS/os/rt/ports/ARMCMx/chcore.h"
-ARM GAS  /tmp/ccxPVVR0.s 			page 28
+ARM GAS  /tmp/ccM4pwwM.s 			page 28
 
 
  579              		.file 9 "/home/efe/ChibiOS/os/rt/ports/ARMCMx/chcore_v6m.h"
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  633 0067 3F       		.byte	0x3f
  634 0068 6C000000 		.4byte	0x6c
  635 006c 03       		.uleb128 0x3
-ARM GAS  /tmp/ccxPVVR0.s 			page 29
+ARM GAS  /tmp/ccM4pwwM.s 			page 29
 
 
  636 006d 04       		.byte	0x4
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  690 00dc 9E000000 		.4byte	0x9e
  691 00e0 04       		.uleb128 0x4
  692 00e1 31020000 		.4byte	.LASF20
-ARM GAS  /tmp/ccxPVVR0.s 			page 30
+ARM GAS  /tmp/ccM4pwwM.s 			page 30
 
 
  693 00e5 05       		.byte	0x5
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  747 0157 07       		.byte	0x7
  748 0158 C8       		.byte	0xc8
  749 0159 23040000 		.4byte	0x423
-ARM GAS  /tmp/ccxPVVR0.s 			page 31
+ARM GAS  /tmp/ccM4pwwM.s 			page 31
 
 
  750 015d 0C       		.byte	0xc
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  804 01cd 2C       		.byte	0x2c
  805 01ce 00       		.byte	0
  806 01cf 04       		.uleb128 0x4
-ARM GAS  /tmp/ccxPVVR0.s 			page 32
+ARM GAS  /tmp/ccM4pwwM.s 			page 32
 
 
  807 01d0 01020000 		.4byte	.LASF38
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  861 023f 0A       		.uleb128 0xa
  862 0240 A7000000 		.4byte	.LASF45
  863 0244 1C       		.byte	0x1c
-ARM GAS  /tmp/ccxPVVR0.s 			page 33
+ARM GAS  /tmp/ccM4pwwM.s 			page 33
 
 
  864 0245 07       		.byte	0x7
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  918 02b8 04       		.byte	0x4
  919 02b9 04       		.uleb128 0x4
  920 02ba B5020000 		.4byte	.LASF53
-ARM GAS  /tmp/ccxPVVR0.s 			page 34
+ARM GAS  /tmp/ccM4pwwM.s 			page 34
 
 
  921 02be 06       		.byte	0x6
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  975 0331 7C01     		.2byte	0x17c
  976 0333 A1060000 		.4byte	0x6a1
  977 0337 00       		.byte	0
-ARM GAS  /tmp/ccxPVVR0.s 			page 35
+ARM GAS  /tmp/ccM4pwwM.s 			page 35
 
 
  978 0338 08       		.uleb128 0x8
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  1032 03ac 08       		.uleb128 0x8
  1033 03ad A0000000 		.4byte	.LASF69
  1034 03b1 07       		.byte	0x7
-ARM GAS  /tmp/ccxPVVR0.s 			page 36
+ARM GAS  /tmp/ccM4pwwM.s 			page 36
 
 
  1035 03b2 CA01     		.2byte	0x1ca
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  1089 0428 04       		.byte	0x4
  1090 0429 08       		.byte	0x8
  1091 042a 89       		.byte	0x89
-ARM GAS  /tmp/ccxPVVR0.s 			page 37
+ARM GAS  /tmp/ccM4pwwM.s 			page 37
 
 
  1092 042b 3C040000 		.4byte	0x43c
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  1146 0492 0D040000 		.4byte	0x40d
  1147 0496 18       		.byte	0x18
  1148 0497 12       		.uleb128 0x12
-ARM GAS  /tmp/ccxPVVR0.s 			page 38
+ARM GAS  /tmp/ccM4pwwM.s 			page 38
 
 
  1149 0498 723700   		.ascii	"r7\000"
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  1203 0505 E8030000 		.4byte	0x3e8
  1204 0509 14       		.byte	0x14
  1205 050a 08       		.uleb128 0x8
-ARM GAS  /tmp/ccxPVVR0.s 			page 39
+ARM GAS  /tmp/ccM4pwwM.s 			page 39
 
 
  1206 050b 53010000 		.4byte	.LASF79
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  1260 0580 44435200 		.ascii	"DCR\000"
  1261 0584 0A       		.byte	0xa
  1262 0585 B101     		.2byte	0x1b1
-ARM GAS  /tmp/ccxPVVR0.s 			page 40
+ARM GAS  /tmp/ccM4pwwM.s 			page 40
 
 
  1263 0587 E8030000 		.4byte	0x3e8
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  1317 05fc 0F01     		.2byte	0x10f
  1318 05fe B7020000 		.4byte	0x2b7
  1319 0602 16       		.uleb128 0x16
-ARM GAS  /tmp/ccxPVVR0.s 			page 41
+ARM GAS  /tmp/ccM4pwwM.s 			page 41
 
 
  1320 0603 04050000 		.4byte	.LASF90
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  1374 0675 0C       		.byte	0xc
  1375 0676 3C       		.byte	0x3c
  1376 0677 DA010000 		.4byte	0x1da
-ARM GAS  /tmp/ccxPVVR0.s 			page 42
+ARM GAS  /tmp/ccM4pwwM.s 			page 42
 
 
  1377 067b 08       		.byte	0x8
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  1431 06ea 8D010000 		.4byte	.LASF105
  1432 06ee 01       		.byte	0x1
  1433 06ef 99       		.byte	0x99
-ARM GAS  /tmp/ccxPVVR0.s 			page 43
+ARM GAS  /tmp/ccM4pwwM.s 			page 43
 
 
  1434 06f0 0C010000 		.4byte	0x10c
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  1488 0762 01       		.uleb128 0x1
  1489 0763 9C       		.byte	0x9c
  1490 0764 80070000 		.4byte	0x780
-ARM GAS  /tmp/ccxPVVR0.s 			page 44
+ARM GAS  /tmp/ccM4pwwM.s 			page 44
 
 
  1491 0768 19       		.uleb128 0x19
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  1545 07dd E1030000 		.4byte	0x3e1
  1546 07e1 0A       		.byte	0xa
  1547 07e2 00       		.byte	0
-ARM GAS  /tmp/ccxPVVR0.s 			page 45
+ARM GAS  /tmp/ccM4pwwM.s 			page 45
 
 
  1548 07e3 17       		.uleb128 0x17
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  1602 001c 03       		.uleb128 0x3
  1603 001d 24       		.uleb128 0x24
  1604 001e 00       		.byte	0
-ARM GAS  /tmp/ccxPVVR0.s 			page 46
+ARM GAS  /tmp/ccM4pwwM.s 			page 46
 
 
  1605 001f 0B       		.uleb128 0xb
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  1659 0055 03       		.uleb128 0x3
  1660 0056 08       		.uleb128 0x8
  1661 0057 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccxPVVR0.s 			page 47
+ARM GAS  /tmp/ccM4pwwM.s 			page 47
 
 
  1662 0058 0B       		.uleb128 0xb
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  1716 008e 13       		.uleb128 0x13
  1717 008f 00       		.byte	0
  1718 0090 00       		.byte	0
-ARM GAS  /tmp/ccxPVVR0.s 			page 48
+ARM GAS  /tmp/ccM4pwwM.s 			page 48
 
 
  1719 0091 0C       		.uleb128 0xc
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  1773 00c7 12       		.uleb128 0x12
  1774 00c8 0D       		.uleb128 0xd
  1775 00c9 00       		.byte	0
-ARM GAS  /tmp/ccxPVVR0.s 			page 49
+ARM GAS  /tmp/ccM4pwwM.s 			page 49
 
 
  1776 00ca 03       		.uleb128 0x3
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  1830 0100 03       		.uleb128 0x3
  1831 0101 0E       		.uleb128 0xe
  1832 0102 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccxPVVR0.s 			page 50
+ARM GAS  /tmp/ccM4pwwM.s 			page 50
 
 
  1833 0103 0B       		.uleb128 0xb
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  1887 013a 00       		.byte	0
  1888 013b 03       		.uleb128 0x3
  1889 013c 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccxPVVR0.s 			page 51
+ARM GAS  /tmp/ccM4pwwM.s 			page 51
 
 
  1890 013d 3A       		.uleb128 0x3a
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  1944 0175 12       		.uleb128 0x12
  1945 0176 06       		.uleb128 0x6
  1946 0177 40       		.uleb128 0x40
-ARM GAS  /tmp/ccxPVVR0.s 			page 52
+ARM GAS  /tmp/ccM4pwwM.s 			page 52
 
 
  1947 0178 18       		.uleb128 0x18
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  2001 01b0 49       		.uleb128 0x49
  2002 01b1 13       		.uleb128 0x13
  2003 01b2 11       		.uleb128 0x11
-ARM GAS  /tmp/ccxPVVR0.s 			page 53
+ARM GAS  /tmp/ccM4pwwM.s 			page 53
 
 
  2004 01b3 01       		.uleb128 0x1
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  2058 0054 0C000000 		.4byte	.LFE153-.LFB153
  2059 0058 00000000 		.4byte	0
  2060 005c 00000000 		.4byte	0
-ARM GAS  /tmp/ccxPVVR0.s 			page 54
+ARM GAS  /tmp/ccM4pwwM.s 			page 54
 
 
  2061              		.section	.debug_ranges,"",%progbits
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  2099 003f 73745F6C 		.ascii	"st_lld_start_alarm\000"
  2099      6C645F73 
  2099      74617274 
-ARM GAS  /tmp/ccxPVVR0.s 			page 55
+ARM GAS  /tmp/ccM4pwwM.s 			page 55
 
 
  2099      5F616C61 
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  2126              	.LASF52:
  2127 00da 76746675 		.ascii	"vtfunc_t\000"
  2127      6E635F74 
-ARM GAS  /tmp/ccxPVVR0.s 			page 56
+ARM GAS  /tmp/ccM4pwwM.s 			page 56
 
 
  2127      00
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  2156              	.LASF13:
  2157 0165 6C6F6E67 		.ascii	"long long unsigned int\000"
  2157      206C6F6E 
-ARM GAS  /tmp/ccxPVVR0.s 			page 57
+ARM GAS  /tmp/ccM4pwwM.s 			page 57
 
 
  2157      6720756E 
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  2187 01f8 76745F64 		.ascii	"vt_delta\000"
  2187      656C7461 
  2187      00
-ARM GAS  /tmp/ccxPVVR0.s 			page 58
+ARM GAS  /tmp/ccM4pwwM.s 			page 58
 
 
  2188              	.LASF38:
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  2215 028f 725F7175 		.ascii	"r_queue\000"
  2215      65756500 
  2216              	.LASF49:
-ARM GAS  /tmp/ccxPVVR0.s 			page 59
+ARM GAS  /tmp/ccM4pwwM.s 			page 59
 
 
  2217 0297 725F6E65 		.ascii	"r_newer\000"
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  2240      74687265 
  2240      616400
  2241              	.LASF106:
-ARM GAS  /tmp/ccxPVVR0.s 			page 60
+ARM GAS  /tmp/ccM4pwwM.s 			page 60
 
 
  2242 03ae 61627374 		.ascii	"abstime\000"
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  2269              	.LASF18:
  2270 043d 75696E74 		.ascii	"uint64_t\000"
  2270      36345F74 
-ARM GAS  /tmp/ccxPVVR0.s 			page 61
+ARM GAS  /tmp/ccM4pwwM.s 			page 61
 
 
  2270      00
@@ -3658,7 +3658,7 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  2296      6973745F 
  2297              	.LASF104:
  2298 04d8 73745F6C 		.ascii	"st_lld_set_alarm\000"
-ARM GAS  /tmp/ccxPVVR0.s 			page 62
+ARM GAS  /tmp/ccM4pwwM.s 			page 62
 
 
  2298      6C645F73 
@@ -3718,43 +3718,43 @@ ARM GAS  /tmp/ccxPVVR0.s 			page 1
  2326      652F4368 
  2326      6962694F 
  2326      532F6F73 
-ARM GAS  /tmp/ccxPVVR0.s 			page 63
+ARM GAS  /tmp/ccM4pwwM.s 			page 63
 
 
  2327              		.comm	__gnu_lto_v1,1,1
  2328              		.ident	"GCC: (4.8.4-1+11-1) 4.8.4 20141219 (release)"
-ARM GAS  /tmp/ccxPVVR0.s 			page 64
+ARM GAS  /tmp/ccM4pwwM.s 			page 64
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 st.c
-     /tmp/ccxPVVR0.s:310    .text.st_lld_start_alarm:0000000000000000 $t
-     /tmp/ccxPVVR0.s:315    .text.st_lld_start_alarm:0000000000000000 st_lld_start_alarm
-     /tmp/ccxPVVR0.s:347    .text.st_lld_start_alarm:0000000000000024 $d
-     /tmp/ccxPVVR0.s:352    .text.st_lld_stop_alarm:0000000000000000 $t
-     /tmp/ccxPVVR0.s:357    .text.st_lld_stop_alarm:0000000000000000 st_lld_stop_alarm
-     /tmp/ccxPVVR0.s:371    .text.st_lld_stop_alarm:0000000000000008 $d
-     /tmp/ccxPVVR0.s:376    .text.st_lld_set_alarm:0000000000000000 $t
-     /tmp/ccxPVVR0.s:381    .text.st_lld_set_alarm:0000000000000000 st_lld_set_alarm
-     /tmp/ccxPVVR0.s:404    .text.st_lld_set_alarm:0000000000000018 $d
-     /tmp/ccxPVVR0.s:409    .text.st_lld_get_alarm:0000000000000000 $t
-     /tmp/ccxPVVR0.s:414    .text.st_lld_get_alarm:0000000000000000 st_lld_get_alarm
-     /tmp/ccxPVVR0.s:429    .text.st_lld_get_alarm:000000000000000c $d
-     /tmp/ccxPVVR0.s:434    .text.stInit:0000000000000000 $t
-     /tmp/ccxPVVR0.s:440    .text.stInit:0000000000000000 stInit
-     /tmp/ccxPVVR0.s:458    .text.stStartAlarm:0000000000000000 $t
-     /tmp/ccxPVVR0.s:464    .text.stStartAlarm:0000000000000000 stStartAlarm
-     /tmp/ccxPVVR0.s:491    .text.stStopAlarm:0000000000000000 $t
-     /tmp/ccxPVVR0.s:497    .text.stStopAlarm:0000000000000000 stStopAlarm
-     /tmp/ccxPVVR0.s:514    .text.stSetAlarm:0000000000000000 $t
-     /tmp/ccxPVVR0.s:520    .text.stSetAlarm:0000000000000000 stSetAlarm
-     /tmp/ccxPVVR0.s:547    .text.stGetAlarm:0000000000000000 $t
-     /tmp/ccxPVVR0.s:553    .text.stGetAlarm:0000000000000000 stGetAlarm
+     /tmp/ccM4pwwM.s:310    .text.st_lld_start_alarm:0000000000000000 $t
+     /tmp/ccM4pwwM.s:315    .text.st_lld_start_alarm:0000000000000000 st_lld_start_alarm
+     /tmp/ccM4pwwM.s:347    .text.st_lld_start_alarm:0000000000000024 $d
+     /tmp/ccM4pwwM.s:352    .text.st_lld_stop_alarm:0000000000000000 $t
+     /tmp/ccM4pwwM.s:357    .text.st_lld_stop_alarm:0000000000000000 st_lld_stop_alarm
+     /tmp/ccM4pwwM.s:371    .text.st_lld_stop_alarm:0000000000000008 $d
+     /tmp/ccM4pwwM.s:376    .text.st_lld_set_alarm:0000000000000000 $t
+     /tmp/ccM4pwwM.s:381    .text.st_lld_set_alarm:0000000000000000 st_lld_set_alarm
+     /tmp/ccM4pwwM.s:404    .text.st_lld_set_alarm:0000000000000018 $d
+     /tmp/ccM4pwwM.s:409    .text.st_lld_get_alarm:0000000000000000 $t
+     /tmp/ccM4pwwM.s:414    .text.st_lld_get_alarm:0000000000000000 st_lld_get_alarm
+     /tmp/ccM4pwwM.s:429    .text.st_lld_get_alarm:000000000000000c $d
+     /tmp/ccM4pwwM.s:434    .text.stInit:0000000000000000 $t
+     /tmp/ccM4pwwM.s:440    .text.stInit:0000000000000000 stInit
+     /tmp/ccM4pwwM.s:458    .text.stStartAlarm:0000000000000000 $t
+     /tmp/ccM4pwwM.s:464    .text.stStartAlarm:0000000000000000 stStartAlarm
+     /tmp/ccM4pwwM.s:491    .text.stStopAlarm:0000000000000000 $t
+     /tmp/ccM4pwwM.s:497    .text.stStopAlarm:0000000000000000 stStopAlarm
+     /tmp/ccM4pwwM.s:514    .text.stSetAlarm:0000000000000000 $t
+     /tmp/ccM4pwwM.s:520    .text.stSetAlarm:0000000000000000 stSetAlarm
+     /tmp/ccM4pwwM.s:547    .text.stGetAlarm:0000000000000000 $t
+     /tmp/ccM4pwwM.s:553    .text.stGetAlarm:0000000000000000 stGetAlarm
                             *COM*:0000000000000001 __gnu_lto_v1
                      .debug_frame:0000000000000010 $d
-     /tmp/ccxPVVR0.s:351    .text.st_lld_start_alarm:0000000000000028 $t
-     /tmp/ccxPVVR0.s:375    .text.st_lld_stop_alarm:000000000000000c $t
-     /tmp/ccxPVVR0.s:408    .text.st_lld_set_alarm:000000000000001c $t
+     /tmp/ccM4pwwM.s:351    .text.st_lld_start_alarm:0000000000000028 $t
+     /tmp/ccM4pwwM.s:375    .text.st_lld_stop_alarm:000000000000000c $t
+     /tmp/ccM4pwwM.s:408    .text.st_lld_set_alarm:000000000000001c $t
 
 UNDEFINED SYMBOLS
 st_lld_init

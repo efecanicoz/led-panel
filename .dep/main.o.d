@@ -80,7 +80,7 @@ build/obj/main.o: main.c /home/efe/ChibiOS/os/hal/include/hal.h \
  /home/efe/ChibiOS/os/hal/include/usb.h \
  /home/efe/ChibiOS/os/hal/include/st.h \
  /home/efe/ChibiOS/os/hal/include/mmc_spi.h \
- /home/efe/ChibiOS/os/hal/include/serial_usb.h
+ /home/efe/ChibiOS/os/hal/include/serial_usb.h crc.h
 
 /home/efe/ChibiOS/os/hal/include/hal.h:
 
@@ -255,3 +255,5 @@ mcuconf.h:
 /home/efe/ChibiOS/os/hal/include/mmc_spi.h:
 
 /home/efe/ChibiOS/os/hal/include/serial_usb.h:
+
+crc.h:

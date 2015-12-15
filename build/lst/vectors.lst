@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccmOY6q7.s 			page 1
+ARM GAS  /tmp/ccTSOoLW.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -16,7 +16,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
   13              		.file	"vectors.c"
   14              		.text
   15              	.Ltext0:
-  16              		.section	.gnu.lto_.inline.adff2b6b62881412,"",%progbits
+  16              		.section	.gnu.lto_.inline.6d71f0a3709b1a50,"",%progbits
   17 0000 789C6DCB 		.ascii	"x\234m\313G\016\302P\014@\301\237\020z\357\235\320{"
   17      470EC250 
   17      0C40C19F 
@@ -50,7 +50,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
   23      7A507803 
   23      13450591 
   24              		.text
-  25              		.section	.gnu.lto__unhandled_exception.adff2b6b62881412,"",%progbits
+  25              		.section	.gnu.lto__unhandled_exception.6d71f0a3709b1a50,"",%progbits
   26 0000 789C6362 		.ascii	"x\234cb`b@\007\"@l\003\304\316 \0163\003#P\005#\023"
   26      60624007 
   26      22406C03 
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
   26      33032350 
   27 0017 986464A8 		.ascii	"\230dd\250gb\254\217d\004+[\317t\340\301\377\377\353"
   27      6762AC8F 
-ARM GAS  /tmp/ccmOY6q7.s 			page 2
+ARM GAS  /tmp/ccTSOoLW.s 			page 2
 
 
   27      64042B5B 
@@ -92,7 +92,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
   33      25330000 
   33      303C253C 
   34              		.text
-  35              		.section	.gnu.lto_.symbol_nodes.adff2b6b62881412,"",%progbits
+  35              		.section	.gnu.lto_.symbol_nodes.6d71f0a3709b1a50,"",%progbits
   36 0000 789C55D3 		.ascii	"x\234U\323ENDQ\000D\321z\257\3714\356\256M\2737\356"
   36      454E4451 
   36      0044D17A 
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
   40      9BEBF498 
   40      1BF49A9B 
   40      F4
-ARM GAS  /tmp/ccmOY6q7.s 			page 3
+ARM GAS  /tmp/ccTSOoLW.s 			page 3
 
 
   41 005f 995BF49B 		.ascii	"\231[\364\233\227\0310\2570h^e\310\274\306\260y\235"
@@ -159,7 +159,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
   48      79C637D5 
   48      57DC64
   49              		.text
-  50              		.section	.gnu.lto_.refs.adff2b6b62881412,"",%progbits
+  50              		.section	.gnu.lto_.refs.6d71f0a3709b1a50,"",%progbits
   51 0000 789C1DC3 		.ascii	"x\234\035\303\005\016\302@\000\000\301\273-V\254Xq("
   51      050EC240 
   51      0000C1BB 
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
   54 0035 1E79EC89 		.ascii	"\036y\354\211sO=\363\334\013/\275\362\332\033o]x\347"
   54      734F3DF3 
   54      DC0B2FBD 
-ARM GAS  /tmp/ccmOY6q7.s 			page 4
+ARM GAS  /tmp/ccTSOoLW.s 			page 4
 
 
   54      F2DA1B6F 
@@ -206,7 +206,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
   59      3F62B80A 
   59      A2
   60              		.text
-  61              		.section	.gnu.lto_.decls.adff2b6b62881412,"",%progbits
+  61              		.section	.gnu.lto_.decls.6d71f0a3709b1a50,"",%progbits
   62 0000 789CAD9A 		.ascii	"x\234\255\232mpT\325\031\307\317\331\015l\226\004H\""
   62      6D7054D5 
   62      19C7CFD9 
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
   67      679E
   68 006c 93B3F7F9 		.ascii	"\223\263\367\371\237\347\367?g\317fo\356\215\207xH\001"
   68      9FE7F73F 
-ARM GAS  /tmp/ccmOY6q7.s 			page 5
+ARM GAS  /tmp/ccTSOoLW.s 			page 5
 
 
   68      67CF666F 
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
   80      803C4C5A 
   80      A0445CD7 
   80      D74FA402 
-ARM GAS  /tmp/ccmOY6q7.s 			page 6
+ARM GAS  /tmp/ccTSOoLW.s 			page 6
 
 
   80      2C210F91 
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
   91      3C72BF44 
   91      649B1079 
   92 0224 471E9388 		.ascii	"G\036\223\210\374J\210\274\303#/KD\036\025\"{x\344u"
-ARM GAS  /tmp/ccmOY6q7.s 			page 7
+ARM GAS  /tmp/ccTSOoLW.s 			page 7
 
 
   92      FC4A88BC 
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
  103      EC1022BB 
  103      79E44989 
  103      C8
-ARM GAS  /tmp/ccmOY6q7.s 			page 8
+ARM GAS  /tmp/ccTSOoLW.s 			page 8
 
 
  104 0305 7342E41D 		.ascii	"sB\344\035\036\371\255D\344e!\262\207G^\221\210\274"
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
  115 03c9 48C8FF2F 		.ascii	"H\310\377/b\2709\004c\255Q\326m\341\3447j\211u\2260"
  115      62B83904 
  115      63AD51D6 
-ARM GAS  /tmp/ccmOY6q7.s 			page 9
+ARM GAS  /tmp/ccTSOoLW.s 			page 9
 
 
  115      6DE1E437 
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
  127      605F2947 
  127      AD0FB2AE 
  127      C5FAEA72 
-ARM GAS  /tmp/ccmOY6q7.s 			page 10
+ARM GAS  /tmp/ccTSOoLW.s 			page 10
 
 
  127      D4DA
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
  138      411F7E4B 
  139 057b 2E1BCC2B 		.ascii	".\033\314+\033\017\371\306\347x\004}\332\307>\203\266"
  139      1B0FF9C6 
-ARM GAS  /tmp/ccmOY6q7.s 			page 11
+ARM GAS  /tmp/ccTSOoLW.s 			page 11
 
 
  139      E778047D 
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
  150      DC7B98BD 
  150      2DE2
  151 0650 2EF6D859 		.ascii	".\366\330Y\343\303am\034\335o\375\006I\177\210m;?\246"
-ARM GAS  /tmp/ccmOY6q7.s 			page 12
+ARM GAS  /tmp/ccTSOoLW.s 			page 12
 
 
  151      E3C3616D 
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
  162      A9DB43
  163 0721 0B23F819 		.ascii	"\013#\370\031z\330\223\361\360>\243x\300\345\341C&?"
  163      7AD893F1 
-ARM GAS  /tmp/ccmOY6q7.s 			page 13
+ARM GAS  /tmp/ccTSOoLW.s 			page 13
 
 
  163      F03EA378 
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
  175      E0D1D211 
  175      BF51A355 
  175      B3E7E2F9 
-ARM GAS  /tmp/ccmOY6q7.s 			page 14
+ARM GAS  /tmp/ccTSOoLW.s 			page 14
 
 
  176 0806 91B31769 		.ascii	"\221\263\027i\317\205C\0138])\326/\305\372\245e\330"
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
  187      D916E266 
  187      D3168650 
  187      3FAACAD8 
-ARM GAS  /tmp/ccmOY6q7.s 			page 15
+ARM GAS  /tmp/ccTSOoLW.s 			page 15
 
 
  188 08f3 6CF0790B 		.ascii	"l\360y\013\033\006\331\"\260\341\352`\303i\013\361\374"
@@ -860,7 +860,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
  191      FF014108 
  191      98D9
  192              		.text
- 193              		.section	.gnu.lto_.symtab.adff2b6b62881412,"",%progbits
+ 193              		.section	.gnu.lto_.symtab.6d71f0a3709b1a50,"",%progbits
  194 0000 5F756E68 		.ascii	"_unhandled_exception\000\000\000\000\000\000\000\000"
  194      616E646C 
  194      65645F65 
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
  201      BF000000 
  201      42757346 
  201      61756C74 
-ARM GAS  /tmp/ccmOY6q7.s 			page 16
+ARM GAS  /tmp/ccTSOoLW.s 			page 16
 
 
  201      5F48616E 
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
  213      72333400 
  213      00010000 
  213      000000
-ARM GAS  /tmp/ccmOY6q7.s 			page 17
+ARM GAS  /tmp/ccTSOoLW.s 			page 17
 
 
  214 018b 00000000 		.ascii	"\000\000\000\000\365\000\000\000PendSV_Handler\000\000"
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
  225      25010000 
  225      56656374 
  225      6F72
-ARM GAS  /tmp/ccmOY6q7.s 			page 18
+ARM GAS  /tmp/ccTSOoLW.s 			page 18
 
 
  226 0266 35380000 		.ascii	"58\000\000\001\000\000\000\000\000\000\000\000\000+"
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
  237      5B010000 
  237      56656374 
  237      6F72
-ARM GAS  /tmp/ccmOY6q7.s 			page 19
+ARM GAS  /tmp/ccTSOoLW.s 			page 19
 
 
  238 033e 37430000 		.ascii	"7C\000\000\001\000\000\000\000\000\000\000\000\000a"
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
  249      000000
  250 040b 00910100 		.ascii	"\000\221\001\000\000VectorA0\000\000\001\000\000\000"
  250      00566563 
-ARM GAS  /tmp/ccmOY6q7.s 			page 20
+ARM GAS  /tmp/ccTSOoLW.s 			page 20
 
 
  250      746F7241 
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
  261      000000
  262 04dd 00000000 		.ascii	"\000\000\000\000\000\000\000\307\001\000\000__main_"
  262      000000C7 
-ARM GAS  /tmp/ccmOY6q7.s 			page 21
+ARM GAS  /tmp/ccTSOoLW.s 			page 21
 
 
  262      0100005F 
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
  293              		.weak	NMI_Handler
  294              		.thumb_set NMI_Handler,_unhandled_exception
  295              		.weak	HardFault_Handler
-ARM GAS  /tmp/ccmOY6q7.s 			page 22
+ARM GAS  /tmp/ccTSOoLW.s 			page 22
 
 
  296              		.thumb_set HardFault_Handler,_unhandled_exception
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
  350              		.thumb_set Vector78,_unhandled_exception
  351              		.weak	Vector7C
  352              		.thumb_set Vector7C,_unhandled_exception
-ARM GAS  /tmp/ccmOY6q7.s 			page 23
+ARM GAS  /tmp/ccTSOoLW.s 			page 23
 
 
  353              		.weak	Vector80
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
  404 0034 00000000 		.word	Vector34
  405 0038 00000000 		.word	PendSV_Handler
  406 003c 00000000 		.word	SysTick_Handler
-ARM GAS  /tmp/ccmOY6q7.s 			page 24
+ARM GAS  /tmp/ccTSOoLW.s 			page 24
 
 
  407 0040 00000000 		.word	Vector40
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
  461 0029 01       		.byte	0x1
  462 002a 08       		.byte	0x8
  463 002b 71000000 		.4byte	.LASF1
-ARM GAS  /tmp/ccmOY6q7.s 			page 25
+ARM GAS  /tmp/ccTSOoLW.s 			page 25
 
 
  464 002f 02       		.uleb128 0x2
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
  518 0095 06       		.uleb128 0x6
  519 0096 07       		.uleb128 0x7
  520 0097 C0       		.byte	0xc0
-ARM GAS  /tmp/ccmOY6q7.s 			page 26
+ARM GAS  /tmp/ccTSOoLW.s 			page 26
 
 
  521 0098 01       		.byte	0x1
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
  575 0104 3A       		.byte	0x3a
  576 0105 84000000 		.4byte	0x84
  577 0109 20       		.byte	0x20
-ARM GAS  /tmp/ccmOY6q7.s 			page 27
+ARM GAS  /tmp/ccTSOoLW.s 			page 27
 
 
  578 010a 08       		.uleb128 0x8
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
  632 0176 81010000 		.4byte	0x181
  633 017a 0A       		.uleb128 0xa
  634 017b 7D000000 		.4byte	0x7d
-ARM GAS  /tmp/ccmOY6q7.s 			page 28
+ARM GAS  /tmp/ccTSOoLW.s 			page 28
 
 
  635 017f 1F       		.byte	0x1f
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
  689 0017 0B       		.uleb128 0xb
  690 0018 03       		.uleb128 0x3
  691 0019 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccmOY6q7.s 			page 29
+ARM GAS  /tmp/ccTSOoLW.s 			page 29
 
 
  692 001a 00       		.byte	0
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
  746 0050 00       		.byte	0
  747 0051 08       		.uleb128 0x8
  748 0052 0D       		.uleb128 0xd
-ARM GAS  /tmp/ccmOY6q7.s 			page 30
+ARM GAS  /tmp/ccTSOoLW.s 			page 30
 
 
  749 0053 00       		.byte	0
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
  803 008a 0C       		.uleb128 0xc
  804 008b 34       		.uleb128 0x34
  805 008c 00       		.byte	0
-ARM GAS  /tmp/ccmOY6q7.s 			page 31
+ARM GAS  /tmp/ccTSOoLW.s 			page 31
 
 
  806 008d 03       		.uleb128 0x3
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
  858      00000201 
  858      FB0E0D00 
  858      01010101 
-ARM GAS  /tmp/ccmOY6q7.s 			page 32
+ARM GAS  /tmp/ccTSOoLW.s 			page 32
 
 
  859              	.LASF12:
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
  881              	.LASF30:
  882 009d 76656374 		.ascii	"vectors_t\000"
  882      6F72735F 
-ARM GAS  /tmp/ccmOY6q7.s 			page 33
+ARM GAS  /tmp/ccTSOoLW.s 			page 33
 
 
  882      7400
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
  905 015e 73697A65 		.ascii	"sizetype\000"
  905      74797065 
  905      00
-ARM GAS  /tmp/ccmOY6q7.s 			page 34
+ARM GAS  /tmp/ccTSOoLW.s 			page 34
 
 
  906              	.LASF19:
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
  924      00
  925              	.LASF4:
  926 027f 6C6F6E67 		.ascii	"long int\000"
-ARM GAS  /tmp/ccmOY6q7.s 			page 35
+ARM GAS  /tmp/ccTSOoLW.s 			page 35
 
 
  926      20696E74 
@@ -2065,67 +2065,67 @@ ARM GAS  /tmp/ccmOY6q7.s 			page 1
  934      5F5F00
  935              		.comm	__gnu_lto_v1,1,1
  936              		.ident	"GCC: (4.8.4-1+11-1) 4.8.4 20141219 (release)"
-ARM GAS  /tmp/ccmOY6q7.s 			page 36
+ARM GAS  /tmp/ccTSOoLW.s 			page 36
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 vectors.c
-     /tmp/ccmOY6q7.s:274    .text._unhandled_exception:0000000000000000 $t
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 _unhandled_exception
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 Reset_Handler
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 NMI_Handler
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 HardFault_Handler
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 MemManage_Handler
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 BusFault_Handler
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 UsageFault_Handler
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 Vector1C
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 Vector20
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 Vector24
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 Vector28
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 SVC_Handler
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 DebugMon_Handler
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 Vector34
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 PendSV_Handler
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 SysTick_Handler
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 Vector40
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 Vector44
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 Vector48
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 Vector4C
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 Vector50
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 Vector54
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 Vector58
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 Vector5C
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 Vector60
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 Vector64
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 Vector68
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 Vector6C
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 Vector70
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 Vector74
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 Vector78
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 Vector7C
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 Vector80
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 Vector84
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 Vector88
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 Vector8C
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 Vector90
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 Vector94
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 Vector98
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 Vector9C
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 VectorA0
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 VectorA4
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 VectorA8
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 VectorAC
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 VectorB0
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 VectorB4
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 VectorB8
-     /tmp/ccmOY6q7.s:280    .text._unhandled_exception:0000000000000000 VectorBC
-     /tmp/ccmOY6q7.s:390    .vectors:0000000000000000 _vectors
-     /tmp/ccmOY6q7.s:387    .vectors:0000000000000000 $d
+     /tmp/ccTSOoLW.s:274    .text._unhandled_exception:0000000000000000 $t
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 _unhandled_exception
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 Reset_Handler
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 NMI_Handler
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 HardFault_Handler
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 MemManage_Handler
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 BusFault_Handler
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 UsageFault_Handler
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 Vector1C
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 Vector20
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 Vector24
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 Vector28
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 SVC_Handler
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 DebugMon_Handler
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 Vector34
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 PendSV_Handler
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 SysTick_Handler
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 Vector40
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 Vector44
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 Vector48
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 Vector4C
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 Vector50
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 Vector54
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 Vector58
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 Vector5C
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 Vector60
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 Vector64
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 Vector68
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 Vector6C
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 Vector70
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 Vector74
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 Vector78
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 Vector7C
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 Vector80
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 Vector84
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 Vector88
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 Vector8C
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 Vector90
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 Vector94
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 Vector98
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 Vector9C
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 VectorA0
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 VectorA4
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 VectorA8
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 VectorAC
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 VectorB0
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 VectorB4
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 VectorB8
+     /tmp/ccTSOoLW.s:280    .text._unhandled_exception:0000000000000000 VectorBC
+     /tmp/ccTSOoLW.s:390    .vectors:0000000000000000 _vectors
+     /tmp/ccTSOoLW.s:387    .vectors:0000000000000000 $d
                             *COM*:0000000000000001 __gnu_lto_v1
                      .debug_frame:0000000000000010 $d
 
 UNDEFINED SYMBOLS
-ARM GAS  /tmp/ccmOY6q7.s 			page 37
+ARM GAS  /tmp/ccTSOoLW.s 			page 37
 
 
 __main_stack_end__

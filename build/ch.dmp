@@ -7,9 +7,9 @@ start address 0x080000c1
 
 Program Header:
     LOAD off    0x00010000 vaddr 0x08000000 paddr 0x08000000 align 2**16
-         filesz 0x00002410 memsz 0x00002410 flags rwx
-    LOAD off    0x00020300 vaddr 0x20000300 paddr 0x08002410 align 2**16
-         filesz 0x00000000 memsz 0x000001cc flags rw-
+         filesz 0x000027f0 memsz 0x000027f0 flags rwx
+    LOAD off    0x00020300 vaddr 0x20000300 paddr 0x080027f0 align 2**16
+         filesz 0x00000000 memsz 0x000003cc flags rw-
     LOAD off    0x00020000 vaddr 0x20000000 paddr 0x20000000 align 2**16
          filesz 0x00000000 memsz 0x00001000 flags rw-
 private flags = 5000202: [Version5 EABI] [soft-float ABI] [has entry point]
@@ -18,63 +18,63 @@ Sections:
 Idx Name          Size      VMA       LMA       File off  Algn
   0 startup       000000c0  08000000  08000000  00010000  2**4
                   CONTENTS, ALLOC, LOAD, DATA
-  1 .text         00002350  080000c0  080000c0  000100c0  2**4
+  1 .text         00002730  080000c0  080000c0  000100c0  2**4
                   CONTENTS, ALLOC, LOAD, READONLY, CODE
-  2 .textalign    00000000  08002410  08002410  00012410  2**0
+  2 .textalign    00000000  080027f0  080027f0  000127f0  2**0
                   CONTENTS
   3 .mstack       00000200  20000000  20000000  00020000  2**0
                   ALLOC
   4 .pstack       00000100  20000200  20000200  00020000  2**0
                   ALLOC
-  5 .data         00000000  20000300  20000300  00012410  2**2
+  5 .data         00000000  20000300  20000300  000127f0  2**2
                   CONTENTS, ALLOC, LOAD, DATA
-  6 .bss          000001cc  20000300  08002410  00020300  2**3
+  6 .bss          000003cc  20000300  080027f0  00020300  2**3
                   ALLOC
-  7 .ram0         00000000  200004cc  200004cc  00012410  2**2
+  7 .ram0         00000000  200006cc  200006cc  000127f0  2**2
                   CONTENTS
-  8 .ram1         00000000  00000000  00000000  00012410  2**2
+  8 .ram1         00000000  00000000  00000000  000127f0  2**2
                   CONTENTS
-  9 .ram2         00000000  00000000  00000000  00012410  2**2
+  9 .ram2         00000000  00000000  00000000  000127f0  2**2
                   CONTENTS
- 10 .ram3         00000000  00000000  00000000  00012410  2**2
+ 10 .ram3         00000000  00000000  00000000  000127f0  2**2
                   CONTENTS
- 11 .ram4         00000000  00000000  00000000  00012410  2**2
+ 11 .ram4         00000000  00000000  00000000  000127f0  2**2
                   CONTENTS
- 12 .ram5         00000000  00000000  00000000  00012410  2**2
+ 12 .ram5         00000000  00000000  00000000  000127f0  2**2
                   CONTENTS
- 13 .ram6         00000000  00000000  00000000  00012410  2**2
+ 13 .ram6         00000000  00000000  00000000  000127f0  2**2
                   CONTENTS
- 14 .ram7         00000000  00000000  00000000  00012410  2**2
+ 14 .ram7         00000000  00000000  00000000  000127f0  2**2
                   CONTENTS
- 15 .heap         00000b34  200004cc  200004cc  00020000  2**0
+ 15 .heap         00000934  200006cc  200006cc  00020000  2**0
                   ALLOC
- 16 .ARM.attributes 0000002b  00000000  00000000  00012410  2**0
+ 16 .ARM.attributes 0000002b  00000000  00000000  000127f0  2**0
                   CONTENTS, READONLY
- 17 .comment      0000002d  00000000  00000000  0001243b  2**0
+ 17 .comment      0000002d  00000000  00000000  0001281b  2**0
                   CONTENTS, READONLY
- 18 .debug_info   00005285  00000000  00000000  00012468  2**0
+ 18 .debug_info   00005967  00000000  00000000  00012848  2**0
                   CONTENTS, READONLY, DEBUGGING
- 19 .debug_abbrev 00000ca6  00000000  00000000  000176ed  2**0
+ 19 .debug_abbrev 00000d33  00000000  00000000  000181af  2**0
                   CONTENTS, READONLY, DEBUGGING
- 20 .debug_aranges 00000940  00000000  00000000  00018393  2**0
+ 20 .debug_aranges 000009a8  00000000  00000000  00018ee8  2**3
                   CONTENTS, READONLY, DEBUGGING
- 21 .debug_ranges 00000910  00000000  00000000  00018cd3  2**0
+ 21 .debug_ranges 00000938  00000000  00000000  00019890  2**0
                   CONTENTS, READONLY, DEBUGGING
- 22 .debug_line   0000266b  00000000  00000000  000195e3  2**0
+ 22 .debug_line   000028a3  00000000  00000000  0001a1c8  2**0
                   CONTENTS, READONLY, DEBUGGING
- 23 .debug_str    000018e2  00000000  00000000  0001bc4e  2**0
+ 23 .debug_str    0000199a  00000000  00000000  0001ca6b  2**0
                   CONTENTS, READONLY, DEBUGGING
- 24 .debug_frame  00001924  00000000  00000000  0001d530  2**2
+ 24 .debug_frame  000019b8  00000000  00000000  0001e408  2**2
                   CONTENTS, READONLY, DEBUGGING
 SYMBOL TABLE:
 08000000 l    d  startup	00000000 startup
 080000c0 l    d  .text	00000000 .text
-08002410 l    d  .textalign	00000000 .textalign
+080027f0 l    d  .textalign	00000000 .textalign
 20000000 l    d  .mstack	00000000 .mstack
 20000200 l    d  .pstack	00000000 .pstack
 20000300 l    d  .data	00000000 .data
 20000300 l    d  .bss	00000000 .bss
-200004cc l    d  .ram0	00000000 .ram0
+200006cc l    d  .ram0	00000000 .ram0
 00000000 l    d  .ram1	00000000 .ram1
 00000000 l    d  .ram2	00000000 .ram2
 00000000 l    d  .ram3	00000000 .ram3
@@ -82,7 +82,7 @@ SYMBOL TABLE:
 00000000 l    d  .ram5	00000000 .ram5
 00000000 l    d  .ram6	00000000 .ram6
 00000000 l    d  .ram7	00000000 .ram7
-200004cc l    d  .heap	00000000 .heap
+200006cc l    d  .heap	00000000 .heap
 00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
 00000000 l    d  .comment	00000000 .comment
 00000000 l    d  .debug_info	00000000 .debug_info
@@ -92,47 +92,42 @@ SYMBOL TABLE:
 00000000 l    d  .debug_line	00000000 .debug_line
 00000000 l    d  .debug_str	00000000 .debug_str
 00000000 l    d  .debug_frame	00000000 .debug_frame
-00000000 l    df *ABS*	00000000 cccHO3yf.ltrans0.o
-080006f0 l     F .text	00000034 Vector80.4262
-08000bd0 l     F .text	00000020 VectorAC.4170
-080001d0 l     F .text	00000028 write.6304.4365
-08000200 l     F .text	00000028 read.6321.4360
-08000230 l     F .text	00000034 put.6332.4356
-08000270 l     F .text	00000024 get.6344.4353
-080002a0 l     F .text	00000032 putt.6339.4348
-080002e0 l     F .text	0000002a gett.6347.4344
-08000310 l     F .text	0000002e writet.6312.4338
-08000340 l     F .text	0000002e readt.6326.4332
-08002360 l     O .text	00000020 vmt.6507.4489
-08000bf0 l     F .text	00000038 sd_lld_init.4165
-08000380 l     F .text	00000060 sdObjectInit.4325
-080003e0 l     F .text	0000004c sdIncomingDataI.4314
-08000430 l     F .text	00000084 nvicEnableVector.4300
-080004c0 l     F .text	00000060 hal_lld_backup_domain_init.6570.4287
-08000580 l     F .text	000000d4 stm32_clock_init.4282
-08000660 l     F .text	00000004 port_lock.6611.4280
-08000670 l     F .text	00000004 port_unlock.6614.4278
-08000680 l     F .text	00000008 port_lock_from_isr.6616.4276
-08000690 l     F .text	00000008 port_unlock_from_isr.6618.4274
-080006a0 l     F .text	00000008 chSysLockFromISR.6620.4272
-080006b0 l     F .text	00000008 chSysUnlockFromISR.6622.4270
-080006c0 l     F .text	00000008 osalSysLockFromISR.6624.4268
-080006d0 l     F .text	00000008 osalSysUnlockFromISR.6626.4266
-080006e0 l     F .text	00000008 osalOsTimerHandlerI.6628.4264
-080007a0 l     F .text	00000042 initgpio.6689.4254
-08000980 l     F .text	00000004 port_lock.6760.4204
-08000990 l     F .text	00000004 port_unlock.6763.4202
-080009a0 l     F .text	00000008 port_lock_from_isr.6765.4200
-080009b0 l     F .text	00000008 port_unlock_from_isr.6767.4198
-080009c0 l     F .text	00000008 chSysLockFromISR.6769.4196
-080009d0 l     F .text	00000008 chSysUnlockFromISR.6771.4194
-080009e0 l     F .text	00000008 osalSysLockFromISR.6773.4192
-080009f0 l     F .text	00000008 osalSysUnlockFromISR.6775.4190
-08000a00 l     F .text	00000016 osalEventBroadcastFlagsI.6777.4186
-20000450 l     O .bss	0000007c SD1.4487
-08000a20 l     F .text	00000068 set_error.6918.4175
-08000a90 l     F .text	0000011a serve_interrupt.6922.4172
-08000bb0 l     F .text	00000018 notify1.6787.4167
+00000000 l    df *ABS*	00000000 ccyNLAmf.ltrans0.o
+08000590 l     F .text	00000034 Vector80.4282
+08000ad0 l     F .text	00000020 VectorAC.4190
+08000280 l     F .text	0000004c sdIncomingDataI.4334
+080002d0 l     F .text	00000084 nvicEnableVector.4320
+08000360 l     F .text	00000060 hal_lld_backup_domain_init.6570.4307
+08000420 l     F .text	000000d4 stm32_clock_init.4302
+08000500 l     F .text	00000004 port_lock.6611.4300
+08000510 l     F .text	00000004 port_unlock.6614.4298
+08000520 l     F .text	00000008 port_lock_from_isr.6616.4296
+08000530 l     F .text	00000008 port_unlock_from_isr.6618.4294
+08000540 l     F .text	00000008 chSysLockFromISR.6620.4292
+08000550 l     F .text	00000008 chSysUnlockFromISR.6622.4290
+08000560 l     F .text	00000008 osalSysLockFromISR.6624.4288
+08000570 l     F .text	00000008 osalSysUnlockFromISR.6626.4286
+08000580 l     F .text	00000008 osalOsTimerHandlerI.6628.4284
+08000640 l     F .text	00000042 initgpio.6689.4274
+08000820 l     F .text	00000004 port_lock.6760.4224
+08000830 l     F .text	00000004 port_unlock.6763.4222
+08000840 l     F .text	00000008 port_lock_from_isr.6765.4220
+08000850 l     F .text	00000008 port_unlock_from_isr.6767.4218
+08000860 l     F .text	00000008 chSysLockFromISR.6769.4216
+08000870 l     F .text	00000008 chSysUnlockFromISR.6771.4214
+08000880 l     F .text	00000008 osalSysLockFromISR.6773.4212
+08000890 l     F .text	00000008 osalSysUnlockFromISR.6775.4210
+080008a0 l     F .text	00000016 osalEventBroadcastFlagsI.6777.4206
+20000450 l     O .bss	0000007c SD1.4462
+08002750 l     O .text	00000010 default_config.6942.4464
+080008c0 l     F .text	00000058 usart_init.6863.4202
+08000920 l     F .text	00000068 set_error.6918.4195
+08000990 l     F .text	0000011a serve_interrupt.6922.4192
+08000ab0 l     F .text	00000018 notify1.6787.4187
+08000ba0 l     F .text	0000006c reflect.6989.4035
+200004cc l     O .bss	00000200 crcTable.4463
+08000c10 l     F .text	0000008c crcFast.4023
+08000ca0 l     F .text	0000006e prepareForSend.7009.4016
 00000000 l    df *ABS*	00000000 build/obj/crt0_v6m.o
 080000e0 l       .text	00000000 msloop
 080000ea l       .text	00000000 endmsloop
@@ -151,95 +146,109 @@ SYMBOL TABLE:
 e000ed04 l       *ABS*	00000000 SCB_ICSR
 10000000 l       *ABS*	00000000 ICSR_PENDSVSET
 80000000 l       *ABS*	00000000 ICSR_NMIPENDSET
-00000000 l    df *ABS*	00000000 cccHO3yf.ltrans1.o
-08000d00 l     F .text	00000004 port_lock.5714.4345
-08000d10 l     F .text	00000004 port_unlock.5717.4343
-08000d20 l     F .text	00000008 chSysLock.5719.4341
-08000d30 l     F .text	00000008 chSysUnlock.5721.4339
-08000d70 l     F .text	00000022 chCoreAlloc.4329
-08000da0 l     F .text	00000048 chCoreAllocI.4334
-08000e20 l     F .text	00000004 port_lock.5920.4289
-08000e30 l     F .text	00000004 port_unlock.5923.4287
-08000e40 l     F .text	00000008 port_lock_from_isr.5925.4285
-08000e50 l     F .text	00000008 port_unlock_from_isr.5927.4283
-08000ef0 l     F .text	00000002 osalInit.5962.4273
-08000f90 l     F .text	00000008 stInit.4258
-08000f30 l     F .text	00000028 st_lld_start_alarm.5990.4267
-08000f60 l     F .text	0000000c st_lld_stop_alarm.5997.4265
-08000f70 l     F .text	0000001c st_lld_set_alarm.5999.4262
-08000ff0 l     F .text	00000004 port_lock.6048.4245
-08001000 l     F .text	00000004 port_unlock.6051.4243
-08001010 l     F .text	00000014 queue_init.6053.4240
-08001030 l     F .text	00000008 chSysLock.6119.4238
-08001040 l     F .text	00000008 chSysUnlock.6121.4236
-08001050 l     F .text	00000012 chThdQueueObjectInit.6123.4233
-08001070 l     F .text	00000008 osalSysLock.6126.4231
-08001080 l     F .text	00000008 osalSysUnlock.6128.4229
-08001090 l     F .text	00000012 osalThreadQueueObjectInit.6130.4226
-080010b0 l     F .text	00000026 osalThreadEnqueueTimeoutS.6141.4222
-080010e0 l     F .text	00000018 osalThreadDequeueNextI.6137.4218
-00000000 l    df *ABS*	00000000 cccHO3yf.ltrans2.o
-08001580 l     F .text	00000002 _unhandled_exception.4492
-08001590 l     F .text	000000f0 NVIC_SetPriority.4097.4486
-08001680 l     F .text	00000010 port_init.4106.4484
-08001690 l     F .text	00000004 port_lock.4117.4475
-080016a0 l     F .text	00000004 port_unlock.4119.4473
-080016b0 l     F .text	00000008 port_lock_from_isr.4121.4471
-080016c0 l     F .text	00000008 port_unlock_from_isr.4123.4469
-080016d0 l     F .text	00000004 port_enable.4127.4465
-080016e0 l     F .text	00000002 port_wait_for_interrupt.4129.4463
-080016f0 l     F .text	00000010 st_lld_get_counter.4131.4461
-08001700 l     F .text	00000008 port_timer_stop_alarm.4221.4459
-08001710 l     F .text	0000001c port_timer_set_alarm.4223.4456
-08001730 l     F .text	0000000c port_timer_get_time.4136.4454
-08001740 l     F .text	00000008 chSysEnable.4138.4452
-08001750 l     F .text	00000008 chSysLockFromISR.4144.4446
-08001760 l     F .text	00000008 chSysUnlockFromISR.4146.4444
-08001770 l     F .text	0000000c chVTGetSystemTimeX.4148.4442
-08001780 l     F .text	000000dc chVTDoTickI.4226.4440
-08001860 l     F .text	00000014 chRegSetThreadName.4150.4437
-08001880 l     F .text	00000010 chRegSetThreadNameX.4154.4433
-08001890 l     F .text	0000000c _idle_thread.4218.4430
-08001cd0 l     F .text	00000024 _scheduler_init.4355
-080019b0 l     F .text	00000024 _vt_init.4398
-080020f0 l     F .text	00000060 _thread_init.4256
-080021a0 l     F .text	0000003a chThdCreateStatic.4239
-08001930 l     F .text	00000010 st_lld_get_counter.4377.4412
-08001940 l     F .text	0000001c port_timer_start_alarm.4387.4409
-08001960 l     F .text	00000008 port_timer_stop_alarm.4393.4407
-08001970 l     F .text	0000001c port_timer_set_alarm.4390.4404
-08001990 l     F .text	0000000c port_timer_get_time.4383.4402
-080019a0 l     F .text	0000000c chVTGetSystemTimeX.4385.4400
-080019e0 l     F .text	00000140 chVTDoSetI.4392
-08001b20 l     F .text	000000f0 chVTDoResetI.4388
-08001c10 l     F .text	00000004 port_lock.4537.4386
-08001c20 l     F .text	00000004 port_unlock.4540.4384
-08001c30 l     F .text	00000008 port_lock_from_isr.4542.4382
-08001c40 l     F .text	00000008 port_unlock_from_isr.4544.4380
-08001c50 l     F .text	00000014 queue_init.4546.4377
-08001c70 l     F .text	00000008 chSysLockFromISR.4615.4373
-08001c80 l     F .text	00000008 chSysUnlockFromISR.4617.4371
-08001c90 l     F .text	00000014 chVTIsArmedI.4619.4360
-08001cb0 l     F .text	00000012 chSemFastSignalI.4633.4357
-08001d00 l     F .text	00000026 queue_insert.4347
-08001d80 l     F .text	0000001a list_remove.4331
-08001e40 l     F .text	00000060 wakeup.4666.4322
-08001fb0 l     F .text	00000070 chSchDoRescheduleAhead.4306
-08002030 l     F .text	00000004 port_lock.4742.4302
-08002040 l     F .text	00000004 port_unlock.4745.4300
-08002050 l     F .text	0000000e list_init.4754.4293
-08002060 l     F .text	00000018 list_notempty.4820.4290
-08002080 l     F .text	00000018 queue_notempty.4824.4287
-080020a0 l     F .text	00000008 chSysLock.4829.4281
-080020b0 l     F .text	00000008 chSysUnlock.4831.4279
-080020c0 l     F .text	00000026 chThdDoDequeueNextI.4850.4260
-08002150 l     F .text	0000004c chThdCreateI.4248
-08002200 l     F .text	00000064 chThdExitS.4212
-080022f0 l     F .text	00000014 queue_init.5370.4099
+00000000 l    df *ABS*	00000000 _udivsi3.o
+080001d4 l       .text	00000000 .udivsi3_skip_div0_test
+00000000 l    df *ABS*	00000000 _dvmd_tls.o
+00000000 l    df *ABS*	00000000 ccyNLAmf.ltrans1.o
+08000e30 l     F .text	00000004 port_lock.5714.4441
+08000e40 l     F .text	00000004 port_unlock.5717.4439
+08000e50 l     F .text	00000008 chSysLock.5719.4437
+08000e60 l     F .text	00000008 chSysUnlock.5721.4435
+08000ea0 l     F .text	00000022 chCoreAlloc.4425
+08000ed0 l     F .text	00000048 chCoreAllocI.4430
+08000f50 l     F .text	00000004 port_lock.5920.4385
+08000f60 l     F .text	00000004 port_unlock.5923.4383
+08000f70 l     F .text	00000008 port_lock_from_isr.5925.4381
+08000f80 l     F .text	00000008 port_unlock_from_isr.5927.4379
+08001020 l     F .text	00000002 osalInit.5962.4369
+08001880 l     F .text	00000008 sdInit.4161
+080010c0 l     F .text	00000008 stInit.4354
+08001060 l     F .text	00000028 st_lld_start_alarm.5990.4363
+08001090 l     F .text	0000000c st_lld_stop_alarm.5997.4361
+080010a0 l     F .text	0000001c st_lld_set_alarm.5999.4358
+08001120 l     F .text	00000004 port_lock.6048.4341
+08001130 l     F .text	00000004 port_unlock.6051.4339
+08001140 l     F .text	00000014 queue_init.6053.4336
+08001160 l     F .text	00000008 chSysLock.6119.4334
+08001170 l     F .text	00000008 chSysUnlock.6121.4332
+08001180 l     F .text	00000012 chThdQueueObjectInit.6123.4329
+080011a0 l     F .text	00000008 osalSysLock.6126.4327
+080011b0 l     F .text	00000008 osalSysUnlock.6128.4325
+080011c0 l     F .text	00000012 osalThreadQueueObjectInit.6130.4322
+080011e0 l     F .text	00000026 osalThreadEnqueueTimeoutS.6141.4318
+08001210 l     F .text	00000018 osalThreadDequeueNextI.6137.4314
+08001230 l     F .text	00000046 iqObjectInit.4303
+08001300 l     F .text	00000090 iqGetTimeout.4292
+08001390 l     F .text	000000ae iqReadTimeout.4286
+08001440 l     F .text	00000046 oqObjectInit.4279
+08001490 l     F .text	0000008c oqPutTimeout.4271
+08001650 l     F .text	00000004 port_lock.6278.4220
+08001660 l     F .text	00000004 port_unlock.6281.4218
+08001670 l     F .text	00000008 chSysLock.6283.4216
+08001680 l     F .text	00000008 chSysUnlock.6285.4214
+080016b0 l     F .text	0000000e osalEventObjectInit.6291.4205
+00000000 l    df *ABS*	00000000 ccyNLAmf.ltrans2.o
+08001950 l     F .text	00000002 _unhandled_exception.4492
+08001960 l     F .text	000000f0 NVIC_SetPriority.4097.4486
+08001a50 l     F .text	00000010 port_init.4106.4484
+08001a60 l     F .text	00000004 port_lock.4117.4475
+08001a70 l     F .text	00000004 port_unlock.4119.4473
+08001a80 l     F .text	00000008 port_lock_from_isr.4121.4471
+08001a90 l     F .text	00000008 port_unlock_from_isr.4123.4469
+08001aa0 l     F .text	00000004 port_enable.4127.4465
+08001ab0 l     F .text	00000002 port_wait_for_interrupt.4129.4463
+08001ac0 l     F .text	00000010 st_lld_get_counter.4131.4461
+08001ad0 l     F .text	00000008 port_timer_stop_alarm.4221.4459
+08001ae0 l     F .text	0000001c port_timer_set_alarm.4223.4456
+08001b00 l     F .text	0000000c port_timer_get_time.4136.4454
+08001b10 l     F .text	00000008 chSysEnable.4138.4452
+08001b20 l     F .text	00000008 chSysLockFromISR.4144.4446
+08001b30 l     F .text	00000008 chSysUnlockFromISR.4146.4444
+08001b40 l     F .text	0000000c chVTGetSystemTimeX.4148.4442
+08001b50 l     F .text	000000dc chVTDoTickI.4226.4440
+08001c30 l     F .text	00000014 chRegSetThreadName.4150.4437
+08001c50 l     F .text	00000010 chRegSetThreadNameX.4154.4433
+08001c60 l     F .text	0000000c _idle_thread.4218.4430
+080020a0 l     F .text	00000024 _scheduler_init.4355
+08001d80 l     F .text	00000024 _vt_init.4398
+080024c0 l     F .text	00000060 _thread_init.4256
+08002570 l     F .text	0000003a chThdCreateStatic.4239
+08001d00 l     F .text	00000010 st_lld_get_counter.4377.4412
+08001d10 l     F .text	0000001c port_timer_start_alarm.4387.4409
+08001d30 l     F .text	00000008 port_timer_stop_alarm.4393.4407
+08001d40 l     F .text	0000001c port_timer_set_alarm.4390.4404
+08001d60 l     F .text	0000000c port_timer_get_time.4383.4402
+08001d70 l     F .text	0000000c chVTGetSystemTimeX.4385.4400
+08001db0 l     F .text	00000140 chVTDoSetI.4392
+08001ef0 l     F .text	000000f0 chVTDoResetI.4388
+08001fe0 l     F .text	00000004 port_lock.4537.4386
+08001ff0 l     F .text	00000004 port_unlock.4540.4384
+08002000 l     F .text	00000008 port_lock_from_isr.4542.4382
+08002010 l     F .text	00000008 port_unlock_from_isr.4544.4380
+08002020 l     F .text	00000014 queue_init.4546.4377
+08002040 l     F .text	00000008 chSysLockFromISR.4615.4373
+08002050 l     F .text	00000008 chSysUnlockFromISR.4617.4371
+08002060 l     F .text	00000014 chVTIsArmedI.4619.4360
+08002080 l     F .text	00000012 chSemFastSignalI.4633.4357
+080020d0 l     F .text	00000026 queue_insert.4347
+08002150 l     F .text	0000001a list_remove.4331
+08002210 l     F .text	00000060 wakeup.4666.4322
+08002380 l     F .text	00000070 chSchDoRescheduleAhead.4306
+08002400 l     F .text	00000004 port_lock.4742.4302
+08002410 l     F .text	00000004 port_unlock.4745.4300
+08002420 l     F .text	0000000e list_init.4754.4293
+08002430 l     F .text	00000018 list_notempty.4820.4290
+08002450 l     F .text	00000018 queue_notempty.4824.4287
+08002470 l     F .text	00000008 chSysLock.4829.4281
+08002480 l     F .text	00000008 chSysUnlock.4831.4279
+08002490 l     F .text	00000026 chThdDoDequeueNextI.4850.4260
+08002520 l     F .text	0000004c chThdCreateI.4248
+080025d0 l     F .text	00000064 chThdExitS.4212
+080026c0 l     F .text	00000014 queue_init.5370.4099
 00000000 l    df *ABS*	00000000 
 00000000 l       startup	00000000 __ram4_start__
 00000000 l       startup	00000000 __ram6_start__
-08002410 l       .mstack	00000000 _etext
+080027f0 l       .mstack	00000000 _etext
 00000000 l       *ABS*	00000000 __ram5_end__
 00000000 l       *ABS*	00000000 __ram5_size__
 00000000 l       *ABS*	00000000 __ram1_size__
@@ -265,128 +274,141 @@ e000ed04 l       *ABS*	00000000 SCB_ICSR
 00000200 l       *ABS*	00000000 __main_stack_size__
 00000000 l       startup	00000000 __ram3_start__
 00000100 l       *ABS*	00000000 __process_stack_size__
-08002380 g     O .text	00000070 .hidden pal_default_config
-08001580 g     F .text	00000002 .hidden Vector58
-08001580 g     F .text	00000002 .hidden Vector9C
-08001920 g     F .text	00000008 .hidden chSysTimerHandlerI
-080021e0 g     F .text	00000016 chThdExit
-08001ea0 g     F .text	00000074 .hidden chSchGoSleepTimeoutS
-08001580 g     F .text	00000002 .hidden DebugMon_Handler
-08001580 g     F .text	00000002 .hidden Vector5C
-08001580 g     F .text	00000002 .hidden HardFault_Handler
-08001310 g     F .text	00000046 .hidden oqObjectInit
-08001580 g     F .text	00000002 .hidden Vector8C
-08001580 g     F .text	00000002 .hidden SysTick_Handler
+08002760 g     O .text	00000070 .hidden pal_default_config
+08001950 g     F .text	00000002 .hidden Vector58
+08001950 g     F .text	00000002 .hidden Vector9C
+08001cf0 g     F .text	00000008 .hidden chSysTimerHandlerI
+080025b0 g     F .text	00000016 chThdExit
+08002270 g     F .text	00000074 .hidden chSchGoSleepTimeoutS
+08001950 g     F .text	00000002 .hidden DebugMon_Handler
+08001950 g     F .text	00000002 .hidden Vector5C
+08001950 g     F .text	00000002 .hidden HardFault_Handler
+08001950 g     F .text	00000002 .hidden Vector8C
+08001950 g     F .text	00000002 .hidden SysTick_Handler
 00000000 g       .ram1	00000000 __ram1_free__
-08001580 g     F .text	00000002 .hidden PendSV_Handler
-08000e60 g     F .text	00000026 .hidden NMI_Handler
+08001950 g     F .text	00000002 .hidden PendSV_Handler
+08000f90 g     F .text	00000026 .hidden NMI_Handler
 08000000 g     O startup	000000c0 _vectors
-08001df0 g     F .text	00000048 .hidden chSchGoSleepS
-08002270 g     F .text	00000048 .hidden chThdEnqueueTimeoutS
-200004cc g       .ram0	00000000 __ram0_free__
-200004d0 g       .heap	00000000 __heap_base__
+080021c0 g     F .text	00000048 .hidden chSchGoSleepS
+08002640 g     F .text	00000048 .hidden chThdEnqueueTimeoutS
+200006cc g       .ram0	00000000 __ram0_free__
+200006d0 g       .heap	00000000 __heap_base__
 20000428 g     O .bss	00000004 .hidden nextmem.5737
-08001260 g     F .text	000000ae .hidden iqReadTimeout
-08001f20 g     F .text	00000054 .hidden chSchWakeupS
-08001580 g     F .text	00000002 .hidden Vector94
-08001580 g     F .text	00000002 .hidden VectorA8
-08000730 g     F .text	00000068 .hidden st_lld_init
-08001580 g     F .text	00000002 .hidden VectorB4
-08000fa0 g     F .text	0000001c .hidden stStartAlarm
-08001da0 g     F .text	00000048 .hidden chSchReadyI
+08001850 g     F .text	0000002e .hidden readt.6326
+080022f0 g     F .text	00000054 .hidden chSchWakeupS
+08001950 g     F .text	00000002 .hidden Vector94
+08001950 g     F .text	00000002 .hidden VectorA8
+080005d0 g     F .text	00000068 .hidden st_lld_init
+08001950 g     F .text	00000002 .hidden VectorB4
+080010d0 g     F .text	0000001c .hidden stStartAlarm
+08002170 g     F .text	00000048 .hidden chSchReadyI
 080000c0 g       startup	00000000 __fini_array_end
 20000300 g       .pstack	00000000 __main_thread_stack_end__
+080016a0 g     F .text	00000008 .hidden osalSysUnlock.6289
 2000042c g     O .bss	00000004 .hidden endmem.5739
-08000df0 g     F .text	0000002c .hidden _heap_init
-08001580 g     F .text	00000002 .hidden Vector74
-08000f00 g     F .text	00000024 .hidden halInit
-08001580 g     F .text	00000002 .hidden UsageFault_Handler
+080001d0 g     F .text	00000088 .hidden __udivsi3
+08000f20 g     F .text	0000002c .hidden _heap_init
+08001950 g     F .text	00000002 .hidden Vector74
+08001030 g     F .text	00000024 .hidden halInit
+08001950 g     F .text	00000002 .hidden UsageFault_Handler
 20000300 g       .bss	00000000 _bss_start
-08001150 g     F .text	0000007c .hidden iqPutI
+08001280 g     F .text	0000007c .hidden iqPutI
 20001000 g       .heap	00000000 __heap_end__
-08001520 g     F .text	0000000e .hidden osalEventObjectInit.6291
-08001580 g     F .text	00000002 .hidden Vector40
-08000fc0 g     F .text	00000008 .hidden stStopAlarm
-08001580 g     F .text	00000002 .hidden VectorBC
-08000520 g     F .text	00000054 .hidden hal_lld_init
+08001950 g     F .text	00000002 .hidden Vector40
+080010f0 g     F .text	00000008 .hidden stStopAlarm
+08001950 g     F .text	00000002 .hidden VectorBC
+080003c0 g     F .text	00000054 .hidden hal_lld_init
 00000000 g       .ram7	00000000 __ram7_free__
-08001580 g     F .text	00000002 .hidden Vector64
-200004cc g       .bss	00000000 _bss_end
-08000850 g     F .text	00000128 .hidden _pal_lld_setgroupmode
+080017f0 g     F .text	0000002a .hidden gett.6347
+08001950 g     F .text	00000002 .hidden Vector64
+200006cc g       .bss	00000000 _bss_end
+080006f0 g     F .text	00000128 .hidden _pal_lld_setgroupmode
 080000c0 g     F .text	00000000 Reset_Handler
-08001580 g     F .text	00000002 .hidden Vector54
-08001580 g     F .text	00000002 .hidden Vector98
+08000af0 g     F .text	00000038 .hidden sd_lld_init
+08001950 g     F .text	00000002 .hidden Vector54
+08001950 g     F .text	00000002 .hidden Vector98
+080017b0 g     F .text	00000032 .hidden putt.6339
 00000000 g       .ram5	00000000 __ram5_free__
-08001580 g     F .text	00000002 .hidden Vector24
-08001570  w    F .text	00000002 __default_exit
-08002020 g     F .text	00000008 chSchDoReschedule
-080018a0 g     F .text	0000007c .hidden chSysInit
+08001950 g     F .text	00000002 .hidden Vector24
+08001940  w    F .text	00000002 __default_exit
+080023f0 g     F .text	00000008 chSchDoReschedule
+08001c70 g     F .text	0000007c .hidden chSysInit
 00000000 g       .ram6	00000000 __ram6_free__
-08001580 g     F .text	00000002 .hidden Vector84
-080007f0 g     F .text	00000060 .hidden _pal_lld_init
-08000370 g     F .text	00000008 .hidden sdInit
-08002310 g     F .text	00000018 .hidden chMtxObjectInit
-08001530 g     F .text	00000016 .hidden osalEventBroadcastFlagsI.6300
-08000d40 g     F .text	0000002c .hidden _core_init
+08001950 g     F .text	00000002 .hidden Vector84
+080016e0 g     F .text	00000028 .hidden write.6304
+08000690 g     F .text	00000060 .hidden _pal_lld_init
+080026e0 g     F .text	00000018 .hidden chMtxObjectInit
+080016c0 g     F .text	00000016 .hidden osalEventBroadcastFlagsI.6300
+08000e70 g     F .text	0000002c .hidden _core_init
+080018f0 g     F .text	00000026 .hidden sdStart
+08001690 g     F .text	00000008 .hidden osalSysLock.6287
 08000190 g     F .text	00000000 _port_switch
-08001550  w    F .text	00000002 __core_init
-08000fd0 g     F .text	0000001c .hidden stSetAlarm
-08001560  w    F .text	00000002 __late_init
-08000e90 g     F .text	00000058 .hidden _port_irq_epilogue
-080013f0 g     F .text	00000078 .hidden oqGetI
-08001470 g     F .text	000000ae .hidden oqWriteTimeout
-08001d60 g     F .text	00000020 .hidden queue_dequeue
-08002410 g       .mstack	00000000 _textdata
+08001920  w    F .text	00000002 __core_init
+08001100 g     F .text	0000001c .hidden stSetAlarm
+08001930  w    F .text	00000002 __late_init
+08000fc0 g     F .text	00000058 .hidden _port_irq_epilogue
+08001520 g     F .text	00000078 .hidden oqGetI
+080015a0 g     F .text	000000ae .hidden oqWriteTimeout
+08002130 g     F .text	00000020 .hidden queue_dequeue
+08000270  w    F .text	00000002 .hidden __aeabi_ldiv0
+080027f0 g       .mstack	00000000 _textdata
 20000430 g     O .bss	00000020 .hidden default_heap.5914
 080000c0 g       startup	00000000 __fini_array_start
-08001580 g     F .text	00000002 .hidden MemManage_Handler
-08000c50 g     F .text	000000a4 main
-08001580 g     F .text	00000002 .hidden Vector6C
-08001580 g     F .text	00000002 .hidden VectorA0
-08001580 g     F .text	00000002 .hidden SVC_Handler
+08001950 g     F .text	00000002 .hidden MemManage_Handler
+08000d10 g     F .text	0000011c main
+08001950 g     F .text	00000002 .hidden Vector6C
+08001950 g     F .text	00000002 .hidden VectorA0
+080001d0 g     F .text	00000000 .hidden __aeabi_uidiv
+08001950 g     F .text	00000002 .hidden SVC_Handler
+08001710 g     F .text	00000028 .hidden read.6321
 00000000 g       .ram3	00000000 __ram3_free__
 080000c0 g       startup	00000000 __init_array_end
-080011d0 g     F .text	00000090 .hidden iqGetTimeout
-08001580 g     F .text	00000002 .hidden Vector7C
-08001580 g     F .text	00000002 .hidden VectorB0
-08002340 g     O .text	00000016 .hidden ch_debug
-08001580 g     F .text	00000002 .hidden Vector90
+08001950 g     F .text	00000002 .hidden Vector7C
+08001950 g     F .text	00000002 .hidden VectorB0
+08002710 g     O .text	00000016 .hidden ch_debug
+08001950 g     F .text	00000002 .hidden Vector90
 080001b0 g     F .text	00000000 _port_thread_start
-08001580 g     F .text	00000002 .hidden Vector60
-08001580 g     F .text	00000002 .hidden Vector1C
-080022c0 g     F .text	00000026 .hidden chThdDequeueNextI
-08001580 g     F .text	00000002 .hidden Vector48
+08001950 g     F .text	00000002 .hidden Vector60
+08001950 g     F .text	00000002 .hidden Vector1C
+08002690 g     F .text	00000026 .hidden chThdDequeueNextI
+08001950 g     F .text	00000002 .hidden Vector48
 20000200 g       .pstack	00000000 __process_stack_base__
-08001580 g     F .text	00000002 .hidden Vector70
+08001780 g     F .text	00000024 .hidden get.6344
+08001950 g     F .text	00000002 .hidden Vector70
+08001740 g     F .text	00000034 .hidden put.6332
 20000300 g       .data	00000000 _data
-08001580 g     F .text	00000002 .hidden Vector4C
+08001950 g     F .text	00000002 .hidden Vector4C
 080001bc g     F .text	00000000 _port_switch_from_isr
-08001580 g     F .text	00000002 .hidden Vector68
+08001950 g     F .text	00000002 .hidden Vector68
 20000200 g       .mstack	00000000 __main_stack_end__
-08001580 g     F .text	00000002 .hidden Vector78
+08000258 g     F .text	00000012 .hidden __aeabi_uidivmod
+08001950 g     F .text	00000002 .hidden Vector78
 20000300 g       .data	00000000 _edata
-08001d30 g     F .text	00000022 .hidden queue_fifo_remove
-08001580 g     F .text	00000002 .hidden Vector88
+08002100 g     F .text	00000022 .hidden queue_fifo_remove
+08001890 g     F .text	00000060 .hidden sdObjectInit
+08001950 g     F .text	00000002 .hidden Vector88
 20000200 g       .pstack	00000000 __main_thread_stack_base__
 080001c0 g       .text	00000000 _port_exit_from_isr
+08000270  w    F .text	00000002 .hidden __aeabi_idiv0
 080000c0 g       startup	00000000 __init_array_start
-08001f80 g     F .text	00000028 .hidden chSchIsPreemptionRequired
-08001100 g     F .text	00000046 .hidden iqObjectInit
-08001580 g     F .text	00000002 .hidden BusFault_Handler
-08001580 g     F .text	00000002 .hidden Vector50
+08002350 g     F .text	00000028 .hidden chSchIsPreemptionRequired
+08001950 g     F .text	00000002 .hidden BusFault_Handler
+08001950 g     F .text	00000002 .hidden Vector50
 20000300 g     O .bss	00000128 .hidden ch
+08001820 g     F .text	0000002e .hidden writet.6312
 00000000 g       .ram2	00000000 __ram2_free__
 00000000 g       .ram4	00000000 __ram4_free__
 20000000 g       .mstack	00000000 __main_stack_base__
-08001580 g     F .text	00000002 .hidden Vector44
-08001580 g     F .text	00000002 .hidden Vector28
-08000c40 g     F .text	00000002 .hidden boardInit
-08001580 g     F .text	00000002 .hidden VectorB8
+08001950 g     F .text	00000002 .hidden Vector44
+08001950 g     F .text	00000002 .hidden Vector28
+08000b90 g     F .text	00000002 .hidden boardInit
+08001950 g     F .text	00000002 .hidden VectorB8
+08000b30 g     F .text	0000004c .hidden sd_lld_start
 20000300 g       .pstack	00000000 __process_stack_end__
-08001580 g     F .text	00000002 .hidden Vector34
-08000c30 g     F .text	00000008 __early_init
-08001580 g     F .text	00000002 .hidden VectorA4
-08001360 g     F .text	0000008c .hidden oqPutTimeout
-08001580 g     F .text	00000002 .hidden Vector20
+08001950 g     F .text	00000002 .hidden Vector34
+08000b80 g     F .text	00000008 __early_init
+08001950 g     F .text	00000002 .hidden VectorA4
+08001950 g     F .text	00000002 .hidden Vector20
+08002730 g     O .text	00000020 .hidden vmt.6507
 
 

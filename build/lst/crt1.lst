@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cc8s7gI4.s 			page 1
+ARM GAS  /tmp/ccH6wC1T.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -16,7 +16,7 @@ ARM GAS  /tmp/cc8s7gI4.s 			page 1
   13              		.file	"crt1.c"
   14              		.text
   15              	.Ltext0:
-  16              		.section	.gnu.lto_.inline.70ddb05fd6effbc9,"",%progbits
+  16              		.section	.gnu.lto_.inline.79c22dda7098e9c5,"",%progbits
   17 0000 789C6362 		.ascii	"x\234cb`b\300\006<\2414\013\003\0033P\005\023\323\002"
   17      6062C006 
   17      3CA1340B 
@@ -30,7 +30,7 @@ ARM GAS  /tmp/cc8s7gI4.s 			page 1
   19 0026 00008A31 		.ascii	"\000\000\2121\002\314"
   19      02CC
   20              		.text
-  21              		.section	.gnu.lto___core_init.70ddb05fd6effbc9,"",%progbits
+  21              		.section	.gnu.lto___core_init.79c22dda7098e9c5,"",%progbits
   22 0000 789C6362 		.ascii	"x\234cb`b@\007\"@\354\015\304\016 \0163\003#P\005#\023"
   22      60624007 
   22      2240EC0D 
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cc8s7gI4.s 			page 1
   26      3329D33F 
   27 0072 20BFA8A4 		.ascii	" \277\250\244X\3371\310\327\331\267\002$V\220\231\223"
   27      58DF31C8 
-ARM GAS  /tmp/cc8s7gI4.s 			page 2
+ARM GAS  /tmp/ccH6wC1T.s 			page 2
 
 
   27      D7D9B702 
@@ -71,7 +71,7 @@ ARM GAS  /tmp/cc8s7gI4.s 			page 1
   28      F8
   29 0094 872507   		.ascii	"\207%\007"
   30              		.text
-  31              		.section	.gnu.lto___early_init.70ddb05fd6effbc9,"",%progbits
+  31              		.section	.gnu.lto___early_init.79c22dda7098e9c5,"",%progbits
   32 0000 789C6362 		.ascii	"x\234cb`b@\007\"@\354\005\304\016 \0163\003#P\005#\023"
   32      60624007 
   32      2240EC05 
@@ -110,7 +110,7 @@ ARM GAS  /tmp/cc8s7gI4.s 			page 1
   39 0091 00D16724 		.ascii	"\000\321g$\310"
   39      C8
   40              		.text
-  41              		.section	.gnu.lto___late_init.70ddb05fd6effbc9,"",%progbits
+  41              		.section	.gnu.lto___late_init.79c22dda7098e9c5,"",%progbits
   42 0000 789C6362 		.ascii	"x\234cb`b@\007\"@\354\005\304\016 \0163\003#P\005#\023"
   42      60624007 
   42      2240EC05 
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cc8s7gI4.s 			page 1
   42      33032350 
   43 0017 232390C3 		.ascii	"##\220\303\310P\317\304X\037\311\010V\266\236\351\300"
   43      C850CFC4 
-ARM GAS  /tmp/cc8s7gI4.s 			page 3
+ARM GAS  /tmp/ccH6wC1T.s 			page 3
 
 
   43      581FC908 
@@ -152,7 +152,7 @@ ARM GAS  /tmp/cc8s7gI4.s 			page 1
   49      00007C0F 
   49      2417
   50              		.text
-  51              		.section	.gnu.lto___default_exit.70ddb05fd6effbc9,"",%progbits
+  51              		.section	.gnu.lto___default_exit.79c22dda7098e9c5,"",%progbits
   52 0000 789C6362 		.ascii	"x\234cb`b@\007\"@l\003\304\016 \0163\003#P\005#\023"
   52      60624007 
   52      22406C03 
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cc8s7gI4.s 			page 1
   56      C84CCAF4 
   56      0FD6CF2F 
   56      D64FCE
-ARM GAS  /tmp/cc8s7gI4.s 			page 4
+ARM GAS  /tmp/ccH6wC1T.s 			page 4
 
 
   57 0062 CFCDCDCF 		.ascii	"\317\315\315\317\323/\310/*)\326w\014\362u\366\255\000"
@@ -194,7 +194,7 @@ ARM GAS  /tmp/cc8s7gI4.s 			page 1
   59      00E4DA24 
   59      0A
   60              		.text
-  61              		.section	.gnu.lto_.symbol_nodes.70ddb05fd6effbc9,"",%progbits
+  61              		.section	.gnu.lto_.symbol_nodes.79c22dda7098e9c5,"",%progbits
   62 0000 789C6362 		.ascii	"x\234cb`b\260b\200\002&\245z\006\206\011\347\030\030"
   62      6062B062 
   62      800226A5 
@@ -208,13 +208,13 @@ ARM GAS  /tmp/cc8s7gI4.s 			page 1
   64 0026 081E0300 		.ascii	"\010\036\003\000\377\011\021\303"
   64      FF0911C3 
   65              		.text
-  66              		.section	.gnu.lto_.refs.70ddb05fd6effbc9,"",%progbits
+  66              		.section	.gnu.lto_.refs.79c22dda7098e9c5,"",%progbits
   67 0000 789C6362 		.ascii	"x\234cb`b`d\200\002\000\000F\000\006"
   67      60626064 
   67      80020000 
   67      460006
   68              		.text
-  69              		.section	.gnu.lto_.decls.70ddb05fd6effbc9,"",%progbits
+  69              		.section	.gnu.lto_.decls.79c22dda7098e9c5,"",%progbits
   70 0000 789C9590 		.ascii	"x\234\225\220OK\002A\030\306\337w\265\310\022\351\222"
   70      4F4B0241 
   70      18C6DF77 
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cc8s7gI4.s 			page 1
   74 004c CF3BBF77 		.ascii	"\317;\277wF\002\011^\000\300\026\232\225\000\316D=%"
   74      4602095E 
   74      00C0169A 
-ARM GAS  /tmp/cc8s7gI4.s 			page 5
+ARM GAS  /tmp/ccH6wC1T.s 			page 5
 
 
   74      9500CE44 
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cc8s7gI4.s 			page 1
   86 0121 9B0D5192 		.ascii	"\233\015Q\222\3263\214\260\024#rZ\335U\3277\211\236"
   86      D6338CB0 
   86      1423725A 
-ARM GAS  /tmp/cc8s7gI4.s 			page 6
+ARM GAS  /tmp/ccH6wC1T.s 			page 6
 
 
   86      DD55D737 
@@ -328,7 +328,7 @@ ARM GAS  /tmp/cc8s7gI4.s 			page 1
   91      37E9F29E 
   91      25
   92              		.text
-  93              		.section	.gnu.lto_.symtab.70ddb05fd6effbc9,"",%progbits
+  93              		.section	.gnu.lto_.symtab.79c22dda7098e9c5,"",%progbits
   94 0000 5F5F636F 		.ascii	"__core_init\000\000\001\000\000\000\000\000\000\000"
   94      72655F69 
   94      6E697400 
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cc8s7gI4.s 			page 1
   99      000000
  100              		.text
  101              		.section	.gnu.lto_.opts,"",%progbits
-ARM GAS  /tmp/cc8s7gI4.s 			page 7
+ARM GAS  /tmp/ccH6wC1T.s 			page 7
 
 
  102 0000 272D6D63 		.ascii	"'-mcpu=cortex-m0' '-mno-thumb-interwork' '-mthumb' "
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cc8s7gI4.s 			page 1
  137              		.loc 1 61 0
  138              		@ sp needed
  139 0000 7047     		bx	lr
-ARM GAS  /tmp/cc8s7gI4.s 			page 8
+ARM GAS  /tmp/ccH6wC1T.s 			page 8
 
 
  140              		.cfi_endproc
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cc8s7gI4.s 			page 1
  185 000b 01       		.uleb128 0x1
  186 000c 74000000 		.4byte	.LASF14
  187 0010 01       		.byte	0x1
-ARM GAS  /tmp/cc8s7gI4.s 			page 9
+ARM GAS  /tmp/ccH6wC1T.s 			page 9
 
 
  188 0011 77010000 		.4byte	.LASF15
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cc8s7gI4.s 			page 1
  242 007d 01       		.uleb128 0x1
  243 007e 9C       		.byte	0x9c
  244 007f 04       		.uleb128 0x4
-ARM GAS  /tmp/cc8s7gI4.s 			page 10
+ARM GAS  /tmp/ccH6wC1T.s 			page 10
 
 
  245 0080 29000000 		.4byte	.LASF11
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cc8s7gI4.s 			page 1
  299 001c 03       		.uleb128 0x3
  300 001d 24       		.uleb128 0x24
  301 001e 00       		.byte	0
-ARM GAS  /tmp/cc8s7gI4.s 			page 11
+ARM GAS  /tmp/ccH6wC1T.s 			page 11
 
 
  302 001f 0B       		.uleb128 0xb
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cc8s7gI4.s 			page 1
  356 0008 00000000 		.4byte	.LFB35
  357 000c 02000000 		.4byte	.LFE35
  358 0010 00000000 		.4byte	.LFB36
-ARM GAS  /tmp/cc8s7gI4.s 			page 12
+ARM GAS  /tmp/ccH6wC1T.s 			page 12
 
 
  359 0014 02000000 		.4byte	.LFE36
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cc8s7gI4.s 			page 1
  384      4320342E 
  384      382E3420 
  384      32303134 
-ARM GAS  /tmp/cc8s7gI4.s 			page 13
+ARM GAS  /tmp/ccH6wC1T.s 			page 13
 
 
  384      31323139 
@@ -775,19 +775,19 @@ ARM GAS  /tmp/cc8s7gI4.s 			page 1
  402      2E6300
  403              		.comm	__gnu_lto_v1,1,1
  404              		.ident	"GCC: (4.8.4-1+11-1) 4.8.4 20141219 (release)"
-ARM GAS  /tmp/cc8s7gI4.s 			page 14
+ARM GAS  /tmp/ccH6wC1T.s 			page 14
 
 
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 crt1.c
-     /tmp/cc8s7gI4.s:109    .text.__core_init:0000000000000000 $t
-     /tmp/cc8s7gI4.s:115    .text.__core_init:0000000000000000 __core_init
-     /tmp/cc8s7gI4.s:127    .text.__early_init:0000000000000000 $t
-     /tmp/cc8s7gI4.s:133    .text.__early_init:0000000000000000 __early_init
-     /tmp/cc8s7gI4.s:144    .text.__late_init:0000000000000000 $t
-     /tmp/cc8s7gI4.s:150    .text.__late_init:0000000000000000 __late_init
-     /tmp/cc8s7gI4.s:161    .text.__default_exit:0000000000000000 $t
-     /tmp/cc8s7gI4.s:167    .text.__default_exit:0000000000000000 __default_exit
+     /tmp/ccH6wC1T.s:109    .text.__core_init:0000000000000000 $t
+     /tmp/ccH6wC1T.s:115    .text.__core_init:0000000000000000 __core_init
+     /tmp/ccH6wC1T.s:127    .text.__early_init:0000000000000000 $t
+     /tmp/ccH6wC1T.s:133    .text.__early_init:0000000000000000 __early_init
+     /tmp/ccH6wC1T.s:144    .text.__late_init:0000000000000000 $t
+     /tmp/ccH6wC1T.s:150    .text.__late_init:0000000000000000 __late_init
+     /tmp/ccH6wC1T.s:161    .text.__default_exit:0000000000000000 $t
+     /tmp/ccH6wC1T.s:167    .text.__default_exit:0000000000000000 __default_exit
                             *COM*:0000000000000001 __gnu_lto_v1
                      .debug_frame:0000000000000010 $d
 
