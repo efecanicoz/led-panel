@@ -1,22 +1,34 @@
 #include "hal.h"
 #include "ch.h"
 
+#define A1TO9 0b101111111U
+
 int main(void)
 {
 	halInit();
 	chSysInit();
-    palSetPadMode(GPIOA, GPIOA_PIN5, PAL_MODE_OUTPUT_PUSHPULL);
+	uint16_t portSample = 0;
+    palSetPadMode(GPIOA, GPIOA_PIN0, PAL_MODE_OUTPUT_PUSHPULL);
+    palSetGroupMode(GPIOA, A1TO9, 1, PAL_MODE_INPUT_PULLDOWN);
+	
 
 	volatile long i,j;
 	while(!0)
-	{		
-		palClearPad(GPIOA, GPIOA_PIN5); 
-		for(i = 0; i < 10000000; i++)
-			j++;
-		//chThdSleepMilliseconds(100);
-		palSetPad(GPIOA, GPIOA_PIN5);
-		for(i = 0; i < 10000000; i++)
-			j++;
+	{
+		portSample = palReadGroup(GPIOA, A1TO9, 1);
+		if(portSample )
+		{
+			palClearPad(GPIOA, GPIOA_PIN0);
+			for(i = 0; i < 100000; i++)
+				j++;
+		}
+		else
+		{
+			palSetPad(GPIOA, GPIOA_PIN0);
+				for(i = 0; i < 100000; i++)
+					j++;
+		}
+		
 		//chThdSleepMilliseconds(100);
 	}
 	return 0;

@@ -1,7 +1,7 @@
 Archive member included to satisfy reference by file (symbol)
 
 /usr/lib/gcc/arm-none-eabi/4.8/armv6-m/libgcc.a(_udivsi3.o)
-                              /tmp/cc7QoW4J.ltrans0.ltrans.o (__aeabi_uidiv)
+                              /tmp/cccHO3yf.ltrans0.ltrans.o (__aeabi_uidiv)
 /usr/lib/gcc/arm-none-eabi/4.8/armv6-m/libgcc.a(_dvmd_tls.o)
                               /usr/lib/gcc/arm-none-eabi/4.8/armv6-m/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
 
@@ -12,265 +12,265 @@ Discarded input sections
  .data          0x0000000000000000        0x0 build/obj/chcoreasm_v6m.o
  .bss           0x0000000000000000        0x0 build/obj/chcoreasm_v6m.o
  .text          0x0000000000000000        0x0 build/obj/crt1.o (symbol from plugin)
- .text          0x0000000000000000        0x0 /tmp/cc7QoW4J.ltrans0.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/cc7QoW4J.ltrans0.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/cc7QoW4J.ltrans0.ltrans.o
- .text.osalOsRescheduleS.6351.4377
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cccHO3yf.ltrans0.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cccHO3yf.ltrans0.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.sdStart.4321
-                0x0000000000000000       0x30 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000000000000       0x30 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.sdStop.4318
-                0x0000000000000000       0x40 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000000000000       0x40 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.sdRequestDataI.4311
-                0x0000000000000000       0x30 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000000000000       0x30 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.sdPutWouldBlock.4308
-                0x0000000000000000       0x30 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000000000000       0x30 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.sdGetWouldBlock.4304
-                0x0000000000000000       0x30 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000000000000       0x30 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.nvicDisableVector.4297
-                0x0000000000000000       0x60 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000000000000       0x60 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.nvicSetSystemHandlerPriority.4293
-                0x0000000000000000       0x60 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000000000000       0x60 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.nvicClearPending.4289
-                0x0000000000000000       0x30 /tmp/cc7QoW4J.ltrans0.ltrans.o
- .data.SystemCoreClock.4505
-                0x0000000000000000        0x4 /tmp/cc7QoW4J.ltrans0.ltrans.o
- .rodata.default_config.6942.4491
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000000000000       0x30 /tmp/cccHO3yf.ltrans0.ltrans.o
+ .data.SystemCoreClock.4502
+                0x0000000000000000        0x4 /tmp/cccHO3yf.ltrans0.ltrans.o
+ .rodata.default_config.6942.4488
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.usart_init.6863.4182
-                0x0000000000000000       0x60 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000000000000       0x60 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.usart_deinit.6915.4179
-                0x0000000000000000       0x20 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000000000000       0x20 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.sd_lld_start.4155
-                0x0000000000000000       0x50 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000000000000       0x50 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.sd_lld_stop.4021
-                0x0000000000000000       0x40 /tmp/cc7QoW4J.ltrans0.ltrans.o
- .text          0x0000000000000000        0x0 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/cc7QoW4J.ltrans1.ltrans.o
+                0x0000000000000000       0x40 /tmp/cccHO3yf.ltrans0.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cccHO3yf.ltrans1.ltrans.o
  .text.chMtxLockS
-                0x0000000000000000       0xd0 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.chMtxTryLock.4400
-                0x0000000000000000       0x30 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.chMtxTryLockS.4397
-                0x0000000000000000       0x40 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.chMtxUnlock.4394
-                0x0000000000000000       0xb0 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.chMtxUnlockS.4391
-                0x0000000000000000       0xa0 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.chMtxUnlockAll.4388
-                0x0000000000000000       0x90 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.port_lock.5533.4386
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.port_unlock.5536.4384
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.queue_init.5538.4381
-                0x0000000000000000       0x20 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.queue_notempty.5604.4375
-                0x0000000000000000       0x20 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.chSysLock.5608.4373
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.chSysUnlock.5610.4371
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.chThdGetSelfX.5612.4369
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.chMtxGetNextMutexS.5614.4367
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.chCondObjectInit.4364
-                0x0000000000000000       0x20 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.chCondSignal.4361
-                0x0000000000000000       0x40 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.chCondSignalI.4358
-                0x0000000000000000       0x40 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.chCondBroadcast.4355
-                0x0000000000000000       0x20 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.chCondBroadcastI.4352
-                0x0000000000000000       0x40 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.chCondWait.4349
-                0x0000000000000000       0x30 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.chCondWaitS.4346
-                0x0000000000000000       0x50 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.chCondWaitTimeout.4342
-                0x0000000000000000       0x40 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.chCondWaitTimeoutS.4334
-                0x0000000000000000       0x60 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.chCoreGetStatusX.4319
-                0x0000000000000000       0x20 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.chHeapObjectInit.4309
-                0x0000000000000000       0x40 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.chHeapAlloc.4305
-                0x0000000000000000       0xf0 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.chHeapFree.4302
-                0x0000000000000000       0xd0 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.chHeapStatus.4278
-                0x0000000000000000       0x70 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.st_lld_get_alarm.6002.4247
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.stGetAlarm.4234
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.osalThreadDequeueAllI.6133.4201
-                0x0000000000000000       0x20 /tmp/cc7QoW4J.ltrans1.ltrans.o
+                0x0000000000000000       0xd0 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.chMtxTryLock.4413
+                0x0000000000000000       0x30 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.chMtxTryLockS.4410
+                0x0000000000000000       0x40 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.chMtxUnlock.4407
+                0x0000000000000000       0xb0 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.chMtxUnlockS.4404
+                0x0000000000000000       0xa0 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.chMtxUnlockAll.4401
+                0x0000000000000000       0x90 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.port_lock.5533.4399
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.port_unlock.5536.4397
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.queue_init.5538.4394
+                0x0000000000000000       0x20 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.queue_notempty.5604.4388
+                0x0000000000000000       0x20 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.chSysLock.5608.4386
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.chSysUnlock.5610.4384
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.chThdGetSelfX.5612.4382
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.chMtxGetNextMutexS.5614.4380
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.chCondObjectInit.4377
+                0x0000000000000000       0x20 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.chCondSignal.4374
+                0x0000000000000000       0x40 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.chCondSignalI.4371
+                0x0000000000000000       0x40 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.chCondBroadcast.4368
+                0x0000000000000000       0x20 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.chCondBroadcastI.4365
+                0x0000000000000000       0x40 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.chCondWait.4362
+                0x0000000000000000       0x30 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.chCondWaitS.4359
+                0x0000000000000000       0x50 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.chCondWaitTimeout.4355
+                0x0000000000000000       0x40 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.chCondWaitTimeoutS.4347
+                0x0000000000000000       0x60 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.chCoreGetStatusX.4332
+                0x0000000000000000       0x20 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.chHeapObjectInit.4322
+                0x0000000000000000       0x40 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.chHeapAlloc.4318
+                0x0000000000000000       0xf0 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.chHeapFree.4315
+                0x0000000000000000       0xd0 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.chHeapStatus.4291
+                0x0000000000000000       0x70 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.st_lld_get_alarm.6002.4260
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.stGetAlarm.4247
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.osalThreadDequeueAllI.6133.4214
+                0x0000000000000000       0x20 /tmp/cccHO3yf.ltrans1.ltrans.o
  .text.iqResetI
-                0x0000000000000000       0x30 /tmp/cc7QoW4J.ltrans1.ltrans.o
+                0x0000000000000000       0x30 /tmp/cccHO3yf.ltrans1.ltrans.o
  .text.oqResetI
-                0x0000000000000000       0x40 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.palReadBus.4070
-                0x0000000000000000       0x20 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.palWriteBus.4066
-                0x0000000000000000       0x40 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.palSetBusMode.4026
-                0x0000000000000000       0x30 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.port_lock.6278.4024
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.port_unlock.6281.4022
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.chSysLock.6283.4020
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.chSysUnlock.6285.4018
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans1.ltrans.o
+                0x0000000000000000       0x40 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.palReadBus.4083
+                0x0000000000000000       0x20 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.palWriteBus.4079
+                0x0000000000000000       0x40 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.palSetBusMode.4042
+                0x0000000000000000       0x30 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.port_lock.6278.4040
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.port_unlock.6281.4038
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.chSysLock.6283.4036
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.chSysUnlock.6285.4034
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans1.ltrans.o
  .text.osalSysLock.6287
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans1.ltrans.o
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans1.ltrans.o
  .text.osalSysUnlock.6289
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text          0x0000000000000000        0x0 /tmp/cc7QoW4J.ltrans2.ltrans.o
- .data          0x0000000000000000        0x0 /tmp/cc7QoW4J.ltrans2.ltrans.o
- .bss           0x0000000000000000        0x0 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.osalOsRescheduleS.6351
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text          0x0000000000000000        0x0 /tmp/cccHO3yf.ltrans2.ltrans.o
+ .data          0x0000000000000000        0x0 /tmp/cccHO3yf.ltrans2.ltrans.o
+ .bss           0x0000000000000000        0x0 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.port_get_irq_status.4108.4482
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.port_irq_enabled.4111.4479
-                0x0000000000000000       0x20 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x20 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.port_is_isr_context.4115.4477
-                0x0000000000000000       0x20 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x20 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.port_disable.4125.4467
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSysLock.4140.4450
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSysUnlock.4142.4448
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSysHalt.4425
-                0x0000000000000000       0x20 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x20 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSysIntegrityCheckI.4422
-                0x0000000000000000      0x100 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000      0x100 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSysGetStatusAndLockX.4418
-                0x0000000000000000       0x40 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x40 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSysRestoreStatusX.4414
-                0x0000000000000000       0x30 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x30 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSchIsRescRequiredI.4612.4375
-                0x0000000000000000       0x20 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x20 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.queue_prio_insert
-                0x0000000000000000       0x50 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x50 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.queue_lifo_remove.4341
-                0x0000000000000000       0x30 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x30 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.list_insert.4334
-                0x0000000000000000       0x20 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x20 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSchRescheduleS
-                0x0000000000000000       0x20 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x20 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSchDoRescheduleBehind.4308
-                0x0000000000000000       0x40 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x40 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.st_lld_get_counter.4747.4298
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.port_timer_get_time.4752.4296
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSchCanYieldS.4827.4285
-                0x0000000000000000       0x20 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x20 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSchDoYieldS.4848.4283
-                0x0000000000000000       0x20 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x20 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chVTGetSystemTimeX.4833.4277
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chVTIsTimeWithinX.4835.4272
-                0x0000000000000000       0x40 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x40 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chThdGetSelfX.4840.4270
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chThdStartI.4842.4267
-                0x0000000000000000       0x20 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x20 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chThdSleepS.4845.4264
-                0x0000000000000000       0x20 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x20 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chThdStart.4236
-                0x0000000000000000       0x30 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x30 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chThdSetPriority.4233
-                0x0000000000000000       0x60 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x60 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chThdTerminate.4230
-                0x0000000000000000       0x20 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x20 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chThdSleep.4227
-                0x0000000000000000       0x30 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x30 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chThdSleepUntil.4224
-                0x0000000000000000       0x50 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x50 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chThdSleepUntilWindowed.4220
-                0x0000000000000000       0x70 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x70 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chThdYield.4218
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chThdWait.4209
-                0x0000000000000000       0x40 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x40 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chThdSuspendS.4206
-                0x0000000000000000       0x30 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x30 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chThdSuspendTimeoutS.4202
-                0x0000000000000000       0x50 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x50 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chThdResumeI.4198
-                0x0000000000000000       0x30 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x30 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chThdResumeS.4194
-                0x0000000000000000       0x30 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x30 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chThdResume.4190
-                0x0000000000000000       0x20 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x20 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chThdDequeueAllI
-                0x0000000000000000       0x30 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x30 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.port_lock.5039.4176
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.port_unlock.5042.4174
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSysLock.5044.4172
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSysUnlock.5046.4170
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chRegFirstThread.4168
-                0x0000000000000000       0x20 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x20 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chRegNextThread.4164
-                0x0000000000000000       0x30 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x30 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.port_lock.5183.4162
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.port_unlock.5186.4160
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.queue_init.5188.4157
-                0x0000000000000000       0x20 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x20 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSysLock.5254.4155
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSysUnlock.5256.4153
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSemObjectInit.4149
-                0x0000000000000000       0x20 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x20 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSemReset.4145
-                0x0000000000000000       0x30 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x30 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSemResetI.4141
-                0x0000000000000000       0x40 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x40 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSemWait.4138
-                0x0000000000000000       0x30 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x30 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSemWaitS.4135
-                0x0000000000000000       0x50 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x50 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSemWaitTimeout.4131
-                0x0000000000000000       0x40 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x40 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSemWaitTimeoutS.4124
-                0x0000000000000000       0x70 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x70 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSemSignal.4121
-                0x0000000000000000       0x40 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x40 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSemSignalI.4118
-                0x0000000000000000       0x40 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x40 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSemAddCounterI.4114
-                0x0000000000000000       0x50 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x50 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSemSignalWait.4106
-                0x0000000000000000       0x90 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x90 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.port_lock.5365.4104
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.port_unlock.5368.4102
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.queue_notempty.5436.4094
-                0x0000000000000000       0x20 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x20 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSysLock.5440
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSysUnlock.5442
-                0x0000000000000000       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chMtxQueueNotEmptyS.5444
-                0x0000000000000000       0x20 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x20 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chMtxLock
-                0x0000000000000000       0x20 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000000000000       0x20 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text          0x0000000000000000        0x0 build/obj/vectors.o (symbol from plugin)
  .text          0x0000000000000000        0x0 build/obj/chsys.o (symbol from plugin)
  .text          0x0000000000000000        0x0 build/obj/chdebug.o (symbol from plugin)
@@ -341,9 +341,9 @@ Linker script and memory map
 LOAD build/obj/crt0_v6m.o
 LOAD build/obj/chcoreasm_v6m.o
 LOAD build/obj/crt1.o
-LOAD /tmp/cc7QoW4J.ltrans0.ltrans.o
-LOAD /tmp/cc7QoW4J.ltrans1.ltrans.o
-LOAD /tmp/cc7QoW4J.ltrans2.ltrans.o
+LOAD /tmp/cccHO3yf.ltrans0.ltrans.o
+LOAD /tmp/cccHO3yf.ltrans1.ltrans.o
+LOAD /tmp/cccHO3yf.ltrans2.ltrans.o
 LOAD build/obj/vectors.o
 LOAD build/obj/chsys.o
 LOAD build/obj/chdebug.o
@@ -402,7 +402,7 @@ LOAD build/obj/main.o
 
 startup         0x0000000008000000       0xc0
  *(.vectors)
- .vectors       0x0000000008000000       0xc0 /tmp/cc7QoW4J.ltrans0.ltrans.o
+ .vectors       0x0000000008000000       0xc0 /tmp/cccHO3yf.ltrans0.ltrans.o
                 0x0000000008000000                _vectors
 
 constructors    0x00000000080000c0        0x0
@@ -417,7 +417,7 @@ destructors     0x00000000080000c0        0x0
  *(SORT(.fini_array.*))
                 0x00000000080000c0                PROVIDE (__fini_array_end, .)
 
-.text           0x00000000080000c0     0x2310
+.text           0x00000000080000c0     0x2350
  *(.text)
  .text          0x00000000080000c0       0xc4 build/obj/crt0_v6m.o
                 0x00000000080000c0                Reset_Handler
@@ -428,453 +428,455 @@ destructors     0x00000000080000c0        0x0
                 0x00000000080001bc                _port_switch_from_isr
                 0x00000000080001c0                _port_exit_from_isr
  *(.text.*)
- .text.osalEventObjectInit.6291.4374
-                0x00000000080001d0       0x10 /tmp/cc7QoW4J.ltrans0.ltrans.o
- .text.osalEventBroadcastFlagsI.6300.4370
-                0x00000000080001e0       0x20 /tmp/cc7QoW4J.ltrans0.ltrans.o
  .text.write.6304.4365
-                0x0000000008000200       0x30 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x00000000080001d0       0x30 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.read.6321.4360
-                0x0000000008000230       0x30 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000008000200       0x30 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.put.6332.4356
-                0x0000000008000260       0x40 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000008000230       0x40 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.get.6344.4353
-                0x00000000080002a0       0x30 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000008000270       0x30 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.putt.6339.4348
-                0x00000000080002d0       0x40 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x00000000080002a0       0x40 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.gett.6347.4344
-                0x0000000008000310       0x30 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x00000000080002e0       0x30 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.writet.6312.4338
-                0x0000000008000340       0x30 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000008000310       0x30 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.readt.6326.4332
-                0x0000000008000370       0x30 /tmp/cc7QoW4J.ltrans0.ltrans.o
- .text.sdInit   0x00000000080003a0       0x10 /tmp/cc7QoW4J.ltrans0.ltrans.o
-                0x00000000080003a0                sdInit
+                0x0000000008000340       0x30 /tmp/cccHO3yf.ltrans0.ltrans.o
+ .text.sdInit   0x0000000008000370       0x10 /tmp/cccHO3yf.ltrans0.ltrans.o
+                0x0000000008000370                sdInit
  .text.sdObjectInit.4325
-                0x00000000080003b0       0x60 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000008000380       0x60 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.sdIncomingDataI.4314
-                0x0000000008000410       0x50 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x00000000080003e0       0x50 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.nvicEnableVector.4300
-                0x0000000008000460       0x90 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000008000430       0x90 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.hal_lld_backup_domain_init.6570.4287
-                0x00000000080004f0       0x60 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x00000000080004c0       0x60 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.hal_lld_init
-                0x0000000008000550       0x60 /tmp/cc7QoW4J.ltrans0.ltrans.o
-                0x0000000008000550                hal_lld_init
+                0x0000000008000520       0x60 /tmp/cccHO3yf.ltrans0.ltrans.o
+                0x0000000008000520                hal_lld_init
  .text.stm32_clock_init.4282
-                0x00000000080005b0       0xe0 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000008000580       0xe0 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.port_lock.6611.4280
-                0x0000000008000690       0x10 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000008000660       0x10 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.port_unlock.6614.4278
-                0x00000000080006a0       0x10 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000008000670       0x10 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.port_lock_from_isr.6616.4276
-                0x00000000080006b0       0x10 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000008000680       0x10 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.port_unlock_from_isr.6618.4274
-                0x00000000080006c0       0x10 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000008000690       0x10 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.chSysLockFromISR.6620.4272
-                0x00000000080006d0       0x10 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x00000000080006a0       0x10 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.chSysUnlockFromISR.6622.4270
-                0x00000000080006e0       0x10 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x00000000080006b0       0x10 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.osalSysLockFromISR.6624.4268
-                0x00000000080006f0       0x10 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x00000000080006c0       0x10 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.osalSysUnlockFromISR.6626.4266
-                0x0000000008000700       0x10 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x00000000080006d0       0x10 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.osalOsTimerHandlerI.6628.4264
-                0x0000000008000710       0x10 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x00000000080006e0       0x10 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.Vector80.4262
-                0x0000000008000720       0x40 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x00000000080006f0       0x40 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.st_lld_init
-                0x0000000008000760       0x70 /tmp/cc7QoW4J.ltrans0.ltrans.o
-                0x0000000008000760                st_lld_init
+                0x0000000008000730       0x70 /tmp/cccHO3yf.ltrans0.ltrans.o
+                0x0000000008000730                st_lld_init
  .text.initgpio.6689.4254
-                0x00000000080007d0       0x50 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x00000000080007a0       0x50 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text._pal_lld_init
-                0x0000000008000820       0x60 /tmp/cc7QoW4J.ltrans0.ltrans.o
-                0x0000000008000820                _pal_lld_init
+                0x00000000080007f0       0x60 /tmp/cccHO3yf.ltrans0.ltrans.o
+                0x00000000080007f0                _pal_lld_init
  .text._pal_lld_setgroupmode
-                0x0000000008000880      0x130 /tmp/cc7QoW4J.ltrans0.ltrans.o
-                0x0000000008000880                _pal_lld_setgroupmode
+                0x0000000008000850      0x130 /tmp/cccHO3yf.ltrans0.ltrans.o
+                0x0000000008000850                _pal_lld_setgroupmode
  .text.port_lock.6760.4204
-                0x00000000080009b0       0x10 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000008000980       0x10 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.port_unlock.6763.4202
-                0x00000000080009c0       0x10 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000008000990       0x10 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.port_lock_from_isr.6765.4200
-                0x00000000080009d0       0x10 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x00000000080009a0       0x10 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.port_unlock_from_isr.6767.4198
-                0x00000000080009e0       0x10 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x00000000080009b0       0x10 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.chSysLockFromISR.6769.4196
-                0x00000000080009f0       0x10 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x00000000080009c0       0x10 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.chSysUnlockFromISR.6771.4194
-                0x0000000008000a00       0x10 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x00000000080009d0       0x10 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.osalSysLockFromISR.6773.4192
-                0x0000000008000a10       0x10 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x00000000080009e0       0x10 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.osalSysUnlockFromISR.6775.4190
-                0x0000000008000a20       0x10 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x00000000080009f0       0x10 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.osalEventBroadcastFlagsI.6777.4186
-                0x0000000008000a30       0x20 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000008000a00       0x20 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.set_error.6918.4175
-                0x0000000008000a50       0x70 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000008000a20       0x70 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.serve_interrupt.6922.4172
-                0x0000000008000ac0      0x120 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000008000a90      0x120 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.notify1.6787.4167
-                0x0000000008000be0       0x20 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000008000bb0       0x20 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.VectorAC.4170
-                0x0000000008000c00       0x20 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000008000bd0       0x20 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.sd_lld_init.4165
-                0x0000000008000c20       0x40 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000008000bf0       0x40 /tmp/cccHO3yf.ltrans0.ltrans.o
  .text.__early_init
-                0x0000000008000c60       0x10 /tmp/cc7QoW4J.ltrans0.ltrans.o
-                0x0000000008000c60                __early_init
+                0x0000000008000c30       0x10 /tmp/cccHO3yf.ltrans0.ltrans.o
+                0x0000000008000c30                __early_init
  .text.boardInit
-                0x0000000008000c70       0x10 /tmp/cc7QoW4J.ltrans0.ltrans.o
-                0x0000000008000c70                boardInit
- .text.main     0x0000000008000c80       0x70 /tmp/cc7QoW4J.ltrans0.ltrans.o
-                0x0000000008000c80                main
- .text.port_lock.5714.4332
-                0x0000000008000cf0       0x10 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.port_unlock.5717.4330
-                0x0000000008000d00       0x10 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.chSysLock.5719.4328
-                0x0000000008000d10       0x10 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.chSysUnlock.5721.4326
-                0x0000000008000d20       0x10 /tmp/cc7QoW4J.ltrans1.ltrans.o
+                0x0000000008000c40       0x10 /tmp/cccHO3yf.ltrans0.ltrans.o
+                0x0000000008000c40                boardInit
+ .text.main     0x0000000008000c50       0xb0 /tmp/cccHO3yf.ltrans0.ltrans.o
+                0x0000000008000c50                main
+ .text.port_lock.5714.4345
+                0x0000000008000d00       0x10 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.port_unlock.5717.4343
+                0x0000000008000d10       0x10 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.chSysLock.5719.4341
+                0x0000000008000d20       0x10 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.chSysUnlock.5721.4339
+                0x0000000008000d30       0x10 /tmp/cccHO3yf.ltrans1.ltrans.o
  .text._core_init
-                0x0000000008000d30       0x30 /tmp/cc7QoW4J.ltrans1.ltrans.o
-                0x0000000008000d30                _core_init
- .text.chCoreAlloc.4316
-                0x0000000008000d60       0x30 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.chCoreAllocI.4321
-                0x0000000008000d90       0x50 /tmp/cc7QoW4J.ltrans1.ltrans.o
+                0x0000000008000d40       0x30 /tmp/cccHO3yf.ltrans1.ltrans.o
+                0x0000000008000d40                _core_init
+ .text.chCoreAlloc.4329
+                0x0000000008000d70       0x30 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.chCoreAllocI.4334
+                0x0000000008000da0       0x50 /tmp/cccHO3yf.ltrans1.ltrans.o
  .text._heap_init
-                0x0000000008000de0       0x30 /tmp/cc7QoW4J.ltrans1.ltrans.o
-                0x0000000008000de0                _heap_init
- .text.port_lock.5920.4276
-                0x0000000008000e10       0x10 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.port_unlock.5923.4274
-                0x0000000008000e20       0x10 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.port_lock_from_isr.5925.4272
-                0x0000000008000e30       0x10 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.port_unlock_from_isr.5927.4270
-                0x0000000008000e40       0x10 /tmp/cc7QoW4J.ltrans1.ltrans.o
+                0x0000000008000df0       0x30 /tmp/cccHO3yf.ltrans1.ltrans.o
+                0x0000000008000df0                _heap_init
+ .text.port_lock.5920.4289
+                0x0000000008000e20       0x10 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.port_unlock.5923.4287
+                0x0000000008000e30       0x10 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.port_lock_from_isr.5925.4285
+                0x0000000008000e40       0x10 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.port_unlock_from_isr.5927.4283
+                0x0000000008000e50       0x10 /tmp/cccHO3yf.ltrans1.ltrans.o
  .text.NMI_Handler
-                0x0000000008000e50       0x30 /tmp/cc7QoW4J.ltrans1.ltrans.o
-                0x0000000008000e50                NMI_Handler
+                0x0000000008000e60       0x30 /tmp/cccHO3yf.ltrans1.ltrans.o
+                0x0000000008000e60                NMI_Handler
  .text._port_irq_epilogue
-                0x0000000008000e80       0x60 /tmp/cc7QoW4J.ltrans1.ltrans.o
-                0x0000000008000e80                _port_irq_epilogue
- .text.osalInit.5962.4260
-                0x0000000008000ee0       0x10 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.halInit  0x0000000008000ef0       0x30 /tmp/cc7QoW4J.ltrans1.ltrans.o
-                0x0000000008000ef0                halInit
- .text.st_lld_start_alarm.5990.4254
-                0x0000000008000f20       0x30 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.st_lld_stop_alarm.5997.4252
-                0x0000000008000f50       0x10 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.st_lld_set_alarm.5999.4249
-                0x0000000008000f60       0x20 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.stInit.4245
-                0x0000000008000f80       0x10 /tmp/cc7QoW4J.ltrans1.ltrans.o
+                0x0000000008000e90       0x60 /tmp/cccHO3yf.ltrans1.ltrans.o
+                0x0000000008000e90                _port_irq_epilogue
+ .text.osalInit.5962.4273
+                0x0000000008000ef0       0x10 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.halInit  0x0000000008000f00       0x30 /tmp/cccHO3yf.ltrans1.ltrans.o
+                0x0000000008000f00                halInit
+ .text.st_lld_start_alarm.5990.4267
+                0x0000000008000f30       0x30 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.st_lld_stop_alarm.5997.4265
+                0x0000000008000f60       0x10 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.st_lld_set_alarm.5999.4262
+                0x0000000008000f70       0x20 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.stInit.4258
+                0x0000000008000f90       0x10 /tmp/cccHO3yf.ltrans1.ltrans.o
  .text.stStartAlarm
-                0x0000000008000f90       0x20 /tmp/cc7QoW4J.ltrans1.ltrans.o
-                0x0000000008000f90                stStartAlarm
+                0x0000000008000fa0       0x20 /tmp/cccHO3yf.ltrans1.ltrans.o
+                0x0000000008000fa0                stStartAlarm
  .text.stStopAlarm
-                0x0000000008000fb0       0x10 /tmp/cc7QoW4J.ltrans1.ltrans.o
-                0x0000000008000fb0                stStopAlarm
+                0x0000000008000fc0       0x10 /tmp/cccHO3yf.ltrans1.ltrans.o
+                0x0000000008000fc0                stStopAlarm
  .text.stSetAlarm
-                0x0000000008000fc0       0x20 /tmp/cc7QoW4J.ltrans1.ltrans.o
-                0x0000000008000fc0                stSetAlarm
- .text.port_lock.6048.4232
-                0x0000000008000fe0       0x10 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.port_unlock.6051.4230
-                0x0000000008000ff0       0x10 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.queue_init.6053.4227
-                0x0000000008001000       0x20 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.chSysLock.6119.4225
-                0x0000000008001020       0x10 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.chSysUnlock.6121.4223
-                0x0000000008001030       0x10 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.chThdQueueObjectInit.6123.4220
-                0x0000000008001040       0x20 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.osalSysLock.6126.4218
-                0x0000000008001060       0x10 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.osalSysUnlock.6128.4216
-                0x0000000008001070       0x10 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.osalThreadQueueObjectInit.6130.4213
-                0x0000000008001080       0x20 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.osalThreadEnqueueTimeoutS.6141.4209
-                0x00000000080010a0       0x30 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .text.osalThreadDequeueNextI.6137.4205
-                0x00000000080010d0       0x20 /tmp/cc7QoW4J.ltrans1.ltrans.o
+                0x0000000008000fd0       0x20 /tmp/cccHO3yf.ltrans1.ltrans.o
+                0x0000000008000fd0                stSetAlarm
+ .text.port_lock.6048.4245
+                0x0000000008000ff0       0x10 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.port_unlock.6051.4243
+                0x0000000008001000       0x10 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.queue_init.6053.4240
+                0x0000000008001010       0x20 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.chSysLock.6119.4238
+                0x0000000008001030       0x10 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.chSysUnlock.6121.4236
+                0x0000000008001040       0x10 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.chThdQueueObjectInit.6123.4233
+                0x0000000008001050       0x20 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.osalSysLock.6126.4231
+                0x0000000008001070       0x10 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.osalSysUnlock.6128.4229
+                0x0000000008001080       0x10 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.osalThreadQueueObjectInit.6130.4226
+                0x0000000008001090       0x20 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.osalThreadEnqueueTimeoutS.6141.4222
+                0x00000000080010b0       0x30 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .text.osalThreadDequeueNextI.6137.4218
+                0x00000000080010e0       0x20 /tmp/cccHO3yf.ltrans1.ltrans.o
  .text.iqObjectInit
-                0x00000000080010f0       0x50 /tmp/cc7QoW4J.ltrans1.ltrans.o
-                0x00000000080010f0                iqObjectInit
- .text.iqPutI   0x0000000008001140       0x80 /tmp/cc7QoW4J.ltrans1.ltrans.o
-                0x0000000008001140                iqPutI
+                0x0000000008001100       0x50 /tmp/cccHO3yf.ltrans1.ltrans.o
+                0x0000000008001100                iqObjectInit
+ .text.iqPutI   0x0000000008001150       0x80 /tmp/cccHO3yf.ltrans1.ltrans.o
+                0x0000000008001150                iqPutI
  .text.iqGetTimeout
-                0x00000000080011c0       0x90 /tmp/cc7QoW4J.ltrans1.ltrans.o
-                0x00000000080011c0                iqGetTimeout
+                0x00000000080011d0       0x90 /tmp/cccHO3yf.ltrans1.ltrans.o
+                0x00000000080011d0                iqGetTimeout
  .text.iqReadTimeout
-                0x0000000008001250       0xb0 /tmp/cc7QoW4J.ltrans1.ltrans.o
-                0x0000000008001250                iqReadTimeout
+                0x0000000008001260       0xb0 /tmp/cccHO3yf.ltrans1.ltrans.o
+                0x0000000008001260                iqReadTimeout
  .text.oqObjectInit
-                0x0000000008001300       0x50 /tmp/cc7QoW4J.ltrans1.ltrans.o
-                0x0000000008001300                oqObjectInit
+                0x0000000008001310       0x50 /tmp/cccHO3yf.ltrans1.ltrans.o
+                0x0000000008001310                oqObjectInit
  .text.oqPutTimeout
-                0x0000000008001350       0x90 /tmp/cc7QoW4J.ltrans1.ltrans.o
-                0x0000000008001350                oqPutTimeout
- .text.oqGetI   0x00000000080013e0       0x80 /tmp/cc7QoW4J.ltrans1.ltrans.o
-                0x00000000080013e0                oqGetI
+                0x0000000008001360       0x90 /tmp/cccHO3yf.ltrans1.ltrans.o
+                0x0000000008001360                oqPutTimeout
+ .text.oqGetI   0x00000000080013f0       0x80 /tmp/cccHO3yf.ltrans1.ltrans.o
+                0x00000000080013f0                oqGetI
  .text.oqWriteTimeout
-                0x0000000008001460       0xb0 /tmp/cc7QoW4J.ltrans1.ltrans.o
-                0x0000000008001460                oqWriteTimeout
+                0x0000000008001470       0xb0 /tmp/cccHO3yf.ltrans1.ltrans.o
+                0x0000000008001470                oqWriteTimeout
+ .text.osalEventObjectInit.6291
+                0x0000000008001520       0x10 /tmp/cccHO3yf.ltrans1.ltrans.o
+                0x0000000008001520                osalEventObjectInit.6291
+ .text.osalEventBroadcastFlagsI.6300
+                0x0000000008001530       0x20 /tmp/cccHO3yf.ltrans1.ltrans.o
+                0x0000000008001530                osalEventBroadcastFlagsI.6300
  .text.__core_init
-                0x0000000008001510       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
-                0x0000000008001510                __core_init
+                0x0000000008001550       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
+                0x0000000008001550                __core_init
  .text.__late_init
-                0x0000000008001520       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
-                0x0000000008001520                __late_init
+                0x0000000008001560       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
+                0x0000000008001560                __late_init
  .text.__default_exit
-                0x0000000008001530       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
-                0x0000000008001530                __default_exit
+                0x0000000008001570       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
+                0x0000000008001570                __default_exit
  .text._unhandled_exception.4492
-                0x0000000008001540       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
-                0x0000000008001540                Vector58
-                0x0000000008001540                Vector9C
-                0x0000000008001540                DebugMon_Handler
-                0x0000000008001540                Vector5C
-                0x0000000008001540                HardFault_Handler
-                0x0000000008001540                Vector8C
-                0x0000000008001540                SysTick_Handler
-                0x0000000008001540                PendSV_Handler
-                0x0000000008001540                Vector94
-                0x0000000008001540                VectorA8
-                0x0000000008001540                VectorB4
-                0x0000000008001540                Vector74
-                0x0000000008001540                UsageFault_Handler
-                0x0000000008001540                Vector40
-                0x0000000008001540                VectorBC
-                0x0000000008001540                Vector64
-                0x0000000008001540                Vector54
-                0x0000000008001540                Vector98
-                0x0000000008001540                Vector24
-                0x0000000008001540                Vector84
-                0x0000000008001540                MemManage_Handler
-                0x0000000008001540                Vector6C
-                0x0000000008001540                VectorA0
-                0x0000000008001540                SVC_Handler
-                0x0000000008001540                Vector7C
-                0x0000000008001540                VectorB0
-                0x0000000008001540                Vector90
-                0x0000000008001540                Vector60
-                0x0000000008001540                Vector1C
-                0x0000000008001540                Vector48
-                0x0000000008001540                Vector70
-                0x0000000008001540                Vector4C
-                0x0000000008001540                Vector68
-                0x0000000008001540                Vector78
-                0x0000000008001540                Vector88
-                0x0000000008001540                BusFault_Handler
-                0x0000000008001540                Vector50
-                0x0000000008001540                Vector44
-                0x0000000008001540                Vector28
-                0x0000000008001540                VectorB8
-                0x0000000008001540                Vector34
-                0x0000000008001540                VectorA4
-                0x0000000008001540                Vector20
+                0x0000000008001580       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
+                0x0000000008001580                Vector58
+                0x0000000008001580                Vector9C
+                0x0000000008001580                DebugMon_Handler
+                0x0000000008001580                Vector5C
+                0x0000000008001580                HardFault_Handler
+                0x0000000008001580                Vector8C
+                0x0000000008001580                SysTick_Handler
+                0x0000000008001580                PendSV_Handler
+                0x0000000008001580                Vector94
+                0x0000000008001580                VectorA8
+                0x0000000008001580                VectorB4
+                0x0000000008001580                Vector74
+                0x0000000008001580                UsageFault_Handler
+                0x0000000008001580                Vector40
+                0x0000000008001580                VectorBC
+                0x0000000008001580                Vector64
+                0x0000000008001580                Vector54
+                0x0000000008001580                Vector98
+                0x0000000008001580                Vector24
+                0x0000000008001580                Vector84
+                0x0000000008001580                MemManage_Handler
+                0x0000000008001580                Vector6C
+                0x0000000008001580                VectorA0
+                0x0000000008001580                SVC_Handler
+                0x0000000008001580                Vector7C
+                0x0000000008001580                VectorB0
+                0x0000000008001580                Vector90
+                0x0000000008001580                Vector60
+                0x0000000008001580                Vector1C
+                0x0000000008001580                Vector48
+                0x0000000008001580                Vector70
+                0x0000000008001580                Vector4C
+                0x0000000008001580                Vector68
+                0x0000000008001580                Vector78
+                0x0000000008001580                Vector88
+                0x0000000008001580                BusFault_Handler
+                0x0000000008001580                Vector50
+                0x0000000008001580                Vector44
+                0x0000000008001580                Vector28
+                0x0000000008001580                VectorB8
+                0x0000000008001580                Vector34
+                0x0000000008001580                VectorA4
+                0x0000000008001580                Vector20
  .text.NVIC_SetPriority.4097.4486
-                0x0000000008001550       0xf0 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008001590       0xf0 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.port_init.4106.4484
-                0x0000000008001640       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008001680       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.port_lock.4117.4475
-                0x0000000008001650       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008001690       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.port_unlock.4119.4473
-                0x0000000008001660       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x00000000080016a0       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.port_lock_from_isr.4121.4471
-                0x0000000008001670       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x00000000080016b0       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.port_unlock_from_isr.4123.4469
-                0x0000000008001680       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x00000000080016c0       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.port_enable.4127.4465
-                0x0000000008001690       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x00000000080016d0       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.port_wait_for_interrupt.4129.4463
-                0x00000000080016a0       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x00000000080016e0       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.st_lld_get_counter.4131.4461
-                0x00000000080016b0       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x00000000080016f0       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.port_timer_stop_alarm.4221.4459
-                0x00000000080016c0       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008001700       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.port_timer_set_alarm.4223.4456
-                0x00000000080016d0       0x20 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008001710       0x20 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.port_timer_get_time.4136.4454
-                0x00000000080016f0       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008001730       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSysEnable.4138.4452
-                0x0000000008001700       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008001740       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSysLockFromISR.4144.4446
-                0x0000000008001710       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008001750       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSysUnlockFromISR.4146.4444
-                0x0000000008001720       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008001760       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chVTGetSystemTimeX.4148.4442
-                0x0000000008001730       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008001770       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chVTDoTickI.4226.4440
-                0x0000000008001740       0xe0 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008001780       0xe0 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chRegSetThreadName.4150.4437
-                0x0000000008001820       0x20 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008001860       0x20 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chRegSetThreadNameX.4154.4433
-                0x0000000008001840       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008001880       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text._idle_thread.4218.4430
-                0x0000000008001850       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008001890       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSysInit
-                0x0000000008001860       0x80 /tmp/cc7QoW4J.ltrans2.ltrans.o
-                0x0000000008001860                chSysInit
+                0x00000000080018a0       0x80 /tmp/cccHO3yf.ltrans2.ltrans.o
+                0x00000000080018a0                chSysInit
  .text.chSysTimerHandlerI
-                0x00000000080018e0       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
-                0x00000000080018e0                chSysTimerHandlerI
+                0x0000000008001920       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
+                0x0000000008001920                chSysTimerHandlerI
  .text.st_lld_get_counter.4377.4412
-                0x00000000080018f0       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008001930       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.port_timer_start_alarm.4387.4409
-                0x0000000008001900       0x20 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008001940       0x20 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.port_timer_stop_alarm.4393.4407
-                0x0000000008001920       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008001960       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.port_timer_set_alarm.4390.4404
-                0x0000000008001930       0x20 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008001970       0x20 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.port_timer_get_time.4383.4402
-                0x0000000008001950       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008001990       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chVTGetSystemTimeX.4385.4400
-                0x0000000008001960       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x00000000080019a0       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text._vt_init.4398
-                0x0000000008001970       0x30 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x00000000080019b0       0x30 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chVTDoSetI.4392
-                0x00000000080019a0      0x140 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x00000000080019e0      0x140 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chVTDoResetI.4388
-                0x0000000008001ae0       0xf0 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008001b20       0xf0 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.port_lock.4537.4386
-                0x0000000008001bd0       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008001c10       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.port_unlock.4540.4384
-                0x0000000008001be0       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008001c20       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.port_lock_from_isr.4542.4382
-                0x0000000008001bf0       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008001c30       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.port_unlock_from_isr.4544.4380
-                0x0000000008001c00       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008001c40       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.queue_init.4546.4377
-                0x0000000008001c10       0x20 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008001c50       0x20 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSysLockFromISR.4615.4373
-                0x0000000008001c30       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008001c70       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSysUnlockFromISR.4617.4371
-                0x0000000008001c40       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008001c80       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chVTIsArmedI.4619.4360
-                0x0000000008001c50       0x20 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008001c90       0x20 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSemFastSignalI.4633.4357
-                0x0000000008001c70       0x20 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008001cb0       0x20 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text._scheduler_init.4355
-                0x0000000008001c90       0x30 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008001cd0       0x30 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.queue_insert.4347
-                0x0000000008001cc0       0x30 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008001d00       0x30 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.queue_fifo_remove
-                0x0000000008001cf0       0x30 /tmp/cc7QoW4J.ltrans2.ltrans.o
-                0x0000000008001cf0                queue_fifo_remove
+                0x0000000008001d30       0x30 /tmp/cccHO3yf.ltrans2.ltrans.o
+                0x0000000008001d30                queue_fifo_remove
  .text.queue_dequeue
-                0x0000000008001d20       0x20 /tmp/cc7QoW4J.ltrans2.ltrans.o
-                0x0000000008001d20                queue_dequeue
+                0x0000000008001d60       0x20 /tmp/cccHO3yf.ltrans2.ltrans.o
+                0x0000000008001d60                queue_dequeue
  .text.list_remove.4331
-                0x0000000008001d40       0x20 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008001d80       0x20 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSchReadyI
-                0x0000000008001d60       0x50 /tmp/cc7QoW4J.ltrans2.ltrans.o
-                0x0000000008001d60                chSchReadyI
+                0x0000000008001da0       0x50 /tmp/cccHO3yf.ltrans2.ltrans.o
+                0x0000000008001da0                chSchReadyI
  .text.chSchGoSleepS
-                0x0000000008001db0       0x50 /tmp/cc7QoW4J.ltrans2.ltrans.o
-                0x0000000008001db0                chSchGoSleepS
+                0x0000000008001df0       0x50 /tmp/cccHO3yf.ltrans2.ltrans.o
+                0x0000000008001df0                chSchGoSleepS
  .text.wakeup.4666.4322
-                0x0000000008001e00       0x60 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008001e40       0x60 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSchGoSleepTimeoutS
-                0x0000000008001e60       0x80 /tmp/cc7QoW4J.ltrans2.ltrans.o
-                0x0000000008001e60                chSchGoSleepTimeoutS
+                0x0000000008001ea0       0x80 /tmp/cccHO3yf.ltrans2.ltrans.o
+                0x0000000008001ea0                chSchGoSleepTimeoutS
  .text.chSchWakeupS
-                0x0000000008001ee0       0x60 /tmp/cc7QoW4J.ltrans2.ltrans.o
-                0x0000000008001ee0                chSchWakeupS
+                0x0000000008001f20       0x60 /tmp/cccHO3yf.ltrans2.ltrans.o
+                0x0000000008001f20                chSchWakeupS
  .text.chSchIsPreemptionRequired
-                0x0000000008001f40       0x30 /tmp/cc7QoW4J.ltrans2.ltrans.o
-                0x0000000008001f40                chSchIsPreemptionRequired
+                0x0000000008001f80       0x30 /tmp/cccHO3yf.ltrans2.ltrans.o
+                0x0000000008001f80                chSchIsPreemptionRequired
  .text.chSchDoRescheduleAhead.4306
-                0x0000000008001f70       0x70 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008001fb0       0x70 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSchDoReschedule
-                0x0000000008001fe0       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
-                0x0000000008001fe0                chSchDoReschedule
+                0x0000000008002020       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
+                0x0000000008002020                chSchDoReschedule
  .text.port_lock.4742.4302
-                0x0000000008001ff0       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008002030       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.port_unlock.4745.4300
-                0x0000000008002000       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008002040       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.list_init.4754.4293
-                0x0000000008002010       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008002050       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.list_notempty.4820.4290
-                0x0000000008002020       0x20 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008002060       0x20 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.queue_notempty.4824.4287
-                0x0000000008002040       0x20 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008002080       0x20 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSysLock.4829.4281
-                0x0000000008002060       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x00000000080020a0       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chSysUnlock.4831.4279
-                0x0000000008002070       0x10 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x00000000080020b0       0x10 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chThdDoDequeueNextI.4850.4260
-                0x0000000008002080       0x30 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x00000000080020c0       0x30 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text._thread_init.4256
-                0x00000000080020b0       0x60 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x00000000080020f0       0x60 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chThdCreateI.4248
-                0x0000000008002110       0x50 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008002150       0x50 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chThdCreateStatic.4239
-                0x0000000008002160       0x40 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x00000000080021a0       0x40 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chThdExit
-                0x00000000080021a0       0x20 /tmp/cc7QoW4J.ltrans2.ltrans.o
-                0x00000000080021a0                chThdExit
+                0x00000000080021e0       0x20 /tmp/cccHO3yf.ltrans2.ltrans.o
+                0x00000000080021e0                chThdExit
  .text.chThdExitS.4212
-                0x00000000080021c0       0x70 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x0000000008002200       0x70 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chThdEnqueueTimeoutS
-                0x0000000008002230       0x50 /tmp/cc7QoW4J.ltrans2.ltrans.o
-                0x0000000008002230                chThdEnqueueTimeoutS
+                0x0000000008002270       0x50 /tmp/cccHO3yf.ltrans2.ltrans.o
+                0x0000000008002270                chThdEnqueueTimeoutS
  .text.chThdDequeueNextI
-                0x0000000008002280       0x30 /tmp/cc7QoW4J.ltrans2.ltrans.o
-                0x0000000008002280                chThdDequeueNextI
+                0x00000000080022c0       0x30 /tmp/cccHO3yf.ltrans2.ltrans.o
+                0x00000000080022c0                chThdDequeueNextI
  .text.queue_init.5370.4099
-                0x00000000080022b0       0x20 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x00000000080022f0       0x20 /tmp/cccHO3yf.ltrans2.ltrans.o
  .text.chMtxObjectInit
-                0x00000000080022d0       0x20 /tmp/cc7QoW4J.ltrans2.ltrans.o
-                0x00000000080022d0                chMtxObjectInit
+                0x0000000008002310       0x20 /tmp/cccHO3yf.ltrans2.ltrans.o
+                0x0000000008002310                chMtxObjectInit
  *(.rodata)
- .rodata        0x00000000080022f0        0x8 /tmp/cc7QoW4J.ltrans2.ltrans.o
+ .rodata        0x0000000008002330        0x8 /tmp/cccHO3yf.ltrans2.ltrans.o
  *(.rodata.*)
- *fill*         0x00000000080022f8        0x8 
+ *fill*         0x0000000008002338        0x8 
  .rodata.ch_debug
-                0x0000000008002300       0x18 /tmp/cc7QoW4J.ltrans0.ltrans.o
-                0x0000000008002300                ch_debug
- *fill*         0x0000000008002318        0x8 
- .rodata.vmt.6507.4492
-                0x0000000008002320       0x20 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000008002340       0x18 /tmp/cccHO3yf.ltrans0.ltrans.o
+                0x0000000008002340                ch_debug
+ *fill*         0x0000000008002358        0x8 
+ .rodata.vmt.6507.4489
+                0x0000000008002360       0x20 /tmp/cccHO3yf.ltrans0.ltrans.o
  .rodata.pal_default_config
-                0x0000000008002340       0x70 /tmp/cc7QoW4J.ltrans0.ltrans.o
-                0x0000000008002340                pal_default_config
+                0x0000000008002380       0x70 /tmp/cccHO3yf.ltrans0.ltrans.o
+                0x0000000008002380                pal_default_config
  .rodata.wakeup.4666.4322
-                0x00000000080023b0       0x20 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x00000000080023f0       0x20 /tmp/cccHO3yf.ltrans2.ltrans.o
  *(.glue_7t)
- .glue_7t       0x00000000080023d0        0x0 linker stubs
+ .glue_7t       0x0000000008002410        0x0 linker stubs
  *(.glue_7)
- .glue_7        0x00000000080023d0        0x0 linker stubs
+ .glue_7        0x0000000008002410        0x0 linker stubs
  *(.gcc*)
 
-.vfp11_veneer   0x00000000080023d0        0x0
- .vfp11_veneer  0x00000000080023d0        0x0 linker stubs
+.vfp11_veneer   0x0000000008002410        0x0
+ .vfp11_veneer  0x0000000008002410        0x0 linker stubs
 
-.v4_bx          0x00000000080023d0        0x0
- .v4_bx         0x00000000080023d0        0x0 linker stubs
+.v4_bx          0x0000000008002410        0x0
+ .v4_bx         0x0000000008002410        0x0 linker stubs
 
-.iplt           0x00000000080023d0        0x0
- .iplt          0x00000000080023d0        0x0 build/obj/crt0_v6m.o
+.iplt           0x0000000008002410        0x0
+ .iplt          0x0000000008002410        0x0 build/obj/crt0_v6m.o
 
-.rel.dyn        0x00000000080023d0        0x0
- .rel.iplt      0x00000000080023d0        0x0 build/obj/crt0_v6m.o
+.rel.dyn        0x0000000008002410        0x0
+ .rel.iplt      0x0000000008002410        0x0 build/obj/crt0_v6m.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM.exidx      0x00000000080023d0        0x0
-                0x00000000080023d0                PROVIDE (__exidx_start, .)
+.ARM.exidx      0x0000000008002410        0x0
+                0x0000000008002410                PROVIDE (__exidx_start, .)
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x00000000080023d0                PROVIDE (__exidx_end, .)
+                0x0000000008002410                PROVIDE (__exidx_end, .)
 
 .eh_frame_hdr
  *(.eh_frame_hdr)
@@ -882,11 +884,11 @@ destructors     0x00000000080000c0        0x0
 .eh_frame
  *(.eh_frame)
 
-.textalign      0x00000000080023d0        0x0
-                0x00000000080023d0                . = ALIGN (0x8)
-                0x00000000080023d0                . = ALIGN (0x4)
-                0x00000000080023d0                _etext = .
-                0x00000000080023d0                _textdata = _etext
+.textalign      0x0000000008002410        0x0
+                0x0000000008002410                . = ALIGN (0x8)
+                0x0000000008002410                . = ALIGN (0x4)
+                0x0000000008002410                _etext = .
+                0x0000000008002410                _textdata = _etext
 
 .mstack         0x0000000020000000      0x200
                 0x0000000020000000                . = ALIGN (0x8)
@@ -905,7 +907,7 @@ destructors     0x00000000080000c0        0x0
                 0x0000000020000300                __process_stack_end__ = .
                 0x0000000020000300                __main_thread_stack_end__ = .
 
-.data           0x0000000020000300        0x0 load address 0x00000000080023d0
+.data           0x0000000020000300        0x0 load address 0x0000000008002410
                 0x0000000020000300                . = ALIGN (0x4)
                 0x0000000020000300                PROVIDE (_data, .)
  *(.data)
@@ -914,32 +916,32 @@ destructors     0x00000000080000c0        0x0
                 0x0000000020000300                . = ALIGN (0x4)
                 0x0000000020000300                PROVIDE (_edata, .)
 
-.igot.plt       0x0000000020000300        0x0 load address 0x00000000080023d0
+.igot.plt       0x0000000020000300        0x0 load address 0x0000000008002410
  .igot.plt      0x0000000020000300        0x0 build/obj/crt0_v6m.o
 
-.bss            0x0000000020000300      0x1cc load address 0x00000000080023d0
+.bss            0x0000000020000300      0x1cc load address 0x0000000008002410
                 0x0000000020000300                . = ALIGN (0x4)
                 0x0000000020000300                PROVIDE (_bss_start, .)
  *(.bss)
  *(.bss.*)
- .bss.ch        0x0000000020000300      0x128 /tmp/cc7QoW4J.ltrans0.ltrans.o
+ .bss.ch        0x0000000020000300      0x128 /tmp/cccHO3yf.ltrans0.ltrans.o
                 0x0000000020000300                ch
  .bss.nextmem.5737
-                0x0000000020000428        0x4 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000020000428        0x4 /tmp/cccHO3yf.ltrans0.ltrans.o
                 0x0000000020000428                nextmem.5737
  .bss.endmem.5739
-                0x000000002000042c        0x4 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x000000002000042c        0x4 /tmp/cccHO3yf.ltrans0.ltrans.o
                 0x000000002000042c                endmem.5739
  .bss.default_heap.5914
-                0x0000000020000430       0x20 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000020000430       0x20 /tmp/cccHO3yf.ltrans0.ltrans.o
                 0x0000000020000430                default_heap.5914
- .bss.SD1.4490  0x0000000020000450       0x7c /tmp/cc7QoW4J.ltrans0.ltrans.o
+ .bss.SD1.4487  0x0000000020000450       0x7c /tmp/cccHO3yf.ltrans0.ltrans.o
  *(COMMON)
                 0x00000000200004cc                . = ALIGN (0x4)
                 0x00000000200004cc                PROVIDE (_bss_end, .)
                 0x00000000200004cc                PROVIDE (end, .)
 
-.ram0           0x00000000200004cc        0x0 load address 0x00000000080023d0
+.ram0           0x00000000200004cc        0x0 load address 0x0000000008002410
                 0x00000000200004cc                . = ALIGN (0x4)
  *(.ram0)
  *(.ram0.*)
@@ -1018,232 +1020,232 @@ OUTPUT(build/ch.elf elf32-littlearm)
  .ARM.attributes
                 0x0000000000000021       0x21 build/obj/chcoreasm_v6m.o
  .ARM.attributes
-                0x0000000000000042       0x2f /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000000000042       0x2f /tmp/cccHO3yf.ltrans0.ltrans.o
  .ARM.attributes
-                0x0000000000000071       0x2f /tmp/cc7QoW4J.ltrans1.ltrans.o
+                0x0000000000000071       0x2f /tmp/cccHO3yf.ltrans1.ltrans.o
  .ARM.attributes
-                0x00000000000000a0       0x2f /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x00000000000000a0       0x2f /tmp/cccHO3yf.ltrans2.ltrans.o
 
 .comment        0x0000000000000000       0x2d
- .comment       0x0000000000000000       0x2d /tmp/cc7QoW4J.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x2d /tmp/cccHO3yf.ltrans0.ltrans.o
                                          0x2e (size before relaxing)
- .comment       0x000000000000002d       0x2e /tmp/cc7QoW4J.ltrans1.ltrans.o
- .comment       0x000000000000002d       0x2e /tmp/cc7QoW4J.ltrans2.ltrans.o
+ .comment       0x000000000000002d       0x2e /tmp/cccHO3yf.ltrans1.ltrans.o
+ .comment       0x000000000000002d       0x2e /tmp/cccHO3yf.ltrans2.ltrans.o
 
-.debug_info     0x0000000000000000     0x5239
- .debug_info    0x0000000000000000     0x1a09 /tmp/cc7QoW4J.ltrans0.ltrans.o
- .debug_info    0x0000000000001a09     0x195d /tmp/cc7QoW4J.ltrans1.ltrans.o
- .debug_info    0x0000000000003366     0x1ed3 /tmp/cc7QoW4J.ltrans2.ltrans.o
+.debug_info     0x0000000000000000     0x5285
+ .debug_info    0x0000000000000000     0x19aa /tmp/cccHO3yf.ltrans0.ltrans.o
+ .debug_info    0x00000000000019aa     0x1a08 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .debug_info    0x00000000000033b2     0x1ed3 /tmp/cccHO3yf.ltrans2.ltrans.o
 
-.debug_abbrev   0x0000000000000000      0xc70
- .debug_abbrev  0x0000000000000000      0x3d4 /tmp/cc7QoW4J.ltrans0.ltrans.o
- .debug_abbrev  0x00000000000003d4      0x434 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .debug_abbrev  0x0000000000000808      0x468 /tmp/cc7QoW4J.ltrans2.ltrans.o
+.debug_abbrev   0x0000000000000000      0xca6
+ .debug_abbrev  0x0000000000000000      0x3d4 /tmp/cccHO3yf.ltrans0.ltrans.o
+ .debug_abbrev  0x00000000000003d4      0x46a /tmp/cccHO3yf.ltrans1.ltrans.o
+ .debug_abbrev  0x000000000000083e      0x468 /tmp/cccHO3yf.ltrans2.ltrans.o
 
 .debug_aranges  0x0000000000000000      0x940
  .debug_aranges
-                0x0000000000000000      0x200 /tmp/cc7QoW4J.ltrans0.ltrans.o
+                0x0000000000000000      0x1e8 /tmp/cccHO3yf.ltrans0.ltrans.o
  .debug_aranges
-                0x0000000000000200      0x2b8 /tmp/cc7QoW4J.ltrans1.ltrans.o
+                0x00000000000001e8      0x2d0 /tmp/cccHO3yf.ltrans1.ltrans.o
  .debug_aranges
-                0x00000000000004b8      0x488 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                0x00000000000004b8      0x488 /tmp/cccHO3yf.ltrans2.ltrans.o
 
 .debug_ranges   0x0000000000000000      0x910
- .debug_ranges  0x0000000000000000      0x1f0 /tmp/cc7QoW4J.ltrans0.ltrans.o
- .debug_ranges  0x00000000000001f0      0x2a8 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .debug_ranges  0x0000000000000498      0x478 /tmp/cc7QoW4J.ltrans2.ltrans.o
+ .debug_ranges  0x0000000000000000      0x1d8 /tmp/cccHO3yf.ltrans0.ltrans.o
+ .debug_ranges  0x00000000000001d8      0x2c0 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .debug_ranges  0x0000000000000498      0x478 /tmp/cccHO3yf.ltrans2.ltrans.o
 
-.debug_line     0x0000000000000000     0x2675
- .debug_line    0x0000000000000000      0xa64 /tmp/cc7QoW4J.ltrans0.ltrans.o
- .debug_line    0x0000000000000a64      0xbcc /tmp/cc7QoW4J.ltrans1.ltrans.o
- .debug_line    0x0000000000001630     0x1045 /tmp/cc7QoW4J.ltrans2.ltrans.o
+.debug_line     0x0000000000000000     0x266b
+ .debug_line    0x0000000000000000      0xa1e /tmp/cccHO3yf.ltrans0.ltrans.o
+ .debug_line    0x0000000000000a1e      0xc08 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .debug_line    0x0000000000001626     0x1045 /tmp/cccHO3yf.ltrans2.ltrans.o
 
-.debug_str      0x0000000000000000     0x1889
- .debug_str     0x0000000000000000      0xbf9 /tmp/cc7QoW4J.ltrans0.ltrans.o
-                                        0xcad (size before relaxing)
- .debug_str     0x0000000000000bf9      0x47f /tmp/cc7QoW4J.ltrans1.ltrans.o
-                                        0x986 (size before relaxing)
- .debug_str     0x0000000000001078      0x811 /tmp/cc7QoW4J.ltrans2.ltrans.o
+.debug_str      0x0000000000000000     0x18e2
+ .debug_str     0x0000000000000000      0xbde /tmp/cccHO3yf.ltrans0.ltrans.o
+                                        0xc92 (size before relaxing)
+ .debug_str     0x0000000000000bde      0x4f3 /tmp/cccHO3yf.ltrans1.ltrans.o
+                                        0xa35 (size before relaxing)
+ .debug_str     0x00000000000010d1      0x811 /tmp/cccHO3yf.ltrans2.ltrans.o
                                         0xc93 (size before relaxing)
 
 .debug_frame    0x0000000000000000     0x1924
- .debug_frame   0x0000000000000000      0x584 /tmp/cc7QoW4J.ltrans0.ltrans.o
- .debug_frame   0x0000000000000584      0x760 /tmp/cc7QoW4J.ltrans1.ltrans.o
- .debug_frame   0x0000000000000ce4      0xc40 /tmp/cc7QoW4J.ltrans2.ltrans.o
+ .debug_frame   0x0000000000000000      0x544 /tmp/cccHO3yf.ltrans0.ltrans.o
+ .debug_frame   0x0000000000000544      0x7a0 /tmp/cccHO3yf.ltrans1.ltrans.o
+ .debug_frame   0x0000000000000ce4      0xc40 /tmp/cccHO3yf.ltrans2.ltrans.o
 
 Cross Reference Table
 
 Symbol                                            File
-BusFault_Handler                                  /tmp/cc7QoW4J.ltrans2.ltrans.o
+BusFault_Handler                                  /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-DebugMon_Handler                                  /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+DebugMon_Handler                                  /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-HardFault_Handler                                 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+HardFault_Handler                                 /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-MemManage_Handler                                 /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+MemManage_Handler                                 /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-NMI_Handler                                       /tmp/cc7QoW4J.ltrans1.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+NMI_Handler                                       /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/chcore_v6m.o (symbol from plugin)
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-PendSV_Handler                                    /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+PendSV_Handler                                    /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
 Reset_Handler                                     build/obj/crt0_v6m.o
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
 SD1                                               build/obj/serial_lld.o (symbol from plugin)
-SVC_Handler                                       /tmp/cc7QoW4J.ltrans2.ltrans.o
+SVC_Handler                                       /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-SysTick_Handler                                   /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+SysTick_Handler                                   /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
 SystemCoreClock                                   build/obj/hal_lld.o (symbol from plugin)
-UsageFault_Handler                                /tmp/cc7QoW4J.ltrans2.ltrans.o
+UsageFault_Handler                                /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-Vector1C                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+Vector1C                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-Vector20                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+Vector20                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-Vector24                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+Vector24                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-Vector28                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+Vector28                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-Vector34                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+Vector34                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-Vector40                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+Vector40                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-Vector44                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+Vector44                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-Vector48                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+Vector48                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-Vector4C                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+Vector4C                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-Vector50                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+Vector50                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-Vector54                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+Vector54                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-Vector58                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+Vector58                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-Vector5C                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+Vector5C                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-Vector60                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+Vector60                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-Vector64                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+Vector64                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-Vector68                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+Vector68                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-Vector6C                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+Vector6C                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-Vector70                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+Vector70                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-Vector74                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+Vector74                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-Vector78                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+Vector78                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-Vector7C                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+Vector7C                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
 Vector80                                          build/obj/st_lld.o (symbol from plugin)
                                                   build/obj/vectors.o (symbol from plugin)
-Vector84                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+Vector84                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-Vector88                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+Vector88                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-Vector8C                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+Vector8C                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-Vector90                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+Vector90                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-Vector94                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+Vector94                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-Vector98                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+Vector98                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-Vector9C                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+Vector9C                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-VectorA0                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+VectorA0                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-VectorA4                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+VectorA4                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-VectorA8                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+VectorA8                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
 VectorAC                                          build/obj/serial_lld.o (symbol from plugin)
                                                   build/obj/vectors.o (symbol from plugin)
-VectorB0                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+VectorB0                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-VectorB4                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+VectorB4                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-VectorB8                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+VectorB8                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-VectorBC                                          /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+VectorBC                                          /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
 __aeabi_idiv0                                     /usr/lib/gcc/arm-none-eabi/4.8/armv6-m/libgcc.a(_dvmd_tls.o)
                                                   /usr/lib/gcc/arm-none-eabi/4.8/armv6-m/libgcc.a(_udivsi3.o)
 __aeabi_ldiv0                                     /usr/lib/gcc/arm-none-eabi/4.8/armv6-m/libgcc.a(_dvmd_tls.o)
 __aeabi_uidiv                                     /usr/lib/gcc/arm-none-eabi/4.8/armv6-m/libgcc.a(_udivsi3.o)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
 __aeabi_uidivmod                                  /usr/lib/gcc/arm-none-eabi/4.8/armv6-m/libgcc.a(_udivsi3.o)
-__core_init                                       /tmp/cc7QoW4J.ltrans2.ltrans.o
+__core_init                                       /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/crt1.o (symbol from plugin)
                                                   build/obj/crt0_v6m.o
-__default_exit                                    /tmp/cc7QoW4J.ltrans2.ltrans.o
+__default_exit                                    /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/crt1.o (symbol from plugin)
                                                   build/obj/crt0_v6m.o
-__early_init                                      /tmp/cc7QoW4J.ltrans0.ltrans.o
+__early_init                                      /tmp/cccHO3yf.ltrans0.ltrans.o
                                                   build/obj/board.o (symbol from plugin)
                                                   build/obj/crt1.o (symbol from plugin)
                                                   build/obj/crt0_v6m.o
 __fini_array_end                                  build/obj/crt0_v6m.o
 __fini_array_start                                build/obj/crt0_v6m.o
-__heap_base__                                     /tmp/cc7QoW4J.ltrans1.ltrans.o
+__heap_base__                                     /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/chmemcore.o (symbol from plugin)
-__heap_end__                                      /tmp/cc7QoW4J.ltrans1.ltrans.o
+__heap_end__                                      /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/chmemcore.o (symbol from plugin)
 __init_array_end                                  build/obj/crt0_v6m.o
 __init_array_start                                build/obj/crt0_v6m.o
-__late_init                                       /tmp/cc7QoW4J.ltrans2.ltrans.o
+__late_init                                       /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/crt1.o (symbol from plugin)
                                                   build/obj/crt0_v6m.o
 __main_stack_base__                               build/obj/crt0_v6m.o
-__main_stack_end__                                /tmp/cc7QoW4J.ltrans0.ltrans.o
+__main_stack_end__                                /tmp/cccHO3yf.ltrans0.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
                                                   build/obj/crt0_v6m.o
 __process_stack_base__                            build/obj/crt0_v6m.o
@@ -1251,41 +1253,41 @@ __process_stack_end__                             build/obj/crt0_v6m.o
 __udivsi3                                         /usr/lib/gcc/arm-none-eabi/4.8/armv6-m/libgcc.a(_udivsi3.o)
 _bss_end                                          build/obj/crt0_v6m.o
 _bss_start                                        build/obj/crt0_v6m.o
-_core_init                                        /tmp/cc7QoW4J.ltrans1.ltrans.o
+_core_init                                        /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/chmemcore.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/chsys.o (symbol from plugin)
 _data                                             build/obj/crt0_v6m.o
 _edata                                            build/obj/crt0_v6m.o
-_heap_init                                        /tmp/cc7QoW4J.ltrans1.ltrans.o
+_heap_init                                        /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/chheap.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/chsys.o (symbol from plugin)
-_pal_lld_init                                     /tmp/cc7QoW4J.ltrans0.ltrans.o
+_pal_lld_init                                     /tmp/cccHO3yf.ltrans0.ltrans.o
                                                   build/obj/pal_lld.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans1.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/hal.o (symbol from plugin)
-_pal_lld_setgroupmode                             /tmp/cc7QoW4J.ltrans0.ltrans.o
+_pal_lld_setgroupmode                             /tmp/cccHO3yf.ltrans0.ltrans.o
                                                   build/obj/pal_lld.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans1.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/main.o (symbol from plugin)
                                                   build/obj/pal.o (symbol from plugin)
 _port_exit_from_isr                               build/obj/chcoreasm_v6m.o
-                                                  /tmp/cc7QoW4J.ltrans1.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/chcore_v6m.o (symbol from plugin)
-_port_irq_epilogue                                /tmp/cc7QoW4J.ltrans1.ltrans.o
+_port_irq_epilogue                                /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/chcore_v6m.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
                                                   build/obj/serial_lld.o (symbol from plugin)
                                                   build/obj/st_lld.o (symbol from plugin)
 _port_switch                                      build/obj/chcoreasm_v6m.o
-                                                  /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/chschd.o (symbol from plugin)
 _port_switch_from_isr                             build/obj/chcoreasm_v6m.o
-                                                  /tmp/cc7QoW4J.ltrans1.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/chcore_v6m.o (symbol from plugin)
 _port_thread_start                                build/obj/chcoreasm_v6m.o
-                                                  /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/chthreads.o (symbol from plugin)
 _scheduler_init                                   build/obj/chschd.o (symbol from plugin)
                                                   build/obj/chsys.o (symbol from plugin)
@@ -1293,18 +1295,18 @@ _textdata                                         build/obj/crt0_v6m.o
 _thread_init                                      build/obj/chthreads.o (symbol from plugin)
                                                   build/obj/chsys.o (symbol from plugin)
 _unhandled_exception                              build/obj/vectors.o (symbol from plugin)
-_vectors                                          /tmp/cc7QoW4J.ltrans0.ltrans.o
+_vectors                                          /tmp/cccHO3yf.ltrans0.ltrans.o
                                                   build/obj/vectors.o (symbol from plugin)
 _vt_init                                          build/obj/chvt.o (symbol from plugin)
                                                   build/obj/chsys.o (symbol from plugin)
-boardInit                                         /tmp/cc7QoW4J.ltrans0.ltrans.o
+boardInit                                         /tmp/cccHO3yf.ltrans0.ltrans.o
                                                   build/obj/board.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans1.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/hal.o (symbol from plugin)
-ch                                                /tmp/cc7QoW4J.ltrans0.ltrans.o
+ch                                                /tmp/cccHO3yf.ltrans0.ltrans.o
                                                   build/obj/chschd.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans2.ltrans.o
-                                                  /tmp/cc7QoW4J.ltrans1.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/chcond.o (symbol from plugin)
                                                   build/obj/chmtx.o (symbol from plugin)
                                                   build/obj/chsem.o (symbol from plugin)
@@ -1329,20 +1331,20 @@ chHeapAlloc                                       build/obj/chheap.o (symbol fro
 chHeapFree                                        build/obj/chheap.o (symbol from plugin)
 chHeapObjectInit                                  build/obj/chheap.o (symbol from plugin)
 chHeapStatus                                      build/obj/chheap.o (symbol from plugin)
-chMtxLock                                         /tmp/cc7QoW4J.ltrans2.ltrans.o
+chMtxLock                                         /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/chmtx.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans1.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/chheap.o (symbol from plugin)
-chMtxLockS                                        /tmp/cc7QoW4J.ltrans1.ltrans.o
+chMtxLockS                                        /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/chmtx.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/chcond.o (symbol from plugin)
-chMtxObjectInit                                   /tmp/cc7QoW4J.ltrans2.ltrans.o
+chMtxObjectInit                                   /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/chmtx.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans1.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/chheap.o (symbol from plugin)
-chMtxQueueNotEmptyS.5444                          /tmp/cc7QoW4J.ltrans2.ltrans.o
-                                                  /tmp/cc7QoW4J.ltrans1.ltrans.o
+chMtxQueueNotEmptyS.5444                          /tmp/cccHO3yf.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans1.ltrans.o
 chMtxTryLock                                      build/obj/chmtx.o (symbol from plugin)
 chMtxTryLockS                                     build/obj/chmtx.o (symbol from plugin)
 chMtxUnlock                                       build/obj/chmtx.o (symbol from plugin)
@@ -1352,49 +1354,48 @@ chMtxUnlockS                                      build/obj/chmtx.o (symbol from
                                                   build/obj/chcond.o (symbol from plugin)
 chRegFirstThread                                  build/obj/chregistry.o (symbol from plugin)
 chRegNextThread                                   build/obj/chregistry.o (symbol from plugin)
-chSchDoReschedule                                 /tmp/cc7QoW4J.ltrans2.ltrans.o
+chSchDoReschedule                                 /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/chschd.o (symbol from plugin)
                                                   build/obj/chcoreasm_v6m.o
 chSchDoRescheduleAhead                            build/obj/chschd.o (symbol from plugin)
 chSchDoRescheduleBehind                           build/obj/chschd.o (symbol from plugin)
                                                   build/obj/chthreads.o (symbol from plugin)
-chSchGoSleepS                                     /tmp/cc7QoW4J.ltrans2.ltrans.o
+chSchGoSleepS                                     /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/chschd.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans1.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/chcond.o (symbol from plugin)
                                                   build/obj/chmtx.o (symbol from plugin)
                                                   build/obj/chsem.o (symbol from plugin)
                                                   build/obj/chthreads.o (symbol from plugin)
-chSchGoSleepTimeoutS                              /tmp/cc7QoW4J.ltrans2.ltrans.o
+chSchGoSleepTimeoutS                              /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/chschd.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans1.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/chcond.o (symbol from plugin)
                                                   build/obj/chsem.o (symbol from plugin)
                                                   build/obj/chthreads.o (symbol from plugin)
-chSchIsPreemptionRequired                         /tmp/cc7QoW4J.ltrans2.ltrans.o
+chSchIsPreemptionRequired                         /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/chschd.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans1.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/chcore_v6m.o (symbol from plugin)
-chSchReadyI                                       /tmp/cc7QoW4J.ltrans2.ltrans.o
+chSchReadyI                                       /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/chschd.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans1.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/chcond.o (symbol from plugin)
                                                   build/obj/chmtx.o (symbol from plugin)
                                                   build/obj/chsem.o (symbol from plugin)
                                                   build/obj/chthreads.o (symbol from plugin)
-chSchRescheduleS                                  /tmp/cc7QoW4J.ltrans2.ltrans.o
+chSchRescheduleS                                  /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/chschd.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans1.ltrans.o
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/serial.o (symbol from plugin)
                                                   build/obj/chcond.o (symbol from plugin)
                                                   build/obj/chmtx.o (symbol from plugin)
                                                   build/obj/chsem.o (symbol from plugin)
                                                   build/obj/chthreads.o (symbol from plugin)
                                                   build/obj/chsys.o (symbol from plugin)
-chSchWakeupS                                      /tmp/cc7QoW4J.ltrans2.ltrans.o
+chSchWakeupS                                      /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/chschd.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans1.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/chcond.o (symbol from plugin)
                                                   build/obj/chsem.o (symbol from plugin)
                                                   build/obj/chthreads.o (symbol from plugin)
@@ -1411,36 +1412,36 @@ chSemWaitTimeout                                  build/obj/chsem.o (symbol from
 chSemWaitTimeoutS                                 build/obj/chsem.o (symbol from plugin)
 chSysGetStatusAndLockX                            build/obj/chsys.o (symbol from plugin)
 chSysHalt                                         build/obj/chsys.o (symbol from plugin)
-chSysInit                                         /tmp/cc7QoW4J.ltrans2.ltrans.o
+chSysInit                                         /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/chsys.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
                                                   build/obj/main.o (symbol from plugin)
 chSysIntegrityCheckI                              build/obj/chsys.o (symbol from plugin)
-chSysLock.5440                                    /tmp/cc7QoW4J.ltrans2.ltrans.o
-                                                  /tmp/cc7QoW4J.ltrans1.ltrans.o
+chSysLock.5440                                    /tmp/cccHO3yf.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans1.ltrans.o
 chSysRestoreStatusX                               build/obj/chsys.o (symbol from plugin)
-chSysTimerHandlerI                                /tmp/cc7QoW4J.ltrans2.ltrans.o
+chSysTimerHandlerI                                /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/chsys.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
                                                   build/obj/st_lld.o (symbol from plugin)
-chSysUnlock.5442                                  /tmp/cc7QoW4J.ltrans2.ltrans.o
-                                                  /tmp/cc7QoW4J.ltrans1.ltrans.o
+chSysUnlock.5442                                  /tmp/cccHO3yf.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans1.ltrans.o
 chThdCreateI                                      build/obj/chthreads.o (symbol from plugin)
 chThdCreateStatic                                 build/obj/chthreads.o (symbol from plugin)
                                                   build/obj/chsys.o (symbol from plugin)
-chThdDequeueAllI                                  /tmp/cc7QoW4J.ltrans2.ltrans.o
+chThdDequeueAllI                                  /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/chthreads.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans1.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/hal_queues.o (symbol from plugin)
-chThdDequeueNextI                                 /tmp/cc7QoW4J.ltrans2.ltrans.o
+chThdDequeueNextI                                 /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/chthreads.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans1.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/hal_queues.o (symbol from plugin)
-chThdEnqueueTimeoutS                              /tmp/cc7QoW4J.ltrans2.ltrans.o
+chThdEnqueueTimeoutS                              /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/chthreads.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans1.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/hal_queues.o (symbol from plugin)
-chThdExit                                         /tmp/cc7QoW4J.ltrans2.ltrans.o
+chThdExit                                         /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/chthreads.o (symbol from plugin)
                                                   build/obj/chcoreasm_v6m.o
 chThdExitS                                        build/obj/chthreads.o (symbol from plugin)
@@ -1461,96 +1462,102 @@ chVTDoResetI                                      build/obj/chvt.o (symbol from 
                                                   build/obj/chschd.o (symbol from plugin)
 chVTDoSetI                                        build/obj/chvt.o (symbol from plugin)
                                                   build/obj/chschd.o (symbol from plugin)
-ch_debug                                          /tmp/cc7QoW4J.ltrans0.ltrans.o
+ch_debug                                          /tmp/cccHO3yf.ltrans0.ltrans.o
                                                   build/obj/chregistry.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/chsys.o (symbol from plugin)
-default_heap.5914                                 /tmp/cc7QoW4J.ltrans0.ltrans.o
-                                                  /tmp/cc7QoW4J.ltrans1.ltrans.o
-endmem.5739                                       /tmp/cc7QoW4J.ltrans0.ltrans.o
-                                                  /tmp/cc7QoW4J.ltrans1.ltrans.o
-halInit                                           /tmp/cc7QoW4J.ltrans1.ltrans.o
+default_heap.5914                                 /tmp/cccHO3yf.ltrans0.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans1.ltrans.o
+endmem.5739                                       /tmp/cccHO3yf.ltrans0.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans1.ltrans.o
+halInit                                           /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/hal.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
                                                   build/obj/main.o (symbol from plugin)
-hal_lld_init                                      /tmp/cc7QoW4J.ltrans0.ltrans.o
+hal_lld_init                                      /tmp/cccHO3yf.ltrans0.ltrans.o
                                                   build/obj/hal_lld.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans1.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/hal.o (symbol from plugin)
-iqGetTimeout                                      /tmp/cc7QoW4J.ltrans1.ltrans.o
+iqGetTimeout                                      /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/hal_queues.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
                                                   build/obj/serial.o (symbol from plugin)
-iqObjectInit                                      /tmp/cc7QoW4J.ltrans1.ltrans.o
+iqObjectInit                                      /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/hal_queues.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
                                                   build/obj/serial.o (symbol from plugin)
-iqPutI                                            /tmp/cc7QoW4J.ltrans1.ltrans.o
+iqPutI                                            /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/hal_queues.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
                                                   build/obj/serial.o (symbol from plugin)
-iqReadTimeout                                     /tmp/cc7QoW4J.ltrans1.ltrans.o
+iqReadTimeout                                     /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/hal_queues.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
                                                   build/obj/serial.o (symbol from plugin)
-iqResetI                                          /tmp/cc7QoW4J.ltrans1.ltrans.o
+iqResetI                                          /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/hal_queues.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
                                                   build/obj/serial.o (symbol from plugin)
 list_insert                                       build/obj/chschd.o (symbol from plugin)
                                                   build/obj/chthreads.o (symbol from plugin)
 list_remove                                       build/obj/chschd.o (symbol from plugin)
                                                   build/obj/chthreads.o (symbol from plugin)
-main                                              /tmp/cc7QoW4J.ltrans0.ltrans.o
+main                                              /tmp/cccHO3yf.ltrans0.ltrans.o
                                                   build/obj/main.o (symbol from plugin)
                                                   build/obj/crt0_v6m.o
-nextmem.5737                                      /tmp/cc7QoW4J.ltrans0.ltrans.o
-                                                  /tmp/cc7QoW4J.ltrans1.ltrans.o
+nextmem.5737                                      /tmp/cccHO3yf.ltrans0.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans1.ltrans.o
 nvicClearPending                                  build/obj/nvic.o (symbol from plugin)
 nvicDisableVector                                 build/obj/nvic.o (symbol from plugin)
 nvicEnableVector                                  build/obj/nvic.o (symbol from plugin)
                                                   build/obj/serial_lld.o (symbol from plugin)
                                                   build/obj/st_lld.o (symbol from plugin)
 nvicSetSystemHandlerPriority                      build/obj/nvic.o (symbol from plugin)
-oqGetI                                            /tmp/cc7QoW4J.ltrans1.ltrans.o
+oqGetI                                            /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/hal_queues.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
                                                   build/obj/serial_lld.o (symbol from plugin)
                                                   build/obj/serial.o (symbol from plugin)
-oqObjectInit                                      /tmp/cc7QoW4J.ltrans1.ltrans.o
+oqObjectInit                                      /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/hal_queues.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
                                                   build/obj/serial.o (symbol from plugin)
-oqPutTimeout                                      /tmp/cc7QoW4J.ltrans1.ltrans.o
+oqPutTimeout                                      /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/hal_queues.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
                                                   build/obj/serial.o (symbol from plugin)
-oqResetI                                          /tmp/cc7QoW4J.ltrans1.ltrans.o
+oqResetI                                          /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/hal_queues.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
                                                   build/obj/serial.o (symbol from plugin)
-oqWriteTimeout                                    /tmp/cc7QoW4J.ltrans1.ltrans.o
+oqWriteTimeout                                    /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/hal_queues.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
                                                   build/obj/serial.o (symbol from plugin)
-osalSysLock.6287                                  /tmp/cc7QoW4J.ltrans1.ltrans.o
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
-osalSysUnlock.6289                                /tmp/cc7QoW4J.ltrans1.ltrans.o
-                                                  /tmp/cc7QoW4J.ltrans0.ltrans.o
+osalEventBroadcastFlagsI.6300                     /tmp/cccHO3yf.ltrans1.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+osalEventObjectInit.6291                          /tmp/cccHO3yf.ltrans1.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+osalOsRescheduleS.6351                            /tmp/cccHO3yf.ltrans1.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+osalSysLock.6287                                  /tmp/cccHO3yf.ltrans1.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
+osalSysUnlock.6289                                /tmp/cccHO3yf.ltrans1.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans0.ltrans.o
 palReadBus                                        build/obj/pal.o (symbol from plugin)
 palSetBusMode                                     build/obj/pal.o (symbol from plugin)
 palWriteBus                                       build/obj/pal.o (symbol from plugin)
-pal_default_config                                /tmp/cc7QoW4J.ltrans0.ltrans.o
+pal_default_config                                /tmp/cccHO3yf.ltrans0.ltrans.o
                                                   build/obj/board.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans1.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/hal.o (symbol from plugin)
-queue_dequeue                                     /tmp/cc7QoW4J.ltrans2.ltrans.o
+queue_dequeue                                     /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/chschd.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans1.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/chmtx.o (symbol from plugin)
-queue_fifo_remove                                 /tmp/cc7QoW4J.ltrans2.ltrans.o
+queue_fifo_remove                                 /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/chschd.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans1.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/chcond.o (symbol from plugin)
                                                   build/obj/chmtx.o (symbol from plugin)
                                                   build/obj/chsem.o (symbol from plugin)
@@ -1560,17 +1567,17 @@ queue_insert                                      build/obj/chschd.o (symbol fro
                                                   build/obj/chthreads.o (symbol from plugin)
 queue_lifo_remove                                 build/obj/chschd.o (symbol from plugin)
                                                   build/obj/chsem.o (symbol from plugin)
-queue_prio_insert                                 /tmp/cc7QoW4J.ltrans2.ltrans.o
+queue_prio_insert                                 /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/chschd.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans1.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/chcond.o (symbol from plugin)
                                                   build/obj/chmtx.o (symbol from plugin)
 sdGetWouldBlock                                   build/obj/serial.o (symbol from plugin)
 sdIncomingDataI                                   build/obj/serial.o (symbol from plugin)
                                                   build/obj/serial_lld.o (symbol from plugin)
-sdInit                                            /tmp/cc7QoW4J.ltrans0.ltrans.o
+sdInit                                            /tmp/cccHO3yf.ltrans0.ltrans.o
                                                   build/obj/serial.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans1.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/hal.o (symbol from plugin)
 sdObjectInit                                      build/obj/serial.o (symbol from plugin)
                                                   build/obj/serial_lld.o (symbol from plugin)
@@ -1587,23 +1594,23 @@ sd_lld_stop                                       build/obj/serial_lld.o (symbol
 stGetAlarm                                        build/obj/st.o (symbol from plugin)
 stInit                                            build/obj/st.o (symbol from plugin)
                                                   build/obj/hal.o (symbol from plugin)
-stSetAlarm                                        /tmp/cc7QoW4J.ltrans1.ltrans.o
+stSetAlarm                                        /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/st.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/chvt.o (symbol from plugin)
                                                   build/obj/chsys.o (symbol from plugin)
-stStartAlarm                                      /tmp/cc7QoW4J.ltrans1.ltrans.o
+stStartAlarm                                      /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/st.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/chvt.o (symbol from plugin)
-stStopAlarm                                       /tmp/cc7QoW4J.ltrans1.ltrans.o
+stStopAlarm                                       /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/st.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans2.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans2.ltrans.o
                                                   build/obj/chvt.o (symbol from plugin)
                                                   build/obj/chsys.o (symbol from plugin)
-st_lld_init                                       /tmp/cc7QoW4J.ltrans0.ltrans.o
+st_lld_init                                       /tmp/cccHO3yf.ltrans0.ltrans.o
                                                   build/obj/st_lld.o (symbol from plugin)
-                                                  /tmp/cc7QoW4J.ltrans1.ltrans.o
+                                                  /tmp/cccHO3yf.ltrans1.ltrans.o
                                                   build/obj/st.o (symbol from plugin)
 stm32_clock_init                                  build/obj/hal_lld.o (symbol from plugin)
                                                   build/obj/board.o (symbol from plugin)
