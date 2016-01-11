@@ -84,9 +84,14 @@ static void sleep(void)
 	extChannelEnable(&EXTD1, 9);
 	extChannelEnable(&EXTD1, 10);
 
+	/*Stop mode*/
 	PWR->CR |= (PWR_CR_LPDS | PWR_CR_CSBF | PWR_CR_CWUF);
 	PWR->CR &= ~PWR_CR_PDDS;
-	SCB->SCR |= SCB_SCR_SLEEPDEEP_Msk;
+	SCB->SCR |= SCB_SCR_SLEEPDEEP_Msk;//*/
+	/*Standby mode*/
+	/*PWR->CR |= (PWR_CR_PDDS | PWR_CR_CSBF | PWR_CR_CWUF);
+	SCB->SCR |= SCB_SCR_SLEEPDEEP_Msk;*/
+	
 	__WFI();
 }
 
@@ -102,17 +107,18 @@ int main(void)
 	uint16_t rawSample = 0;
 	uint8_t portSample;
 	uint8_t packet[7];
+	palClearPad(GPIOF, 0);
+	palSetPadMode(GPIOF, 0, PAL_MODE_OUTPUT_PUSHPULL);
     palSetGroupMode(GPIOA, A1TO10, 0, PAL_MODE_INPUT_PULLDOWN);
 	palSetPadMode(GPIOA, GPIOA_USART_TX, PAL_MODE_ALTERNATE(1)); // used function : USART1_TX
 	palSetPadMode(GPIOA, GPIOA_USART_RX, PAL_MODE_ALTERNATE(1)); // used function : USART1_RX
-	sdStart(&SD1, NULL);
+	//sdStart(&SD1, NULL);
 
 	volatile long j;
 	uint8_t i;
 	while(!0)
 	{
-		sdStart(&SD1,NULL);
-		for(i = 0; i < 50U; i++)/*Send button five times, why five ?*/
+		for(i = 0; i < 5U; i++)/*Send button five times, why five ?*/
 		{
 			portSample = 0;
 			rawSample = palReadGroup(GPIOA, A1TO10, 0);
@@ -121,14 +127,17 @@ int main(void)
 			portSample |= (MASKA9A10 & rawSample) >> 3;
 			if(portSample != 0x00)//if its different send
 			{
+				palSetPad(GPIOF, 0);
+				sdStart(&SD1,NULL);
 				prepareForSend(packet, portSample);
 				sdWrite(&SD1, (uint8_t *)packet, 7);
 				//chThdSleepMilliseconds(100);
 				for(j = 0; j < 100000; j++)
 					;
+				sdStop(&SD1);
+				palClearPad(GPIOF, 0);
 			}
 		}
-		sdStop(&SD1);
 		sleep();
 	}
 	return 0;
