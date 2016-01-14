@@ -112,33 +112,31 @@ int main(void)
     palSetGroupMode(GPIOA, A1TO10, 0, PAL_MODE_INPUT_PULLDOWN);
 	palSetPadMode(GPIOA, GPIOA_USART_TX, PAL_MODE_ALTERNATE(1)); // used function : USART1_TX
 	palSetPadMode(GPIOA, GPIOA_USART_RX, PAL_MODE_ALTERNATE(1)); // used function : USART1_RX
-	//sdStart(&SD1, NULL);
+	
 
-	volatile long j;
 	uint8_t i;
 	while(!0)
 	{
-		for(i = 0; i < 5U; i++)/*Send button five times, why five ?*/
+		portSample = 0;
+		rawSample = palReadGroup(GPIOA, A1TO10, 0);
+		portSample |= (MASKA0A1 & rawSample);
+		portSample |= (MASKA4A7 & rawSample) >> 2;
+		portSample |= (MASKA9A10 & rawSample) >> 3;
+		if(portSample != 0x00)//if its different send
 		{
-			portSample = 0;
-			rawSample = palReadGroup(GPIOA, A1TO10, 0);
-			portSample |= (MASKA0A1 & rawSample);
-			portSample |= (MASKA4A7 & rawSample) >> 2;
-			portSample |= (MASKA9A10 & rawSample) >> 3;
-			if(portSample != 0x00)//if its different send
+			prepareForSend(packet, portSample);
+			palSetPad(GPIOF, 0);
+			sdStart(&SD1, NULL);
+			for(i = 0; i < 5U; i++)/*Send button five times, why five ?*/
 			{
-				palSetPad(GPIOF, 0);
-				sdStart(&SD1,NULL);
-				prepareForSend(packet, portSample);
 				sdWrite(&SD1, (uint8_t *)packet, 7);
-				//chThdSleepMilliseconds(100);
-				for(j = 0; j < 100000; j++)
-					;
-				sdStop(&SD1);
-				palClearPad(GPIOF, 0);
+				chThdSleepMilliseconds(5);
 			}
+			sdStop(&SD1);
+			palClearPad(GPIOF, 0);
 		}
 		sleep();
 	}
+	
 	return 0;
 }
