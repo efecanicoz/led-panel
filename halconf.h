@@ -280,7 +280,7 @@
  *          default configuration.
  */
 #if !defined(SERIAL_DEFAULT_BITRATE) || defined(__DOXYGEN__)
-#define SERIAL_DEFAULT_BITRATE      300
+#define SERIAL_DEFAULT_BITRATE      4800
 #endif
 
 /**

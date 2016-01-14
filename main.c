@@ -127,10 +127,9 @@ int main(void)
 			prepareForSend(packet, portSample);
 			palSetPad(GPIOF, 0);
 			sdStart(&SD1, NULL);
-			for(i = 0; i < 5U; i++)/*Send button five times, why five ?*/
+			for(i = 0; i < 20U; i++)/*Send button five times, why five ?*/
 			{
 				sdWrite(&SD1, (uint8_t *)packet, 7);
-				chThdSleepMilliseconds(5);
 			}
 			sdStop(&SD1);
 			palClearPad(GPIOF, 0);
