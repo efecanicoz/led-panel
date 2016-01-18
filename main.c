@@ -1,9 +1,8 @@
 #include "hal.h"
 #include "ch.h"
-#include "crc.h"
 
 //a0,a1,a4,a5,a6,a7,a9,a10
-#define A1TO10 0b11011110011U
+#define A0TO10 0b11011110011U
 #define MASKA0A1 0b11U
 #define MASKA4A7 0b11110000U
 #define MASKA9A10 0b11000000000U
@@ -12,7 +11,6 @@
 #define SOH 0x01
 #define EOT 0x04
 #define ID  0xF0
-#define TO	0x10
 
 /*Prototypes*/
 static void sleep(void);
@@ -60,16 +58,45 @@ static const EXTConfig extcfg = {
   }
 };
 
+/*
+ * Packet description:
+ * 1 Byte Start Byte
+ * 4 bit source id ,3 bit Data, 1 bit parity
+ * 1 Byte Stop Byte
+ */
 static void prepareForSend(uint8_t *packet, uint8_t msg)
 {
+	uint8_t encoded, temp;
+	//logarithm(Math.h) or 8 if, another solution for encode ?
+	if(msg == 0x01)
+		encoded = 0;
+	else if(msg == 0x02)
+		encoded = 1;
+	else if(msg == 0x04)
+		encoded = 2;
+	else if(msg == 0x08)
+		encoded = 3;
+	else if(msg == 0x10)
+		encoded = 4;
+	else if(msg == 0x20)
+		encoded = 5;
+	else if(msg == 0x40)
+		encoded = 6;
+	else if(msg == 0x80)
+		encoded = 7;
+	
 	packet[0] = SOH;
+	//add id
 	packet[1] = ID;
-	packet[2] = TO;
-	packet[3] = msg;
-	uint16_t crcRes = crcSlow(packet, 4);
-	packet[4] = crcRes >> 8;//high byte
-	packet[5] = crcRes;//low byte
-	packet[6] = EOT;
+	//add message
+	packet[1] |= encoded;
+	//add parity
+	temp = packet[1] ^ packet[1]>>1;
+	temp = temp ^ temp>>2;
+	temp = temp ^ temp >>4;
+	packet[1] = packet[1] | (temp & 1);
+	
+	packet[2] = EOT;
 	return;
 }
 
@@ -95,6 +122,7 @@ static void sleep(void)
 	__WFI();
 }
 
+
 int main(void)
 {
 	halInit();
@@ -106,10 +134,10 @@ int main(void)
 	extStart(&EXTD1, &extcfg);
 	uint16_t rawSample = 0;
 	uint8_t portSample;
-	uint8_t packet[7];
+	uint8_t packet[3];
 	palClearPad(GPIOF, 0);
 	palSetPadMode(GPIOF, 0, PAL_MODE_OUTPUT_PUSHPULL);
-    palSetGroupMode(GPIOA, A1TO10, 0, PAL_MODE_INPUT_PULLDOWN);
+    palSetGroupMode(GPIOA, A0TO10, 0, PAL_MODE_INPUT_PULLDOWN);
 	palSetPadMode(GPIOA, GPIOA_USART_TX, PAL_MODE_ALTERNATE(1)); // used function : USART1_TX
 	palSetPadMode(GPIOA, GPIOA_USART_RX, PAL_MODE_ALTERNATE(1)); // used function : USART1_RX
 	
@@ -118,7 +146,7 @@ int main(void)
 	while(!0)
 	{
 		portSample = 0;
-		rawSample = palReadGroup(GPIOA, A1TO10, 0);
+		rawSample = palReadGroup(GPIOA, A0TO10, 0);
 		portSample |= (MASKA0A1 & rawSample);
 		portSample |= (MASKA4A7 & rawSample) >> 2;
 		portSample |= (MASKA9A10 & rawSample) >> 3;
@@ -129,7 +157,7 @@ int main(void)
 			sdStart(&SD1, NULL);
 			for(i = 0; i < 20U; i++)/*Send button five times, why five ?*/
 			{
-				sdWrite(&SD1, (uint8_t *)packet, 7);
+				sdWrite(&SD1, (uint8_t *)packet, 3);
 			}
 			sdStop(&SD1);
 			palClearPad(GPIOF, 0);
