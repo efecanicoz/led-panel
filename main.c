@@ -89,7 +89,7 @@ static void prepareForSend(uint8_t *packet, uint8_t msg)
 	//add id
 	packet[1] = ID;
 	//add message
-	packet[1] |= encoded;
+	packet[1] |= encoded<<1;
 	//add parity
 	temp = packet[1] ^ packet[1]>>1;
 	temp = temp ^ temp>>2;
@@ -150,7 +150,7 @@ int main(void)
 		portSample |= (MASKA0A1 & rawSample);
 		portSample |= (MASKA4A7 & rawSample) >> 2;
 		portSample |= (MASKA9A10 & rawSample) >> 3;
-		if(portSample != 0x00)//if its different send
+		if(portSample != 0x00)//if its different send (i think it's unnecessary with sleep)
 		{
 			prepareForSend(packet, portSample);
 			palSetPad(GPIOF, 0);
