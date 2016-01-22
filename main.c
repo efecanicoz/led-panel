@@ -24,16 +24,16 @@ static void extcb2(EXTDriver *extp, expchannel_t channel)
 	
 	chSysLockFromISR();
 	/* we must reinit clocks after waking up ESPECIALLY if use HSE or HSI+PLL */
-	stm32_clock_init();
+	//stm32_clock_init();
 
-	extChannelDisableI(&EXTD1, 0);
+	/*extChannelDisableI(&EXTD1, 0);
 	extChannelDisableI(&EXTD1, 1);
 	extChannelDisableI(&EXTD1, 4);
 	extChannelDisableI(&EXTD1, 5);
 	extChannelDisableI(&EXTD1, 6);
 	extChannelDisableI(&EXTD1, 7);
 	extChannelDisableI(&EXTD1, 9);
-	extChannelDisableI(&EXTD1, 10);
+	extChannelDisableI(&EXTD1, 10);*/
 	chSysUnlockFromISR();
 }
 
@@ -102,15 +102,6 @@ static void prepareForSend(uint8_t *packet, uint8_t msg)
 
 static void sleep(void)
 {
-	extChannelEnable(&EXTD1, 0);
-	extChannelEnable(&EXTD1, 1);
-	extChannelEnable(&EXTD1, 4);
-	extChannelEnable(&EXTD1, 5);
-	extChannelEnable(&EXTD1, 6);
-	extChannelEnable(&EXTD1, 7);
-	extChannelEnable(&EXTD1, 9);
-	extChannelEnable(&EXTD1, 10);
-
 	/*Stop mode*/
 	PWR->CR |= (PWR_CR_LPDS | PWR_CR_CSBF | PWR_CR_CWUF);
 	PWR->CR &= ~PWR_CR_PDDS;
@@ -132,6 +123,14 @@ int main(void)
    * Activates the EXT driver 1.
    */
 	extStart(&EXTD1, &extcfg);
+	extChannelEnable(&EXTD1, 0);
+	extChannelEnable(&EXTD1, 1);
+	extChannelEnable(&EXTD1, 4);
+	extChannelEnable(&EXTD1, 5);
+	extChannelEnable(&EXTD1, 6);
+	extChannelEnable(&EXTD1, 7);
+	extChannelEnable(&EXTD1, 9);
+	extChannelEnable(&EXTD1, 10);
 	uint16_t rawSample = 0;
 	uint8_t portSample;
 	uint8_t packet[3];
