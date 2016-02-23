@@ -1,7 +1,7 @@
 #include "hal.h"
 #include "ch.h"
 
-//a0,a1,a4,a5,a6,a7,a9,a10
+//a4,a5,a6,a7,a9,a10
 #define A4TO10 0b11011110000U
 #define MASKA4A7 0b11110000U
 #define MASKA9A10 0b11000000000U
@@ -57,7 +57,7 @@ static const EXTConfig extcfg = {
  */
 static void prepareForSend(uint8_t *packet, uint8_t msg)
 {
-	uint8_t encoded, temp;
+	uint8_t encoded;
 	//logarithm(Math.h) or 8 if, another solution for encode ?
 	if(msg == 0x04)
 		encoded = 2;
@@ -77,11 +77,6 @@ static void prepareForSend(uint8_t *packet, uint8_t msg)
 	
 	//add message
 	packet[1] |= encoded<<1;
-	//add parity
-	temp = packet[1] ^ packet[1]>>1;
-	temp = temp ^ temp>>2;
-	temp = temp ^ temp >>4;
-	packet[1] = packet[1] | (temp & 1);
 	
 	return;
 }
@@ -112,6 +107,8 @@ int main(void)
 	extChannelEnable(&EXTD1, 7);
 	extChannelEnable(&EXTD1, 9);
 	extChannelEnable(&EXTD1, 10);
+	
+	const uint8_t calibration[9] = {0x55,0x55,0x55,0x00,0x00,0x00,0xFF,0xFF,0xFF};
 	uint16_t rawSample = 0;
 	uint8_t portSample;
 	uint8_t packet[3];
@@ -131,7 +128,6 @@ int main(void)
 	packet[0] = SOH;
 	packet[2] = EOT;
 
-	uint8_t i;
 	while(!0)
 	{
 		sleep();
@@ -141,15 +137,16 @@ int main(void)
 		portSample |= (MASKA9A10 & rawSample) >> 3;
 		
 		prepareForSend(packet, portSample);
+		
 		palSetPad(GPIOF, 0);
 		sdStart(&SD1, NULL);
-		for(i = 0; i < 20U; i++)/*Send button five times, why five ?*/
-		{
-			sdWrite(&SD1, (uint8_t *)packet, 3);
-		}
+		
+		sdWrite(&SD1, calibration, 9);
+		sdWrite(&SD1, packet, 3);
+		
+		chThdSleepMilliseconds(500);
 		sdStop(&SD1);
 		palClearPad(GPIOF, 0);
-		
 	}
 	
 	return 0;
