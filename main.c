@@ -79,7 +79,9 @@ static void prepareForSend(uint8_t *packet, uint8_t msg)
 	
 	//add message
 	packet[1] |= encoded<<1;
-//	packet[1] = msg;//overwriting packet for debug purpose
+	#ifdef CONTROLPINS
+	packet[1] = msg;//overwriting packet for debug purpose
+	#endif
 	return;
 }
 

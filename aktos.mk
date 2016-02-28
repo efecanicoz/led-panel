@@ -2,9 +2,16 @@
 put-id:
     UDEFS = -DID=$(id)
 
+enable-control:
+    UDEFS = -DCONTROLPINS -DID=0xF0
+
 write-id: 
 	$(MAKE) clean
 	$(MAKE) put-id write
+
+write-control:
+	$(MAKE) clean
+	$(MAKE) enable-control write
 
 # write program to MCU
 write: all
