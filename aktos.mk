@@ -1,3 +1,11 @@
+
+put-id:
+    UDEFS = -DID=$(id)
+
+write-id: 
+	$(MAKE) clean
+	$(MAKE) put-id write
+
 # write program to MCU
 write: all
 	st-flash write build/ch.bin 0x8000000

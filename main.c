@@ -9,7 +9,7 @@
 /*Macros*/
 #define SOH 0x9A
 #define EOT 0xD5
-#define ID  0xF0
+//#define ID  0xF0
 
 /*Prototypes*/
 static void sleep(void);
@@ -71,13 +71,15 @@ static void prepareForSend(uint8_t *packet, uint8_t msg)
 		encoded = 6;
 	else if(msg == 0x80)
 		encoded = 7;
-	
+	else
+		encoded = 0;
+		
 	//device id
 	packet[1] = ID;
 	
 	//add message
 	packet[1] |= encoded<<1;
-	
+//	packet[1] = msg;//overwriting packet for debug purpose
 	return;
 }
 
